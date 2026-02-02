@@ -53,7 +53,7 @@
       type: word
       words:
         - "Seagate-NAS"
-- name: FNOS
+- name: 飞牛-NAS
   matchers:
     - part: icon_hash
       type: word
