@@ -1,70 +1,83 @@
 - name: NAS326
   matchers:
-    - part: cert
-      type: word
-      words:
-        - "CN=NAS326"
+  - part: cert
+    type: word
+    words:
+    - CN=NAS326
 - name: NAS520
   matchers:
-    - part: cert
-      type: word
-      words:
-        - "CN=NAS520"
+  - part: cert
+    type: word
+    words:
+    - CN=NAS520
 - name: NAS540
   matchers:
-    - part: cert
-      type: word
-      words:
-          - "CN=NAS540"
+  - part: cert
+    type: word
+    words:
+    - CN=NAS540
 - name: NAS542
   matchers:
   - part: cert
     type: word
     words:
-      - "CN=NAS542"
+    - CN=NAS542
 - name: Vaswani-NAS
   matchers:
-    - part: title
-      type: word
-      condition: and
-      words:
-        - "Vaswani NAS"
-
+  - part: title
+    type: word
+    condition: and
+    words:
+    - Vaswani NAS
 - name: Wisegiga-NAS
   matchers:
-    - part: icon_hash
-      type: word
-      words:
-          - "175710103"
+  - part: icon_hash
+    type: word
+    words:
+    - '175710103'
 - name: ZimaOS
   matchers:
-    - part: header
-      type: word
-      words:
-          - "ZimaOS-Gateway"
+  - part: header
+    type: word
+    words:
+    - ZimaOS-Gateway
 - name: CasaOS
   matchers:
-    - part: title
-      type: word
-      words:
-        - "CasaOS"
-    - part: body
-      type: word
-      words:
-        - "/CasaOS-UI/public/index.html"
+  - part: title
+    type: word
+    words:
+    - CasaOS
+  - part: body
+    type: word
+    words:
+    - /CasaOS-UI/public/index.html
 - name: Seagate-NAS
   matchers:
-    - part: title
-      type: word
-      words:
-        - "Seagate-NAS"
+  - part: title
+    type: word
+    words:
+    - Seagate-NAS
 - name: 飞牛-NAS
   matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "470295793"
-    - part: title
-      type: word
-      words:
-        - "飞牛"
+  - part: icon_hash
+    type: word
+    words:
+    - '470295793'
+  - part: title
+    type: word
+    words:
+    - 飞牛
+- name: QNAP-Turbo-NAS
+  vendor: qnap
+  matchers:
+  - part: title
+    type: word
+    words:
+    - QNAP Turbo NAS
+    condition: or
+  - part: icon_hash
+    type: word
+    words:
+    - '123456789'
+    condition: or
+  matchers-condition: and
