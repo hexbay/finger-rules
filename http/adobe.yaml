@@ -35,9 +35,3 @@
       type: word
       words:
         - "X-Magento-Tags"
-- name: AmpJuke
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "-121681558"

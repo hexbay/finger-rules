@@ -16,3 +16,9 @@
       type: word
       words:
         - "sap/bc/ui2/flp"
+- name: SAP-HANA-Cloud-Tools
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SAP HANA Cloud Tools"

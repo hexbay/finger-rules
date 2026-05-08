@@ -4855,24 +4855,6 @@
   - part: body
     type: word
     words:
-    - '<strong><font color="#FF0000">Warning! This heldesk requires a browser with javascript '
-    - '<!-- Copyright Line: Unauthorized removal can void license -->'
-  - name: version
-    part: body
-    type: regex
-    regex:
-    - '(<p align="center"><font size="1">Powered by: Support Center v([^<^\s]+)<br>)'
-  name: isolsoft_support_center
-- matchers:
-  - part: body
-    type: regex
-    regex:
-    - (powered by <a HREF="finger:\/\/www.ispconfig.org">ISPConfig<\/a>)
-  name: ispconfig
-- matchers:
-  - part: body
-    type: word
-    words:
     - <title>ispCP Omega a Virtual Hosting Control System</title>
     - Powered by <a class="login" href="finger://www.isp-control.net" target="_blank">ispCP Omega
     - themes/omega_original/images/login/login_lock.jpg

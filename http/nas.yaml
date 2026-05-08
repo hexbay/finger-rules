@@ -36,7 +36,12 @@
       type: word
       words:
           - "175710103"
-
+- name: ZimaOS
+  matchers:
+    - part: header
+      type: word
+      words:
+          - "ZimaOS-Gateway"
 - name: CasaOS
   matchers:
     - part: title

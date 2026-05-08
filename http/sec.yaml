@@ -123,18 +123,7 @@
       type: word
       words:
         - "汉塔科技 - 上网行为管理系统"
-- name: SangFor-应用交付报表系统
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "ad.sangfor.com | AD Report"
-- name: SangFor-应用交付管理系统
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "1805953451"
+
 - name: pm43_firmware
   matchers:
     - part: body
