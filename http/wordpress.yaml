@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: A5-Custom-Login-Page
+  vendor: tepelstreel
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/custom-login-page/
