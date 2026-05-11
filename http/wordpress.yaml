@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: ECT-Home-Page-Products
+  vendor: etemplates
+  matchers:
+    - part: body
+      type: word
+      words:
+        - ect-homepage-products
+        - /wp-content/plugins/ect-homepage-products/
+      condition: or
