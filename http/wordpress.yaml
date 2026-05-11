@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: lazy-blocks
+  vendor: lazy-blocks
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/lazy-blocks/
+        - lazyblocks
+      condition: and
