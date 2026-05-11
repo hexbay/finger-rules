@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: wp-base-booking-of-appointments-services-and-events
+  vendor: wp-base
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/wp-base-booking-of-appointments-services-and-events/
+        - wp-base-booking-of-appointments-services-and-events
+      condition: or
