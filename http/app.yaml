@@ -5347,6 +5347,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: WordPress User Messages
+  vendor: marvinlabs
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/wp-content/plugins/user-messages/"
 
 - name: RosarioSIS
   matchers:
