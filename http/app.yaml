@@ -5354,4 +5354,10 @@
       type: word
       words:
         - "RosarioSIS"
+- name: Avid NEXIS
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Avid Nexis"
   
