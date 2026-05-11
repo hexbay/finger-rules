@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: simple-certain-time-to-show-content
+  vendor: elementengage
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/simple-certain-time-to-show-content/
+        - simple-certain-time-to-show-content
+      condition: and
