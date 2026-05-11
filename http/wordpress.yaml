@@ -136,3 +136,11 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: widget4call
+  vendor: apidaze
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/widget4call/
+        - w4c_devmode
