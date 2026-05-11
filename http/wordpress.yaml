@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: guten-free-options
+  vendor: wordquest
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/guten-free-options/
