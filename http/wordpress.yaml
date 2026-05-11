@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: justrows-free
+  vendor: canaveralstudio
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/justrows-free/
