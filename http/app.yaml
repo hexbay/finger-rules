@@ -5347,6 +5347,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Studiocart
+  vendor: studiocart
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "sc_product"
+        - "sc_order"
+      condition: and
 
 - name: RosarioSIS
   matchers:
