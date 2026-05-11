@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: WP Dream Carousel
+  vendor: neoloki
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/wp-dream-carousel/
