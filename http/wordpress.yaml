@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: Fantastic-ElasticSearch
+  vendor: parisholley
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/fantastic-elasticsearch/
+        - page=elastic_search
+      condition: or
