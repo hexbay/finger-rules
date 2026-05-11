@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: ts-poll
+  vendor: total-soft
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "All TS Poll"
+        - /wp-content/plugins/ts-poll/
+      condition: and
