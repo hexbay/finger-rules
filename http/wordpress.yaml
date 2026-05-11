@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: slidedeck-1-lite-content-slider
+  vendor: dtelepathy
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/slidedeck-1-lite-content-slider/
