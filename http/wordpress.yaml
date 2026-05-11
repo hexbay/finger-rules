@@ -136,3 +136,17 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: wp-finance
+  vendor: mch0lic
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "WP Finance"
+        - "/wp-content/plugins/wp-finance/"
+    - part: body
+      type: word
+      words:
+        - "/wp-admin/admin.php?page=wpfinance"
