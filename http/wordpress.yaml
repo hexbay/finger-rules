@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: privacy-policy-genius
+  vendor: waelhassan
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/policy-genius/
+        - privacy_policy
+      condition: and
