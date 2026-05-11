@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: wp-clone-by-wp-academy
+  vendor: wp-plugin
+  matchers:
+    - part: body
+      type: word
+      words:
+        - wp-clone-by-wp-academy
