@@ -84,7 +84,10 @@ def main() -> None:
     parser.add_argument("--commit-sha", default=os.environ.get("GITHUB_SHA", ""))
     parser.add_argument("--output", default="finger-rules-payload.json.gz")
     parser.add_argument("--post-url", default=os.environ.get("CLOUDMAP_FINGER_RULES_SYNC_URL", ""))
-    parser.add_argument("--secret", default=os.environ.get("CLOUDMAP_FINGER_RULES_WEBHOOK_SECRET", ""))
+    parser.add_argument(
+        "--secret",
+        default=os.environ.get("CLOUDMAP_SECRET") or os.environ.get("CLOUDMAP_FINGER_RULES_WEBHOOK_SECRET", ""),
+    )
     args = parser.parse_args()
 
     payload = build_payload(Path(args.repo_dir).resolve(), args.commit_sha)

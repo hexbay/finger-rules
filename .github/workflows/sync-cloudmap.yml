@@ -27,10 +27,10 @@ jobs:
       - name: Build and push payload
         env:
           CLOUDMAP_FINGER_RULES_SYNC_URL: ${{ secrets.CLOUDMAP_FINGER_RULES_SYNC_URL }}
-          CLOUDMAP_FINGER_RULES_WEBHOOK_SECRET: ${{ secrets.CLOUDMAP_FINGER_RULES_WEBHOOK_SECRET }}
+          CLOUDMAP_SECRET: ${{ secrets.CLOUDMAP_SECRET }}
         run: |
           python .github/scripts/finger_rules_payload.py \
             --repo-dir . \
             --commit-sha "$GITHUB_SHA" \
             --post-url "$CLOUDMAP_FINGER_RULES_SYNC_URL" \
-            --secret "$CLOUDMAP_FINGER_RULES_WEBHOOK_SECRET"
+            --secret "$CLOUDMAP_SECRET"
