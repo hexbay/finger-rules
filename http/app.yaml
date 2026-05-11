@@ -5347,15 +5347,6 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
-- name: advance-post-prefix
-  vendor: niceit
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "advance-post-prefix"
-        - "page=add-prefix"
-      condition: and
 
 - name: RosarioSIS
   matchers:
