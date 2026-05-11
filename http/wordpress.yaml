@@ -145,3 +145,12 @@
         - /wp-content/plugins/front-end-users/
         - front-end-only-users
       condition: and
+- name: front-end-users
+  vendor: etoilewebdesign
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/front-end-users/
+        - front-end-only-users
+      condition: and
