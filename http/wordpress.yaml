@@ -145,3 +145,12 @@
         - "All TS Poll"
         - /wp-content/plugins/ts-poll/
       condition: and
+- name: ts-poll
+  vendor: total-soft
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "All TS Poll"
+        - /wp-content/plugins/ts-poll/
+      condition: and
