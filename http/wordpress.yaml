@@ -136,3 +136,15 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: zarinpal-paid-download
+  vendor: amini7
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "zarinpal-paid-download"
+    - part: body
+      type: word
+      words:
+        - "paid-downloads-add"
+  matchers-condition: and
