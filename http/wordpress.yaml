@@ -136,3 +136,13 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: dyn-business-panel
+  vendor: phycticio
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "page=dbp_clients"
+        - "Clientes"
+      condition: and
