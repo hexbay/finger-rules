@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: musicbox-(wordpress-plugin)
+  vendor: webdesignby
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "webdesignby-musicbox"
