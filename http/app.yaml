@@ -5340,6 +5340,13 @@
       type: word
       words:
         - "Pinger"
+- name: WordPress User Messages
+  vendor: marvinlabs
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/wp-content/plugins/user-messages/"
 - name: MaNGOSWebV4
   vendor: mangoswebv4_project
   matchers:
