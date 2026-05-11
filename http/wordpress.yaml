@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: wp-triggers-lite
+  vendor: wptriggers
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/wp-triggers-lite/
+        - wp-triggers
+      condition: and
