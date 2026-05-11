@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: Google-Map-Professional
+  vendor: pragmasoftwares
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/google-map-professional/
+        - page=googlemarker-admin
+        - "Edit Map"
