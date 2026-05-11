@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: custom-field-manager
+  vendor: f1logic
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/custom-field-manager/
+        - custom-field-manager
+      condition: and
