@@ -1696,6 +1696,13 @@
       type: word
       words:
         - Home Assistant
+- name: HACS
+  vendor: hacs
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Home Assistant
 - name: Kenesto
   matchers:
     - part: title
