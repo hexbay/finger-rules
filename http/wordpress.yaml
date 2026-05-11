@@ -136,3 +136,13 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: ibuildapp
+  vendor: ibuildapp
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ibuildapp-iframe-redirect"
+        - "ibuildapp-app-publishing"
+        - "/wp-content/plugins/ibuildapp/"
+      condition: or
