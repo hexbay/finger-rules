@@ -5347,6 +5347,22 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: AntD Admin
+  vendor: zuiidea
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /@@/devScripts.js
+    - part: body
+      type: word
+      words:
+        - "//! umi version:"
+    - part: body
+      type: word
+      words:
+        - /umi.js
 
 - name: RosarioSIS
   matchers:
