@@ -5347,6 +5347,20 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: VDO.Ninja
+  vendor: steveseguin
+  matchers-condition: or
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "vdo.ninja"
+        - "VDO.Ninja"
+    - part: body
+      type: word
+      words:
+        - "session.version"
 
 - name: RosarioSIS
   matchers:
