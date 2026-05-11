@@ -4,3 +4,10 @@
       type: word
       words:
         - "61401087"
+- name: CAREL Boss Mini
+  vendor: carel
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1092427843"
