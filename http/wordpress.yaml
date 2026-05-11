@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: wp-pricing-table
+  vendor: codecabin
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/wp-pricing-table/
