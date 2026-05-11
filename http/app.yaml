@@ -5347,3 +5347,11 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+
+- name: RosarioSIS
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "RosarioSIS"
+  
