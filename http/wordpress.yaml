@@ -136,3 +136,11 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: stray-random-quotes
+  vendor: unalignedcode
+  matchers:
+    - part: body
+      type: word
+      words:
+        - stray-quotes
+        - /wp-content/plugins/stray-random-quotes/
