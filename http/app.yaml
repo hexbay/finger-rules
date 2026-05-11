@@ -5347,6 +5347,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: GUDE-Expert-Net-Control
+  vendor: gude
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Expert Net Control"
+    - part: body
+      type: word
+      words:
+        - "Control Panel"
 
 - name: RosarioSIS
   matchers:
