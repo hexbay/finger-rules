@@ -5322,6 +5322,13 @@
       type: word
       words:
         - "I Doc View"
+- name: MaNGOS-Web-Enhanced-V4
+  vendor: mangoswebv4_project
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "MaNGOS Web Enhanced V4 Installer"
 - name: chef
   matchers:
     - part: body
