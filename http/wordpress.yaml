@@ -136,3 +136,16 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: affiliateimportereb
+  vendor: cr1000
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/affiliateimportereb/
+        - page=ebdn-settings
+    - part: body
+      type: word
+      words:
+        - affiliateimportereb
+  matchers-condition: and
