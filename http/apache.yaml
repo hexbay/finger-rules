@@ -201,3 +201,10 @@
       type: word
       words:
         - "Apache StreamPark"
+- name: Apache CXF
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache CXF"
+  
