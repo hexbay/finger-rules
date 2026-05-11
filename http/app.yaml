@@ -5340,7 +5340,7 @@
       type: word
       words:
         - "Pinger"
-- name: MaNGOS Web Enhanced V4
+- name: MaNGOSWebV4
   vendor: mangoswebv4_project
   matchers:
     - part: body
