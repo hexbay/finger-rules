@@ -5347,6 +5347,19 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: ibuildapp
+  vendor: ibuildapp
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ibuildapp-iframe-redirect"
+        - "ibuildapp-app-publishing"
+      condition: or
+    - part: body
+      type: word
+      words:
+        - "iBuildApp"
 
 - name: RosarioSIS
   matchers:
