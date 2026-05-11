@@ -5347,6 +5347,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: CP Image Store with Slideshow
+  vendor: codepeople
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "[codepeople-image-store]"
+        - "cpis_image="
+      condition: or
 
 - name: RosarioSIS
   matchers:
