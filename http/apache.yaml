@@ -232,4 +232,9 @@
       words:
         - "/@@/devScripts.js"
         - "/umi.js"
-        
+- name: RustDesk
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "RustDesk API Admin"
