@@ -5370,6 +5370,29 @@
         - "<!DOCTYPE"
         - "<html"
       negative: true
+- name: jake
+  vendor: jakejs
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "task("
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "desc("
+        - "jake."
+        - "namespace("
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "<!DOCTYPE"
+        - "<html"
+      negative: true
 - name: whodb
   vendor: clidey
   matchers:
