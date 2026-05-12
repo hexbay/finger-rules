@@ -5353,6 +5353,16 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: headlamp
+  vendor: kubernetes-sigs
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Headlamp: Kubernetes Web UI"
+        - "headlampBaseUrl"
 - name: VDO.Ninja
   matchers:
     - part: body
