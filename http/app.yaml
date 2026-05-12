@@ -5353,6 +5353,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: VDO.Ninja
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "vdo.ninja"
 - name: NocoBase
   vendor: nocobase
   matchers-condition: and
