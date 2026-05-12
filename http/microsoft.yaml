@@ -93,3 +93,16 @@
       type: word
       words:
         - "Dkron"
+- name: SCCM-Distribution-Point
+  vendor: Microsoft
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "SMS_DP_SMSPKG$"
+        - ".INI"
+    - part: header
+      type: word
+      words:
+        - "Microsoft-IIS"
