@@ -5347,6 +5347,21 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: orbeon_forms
+  vendor: orbeon
+  matchers-condition: and
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1253194620"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Orbeon"
+        - "home</a>"
+        - "Quick Links"
 - name: whodb
   vendor: clidey
   matchers:
