@@ -143,3 +143,11 @@
       type: word
       words:
         - "/layer_red/layer.js"
+
+- name: Landray-EIS
+  vendor: 深圳市蓝凌软件股份有限公司
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "/jquery.landray.dialog.js"
