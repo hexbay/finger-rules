@@ -5360,6 +5360,19 @@
       type: word
       words:
         - "_shibsession_"
+- name: Shibboleth Service Provider
+  vendor: Shibboleth Consortium
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/Shibboleth.sso/"
+        - "Shibboleth"
+      condition: and
+    - part: header
+      type: word
+      words:
+        - "_shibsession_"
 - name: PHP Login System
   vendor: msaad1999
   matchers:
