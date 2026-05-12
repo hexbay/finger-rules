@@ -207,4 +207,9 @@
       type: word
       words:
         - "Apache CXF"
-  
+- name: Kyuubi
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Kyuubi"
