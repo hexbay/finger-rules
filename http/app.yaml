@@ -5364,6 +5364,19 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: ICTBroadcast
+  vendor: ICT Innovations
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ICTBroadcast"
+    - part: header
+      type: word
+      words:
+        - "Set-Cookie:"
+      condition: and
 - name: VDO.Ninja
   matchers:
     - part: body
