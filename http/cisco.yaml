@@ -204,3 +204,10 @@
       type: word
       words:
         - '/+CSCOE+/logon.html'
+
+- name: unified_communications_manager
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Unified Communications Self Care Portal"
