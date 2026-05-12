@@ -5447,3 +5447,9 @@
       type: word
       words:
         - "FUXA"
+- name: livewire
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Livewire Styles'
