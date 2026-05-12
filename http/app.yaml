@@ -5347,6 +5347,22 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: check_mk-agent
+  vendor: checkmk
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "<<<check_mk>>>"
+        - "AgentOS:"
+        - "Version:"
+    - part: body
+      type: word
+      words:
+        - "HTTP/1.1"
+      negative: true
 - name: NocoBase
   vendor: nocobase
   matchers-condition: and
