@@ -820,6 +820,12 @@
       type: word
       words:
         - Tiny File Manager
+- name: tiny_tiny_rss
+  matchers:
+    - part: body
+      type: word
+      words:
+        - Tiny Tiny RSS
 - name: PowerJob
   matchers:
     - part: title
@@ -5354,6 +5360,38 @@
       condition: or
       words:
         - "vdo.ninja"
+- name: NocoBase
+  vendor: nocobase
+  matchers-condition: and
+  matchers:
+    - type: word
+      part: body
+      condition: and
+      words:
+        - '"authType":'
+        - '"env":'
+        - '"version":'
+        - '"ncSiteUrl":'
+    - type: word
+      part: header
+      words:
+        - "application/json"
+- name: PHP Login System
+  vendor: msaad1999
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "klik_loginsystem"
+        - "Embeddable PHP Login System"
+      condition: and
+- name: whodb
+  vendor: clidey
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "whodb"
 
 - name: RosarioSIS
   matchers:
