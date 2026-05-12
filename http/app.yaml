@@ -5429,3 +5429,9 @@
       type: word
       words:
         - "Plone"
+- name: imgproxy
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "imgproxy"
