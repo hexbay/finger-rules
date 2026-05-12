@@ -5347,6 +5347,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: OneNav
+  vendor: helloxz
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1111283449"
 - name: NocoBase
   vendor: nocobase
   matchers-condition: and
