@@ -27,3 +27,19 @@
         - "u_keepalive.htm"
         - "u_status.xml"
         - "contentFrame"
+- name: Polycom-HDX
+  vendor: polycom
+  matchers-condition: or
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Polycom HDX"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Polycom"
+        - "u_keepalive.htm"
+        - "u_status.xml"
+        - "contentFrame"
