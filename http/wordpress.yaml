@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: list-site-contributors
+  vendor: WordPress
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/list-site-contributors/
