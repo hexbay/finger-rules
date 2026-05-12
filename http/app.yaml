@@ -1362,11 +1362,16 @@
       regex:
         - Plesk Onyx ([\d\.]+)
 - name: Intelbras
+  vendor: intelbras
   matchers:
     - part: title
       type: word
       words:
         - Intelbras
+    - part: body
+      type: word
+      words:
+        - "/cgi-bin/cgiServer.exx"
 - name: Keenetic
   matchers:
     - part: title
