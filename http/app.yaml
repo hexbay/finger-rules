@@ -5423,3 +5423,9 @@
       type: word
       words:
         - "Weblate"
+- name: Plone
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "Plone"
