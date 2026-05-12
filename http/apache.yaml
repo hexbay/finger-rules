@@ -225,4 +225,11 @@
       type: word
       words:
         - "Lodash"
+- name: AntD Admin
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/@@/devScripts.js"
+        - "/umi.js"
         
