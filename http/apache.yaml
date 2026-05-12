@@ -213,3 +213,9 @@
       type: word
       words:
         - "Kyuubi"
+- name: tolgee
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Tolgee"
