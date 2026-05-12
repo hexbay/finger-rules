@@ -5435,3 +5435,9 @@
       type: word
       words:
         - "imgproxy"
+- name: kodexplorer
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "kodexplorer"
