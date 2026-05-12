@@ -201,6 +201,18 @@
       type: word
       words:
         - "Apache StreamPark"
+- name: Apache-Kyuubi
+  vendor: apache
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Environment</title>"
+    - part: body
+      type: word
+      words:
+        - "kyuubi"
 - name: Apache CXF
   matchers:
     - part: title
