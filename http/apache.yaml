@@ -219,3 +219,10 @@
       type: word
       words:
         - "Tolgee"
+- name: lodash
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Lodash"
+        
