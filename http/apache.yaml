@@ -238,3 +238,9 @@
       type: word
       words:
         - "RustDesk API Admin"
+- name: BMCFootPrints
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "/footprints/servicedesk/"
