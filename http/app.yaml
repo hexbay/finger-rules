@@ -5346,6 +5346,17 @@
       type: word
       words:
         - "Pinger"
+- name: Stylelint
+  vendor: stylelint
+  matchers:
+    - part: body
+      type: word
+      words:
+        - ".stylelintignore"
+    - part: title
+      type: word
+      words:
+        - "stylelint"
 - name: MaNGOSWebV4
   vendor: mangoswebv4_project
   matchers:
