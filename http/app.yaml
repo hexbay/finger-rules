@@ -5441,3 +5441,9 @@
       type: word
       words:
         - "kodexplorer"
+- name: FUXA
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "FUXA"
