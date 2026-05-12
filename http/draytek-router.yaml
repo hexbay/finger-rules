@@ -10,6 +10,16 @@
       type: word
       words:
         - "Vigor"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "excanvas.js"
+        - "detectLang"
+    - part: headers.server
+      type: word
+      words:
+        - "DWS"
 - name: VigorConnect
   matchers:
     - part: title
