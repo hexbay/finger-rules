@@ -4641,8 +4641,10 @@
   matchers:
     - part: body
       type: word
+      condition: and
       words:
       - "iboss-font.css"
+      - "iboss,"
 - name: Yeti
   matchers:
     - part: title
