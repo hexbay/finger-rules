@@ -820,6 +820,12 @@
       type: word
       words:
         - Tiny File Manager
+- name: tiny_tiny_rss
+  matchers:
+    - part: body
+      type: word
+      words:
+        - Tiny Tiny RSS
 - name: PowerJob
   matchers:
     - part: title
