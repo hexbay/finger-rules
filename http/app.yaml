@@ -5347,6 +5347,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: PHP Login System
+  vendor: msaad1999
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "klik_loginsystem"
+        - "Embeddable PHP Login System"
+      condition: and
 - name: whodb
   vendor: clidey
   matchers:
