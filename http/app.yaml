@@ -5417,3 +5417,9 @@
       words:
         - "Avid Nexis"
   
+- name: Weblate
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Weblate"
