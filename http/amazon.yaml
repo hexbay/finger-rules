@@ -59,4 +59,22 @@
         - "application/x-yaml"
   name: AWS-CodeBuild-Buildspec
   vendor: amazon
+- matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "version:"
+        - "phases:"
+        - "build:"
+    - part: header
+      type: word
+      condition: or
+      words:
+        - "text/yaml"
+        - "text/plain"
+        - "application/x-yaml"
+  name: AWS-CodeBuild-Buildspec
+  vendor: amazon
 
