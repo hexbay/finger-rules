@@ -5452,4 +5452,4 @@
     - part: body
       type: word
       words:
-        - 'Livewire Styles'
+        - "Livewire Styles"
