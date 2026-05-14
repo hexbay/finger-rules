@@ -5372,11 +5372,6 @@
       type: word
       words:
         - "ICTBroadcast"
-    - part: header
-      type: word
-      words:
-        - "Set-Cookie:"
-      condition: and
 - name: VDO.Ninja
   matchers:
     - part: body
