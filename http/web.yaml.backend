@@ -13239,12 +13239,6 @@
     - flow/?(.+)?$
   name: neos_flow
 - matchers:
-  - part: body
-    type: regex
-    regex:
-    - '<[^>]{1,512}\bwire:'
-  name: livewire
-- matchers:
   - part: headers.server
     type: word
     words:
@@ -15038,12 +15032,6 @@
     regex:
     - (?:<iframe id="meebo-iframe"|meebo\('domready'\))
   name: meebo
-- matchers:
-  - part: body
-    type: word
-    words:
-    - <!-- rendered with melis cms v2
-  name: melis_platform
 - matchers:
   - part: headers.Set-Cookie
     type: word
