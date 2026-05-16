@@ -5364,6 +5364,14 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: ICTBroadcast
+  vendor: ICT Innovations
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ICTBroadcast"
 - name: VDO.Ninja
   matchers:
     - part: body
@@ -5452,6 +5460,7 @@
     - part: body
       type: word
       words:
+        - 'Livewire Styles'
         - "Livewire Styles"
 - name: tandoor
   matchers:
