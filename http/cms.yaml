@@ -1687,3 +1687,9 @@
       type: word
       words:
         - 'EPweb'
+- name: MelisCms
+  matchers:
+    - part: body
+      type: word
+      words:
+        - '/melis/MelisCms'

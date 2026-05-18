@@ -4913,12 +4913,7 @@
     - '<!-- Congratulations on bringing CAS online!  The default authentication handler authenticates where usernames equal passwords: go ahead, try it out.  -->'
     - <p>Powered by <a href="finger://www.jasig.org/cas">Jasig Central Authentication Service</a></p>
   name: jasig_cas
-- matchers:
-  - part: headers.Set-Cookie
-    type: word
-    words:
-    - jsessionid
-  name: java
+
 - matchers:
   - part: body
     type: regex
@@ -13239,12 +13234,6 @@
     - flow/?(.+)?$
   name: neos_flow
 - matchers:
-  - part: body
-    type: regex
-    regex:
-    - '<[^>]{1,512}\bwire:'
-  name: livewire
-- matchers:
   - part: headers.server
     type: word
     words:
@@ -15038,12 +15027,6 @@
     regex:
     - (?:<iframe id="meebo-iframe"|meebo\('domready'\))
   name: meebo
-- matchers:
-  - part: body
-    type: word
-    words:
-    - <!-- rendered with melis cms v2
-  name: melis_platform
 - matchers:
   - part: headers.Set-Cookie
     type: word

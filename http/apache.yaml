@@ -207,4 +207,40 @@
       type: word
       words:
         - "Apache CXF"
-  
+- name: Kyuubi
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Kyuubi"
+- name: tolgee
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Tolgee"
+- name: lodash
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Lodash"
+- name: AntD Admin
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/@@/devScripts.js"
+        - "/umi.js"
+- name: RustDesk
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "RustDesk API Admin"
+- name: BMCFootPrints
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "/footprints/servicedesk/"
