@@ -5364,6 +5364,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: OpenCode
+  vendor: opencode
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "opencode"
 - name: D-Tale
   matchers:
     - part: title
