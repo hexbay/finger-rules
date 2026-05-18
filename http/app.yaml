@@ -5364,12 +5364,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: D-Tale
+  vendor: man-group
 - name: Gitness
   vendor: Harness
   matchers:
     - part: title
       type: word
       words:
+        - "D-Tale"
         - "Gitness"
 - name: ICTBroadcast
   vendor: ICT Innovations
