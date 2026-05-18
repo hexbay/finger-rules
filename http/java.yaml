@@ -5,6 +5,11 @@
       name: version
       regex:
         - java/([\d\.\w-]+)
+    - part: header
+      type: word
+      words:
+        - "jsessionid"
+        
 - name: JSP
   matchers:
     - part: headers.x-powered-by

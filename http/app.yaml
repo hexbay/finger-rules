@@ -820,6 +820,12 @@
       type: word
       words:
         - Tiny File Manager
+- name: tiny_tiny_rss
+  matchers:
+    - part: body
+      type: word
+      words:
+        - Tiny Tiny RSS
 - name: PowerJob
   matchers:
     - part: title
@@ -5340,6 +5346,17 @@
       type: word
       words:
         - "Pinger"
+- name: Stylelint
+  vendor: stylelint
+  matchers:
+    - part: body
+      type: word
+      words:
+        - ".stylelintignore"
+    - part: title
+      type: word
+      words:
+        - "stylelint"
 - name: MaNGOSWebV4
   vendor: mangoswebv4_project
   matchers:
@@ -5354,6 +5371,53 @@
       type: word
       words:
         - "Gitness"
+- name: ICTBroadcast
+  vendor: ICT Innovations
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ICTBroadcast"
+- name: VDO.Ninja
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "vdo.ninja"
+- name: NocoBase
+  vendor: nocobase
+  matchers-condition: and
+  matchers:
+    - type: word
+      part: body
+      condition: and
+      words:
+        - '"authType":'
+        - '"env":'
+        - '"version":'
+        - '"ncSiteUrl":'
+    - type: word
+      part: header
+      words:
+        - "application/json"
+- name: PHP Login System
+  vendor: msaad1999
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "klik_loginsystem"
+        - "Embeddable PHP Login System"
+      condition: and
+- name: whodb
+  vendor: clidey
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "whodb"
 
 - name: RosarioSIS
   matchers:
@@ -5368,3 +5432,52 @@
       words:
         - "Avid Nexis"
   
+- name: Weblate
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Weblate"
+- name: Plone
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "Plone"
+- name: imgproxy
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "imgproxy"
+- name: kodexplorer
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "kodexplorer"
+- name: FUXA
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "FUXA"
+- name: livewire
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Livewire Styles'
+        - "Livewire Styles"
+- name: tandoor
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Tandoor Recipes"
+- name: Expert Net Control
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Expert Net Control"

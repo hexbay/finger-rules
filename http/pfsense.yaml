@@ -1,0 +1,12 @@
+- name: PfSense-Wifi
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "pfSense-fsl-wifi"
+- name: PfSense
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "pfSense"

@@ -498,3 +498,16 @@
       type: word
       words:
         - "netis router"
+
+- name: Four-Faith F3x36 Router
+  vendor: four-faith
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Four-Faith"
+    - part: headers.server
+      type: word
+      words:
+        - "httpd_four-faith"
