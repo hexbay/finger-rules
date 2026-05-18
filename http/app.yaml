@@ -5364,6 +5364,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Gitness
+  vendor: Harness
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Gitness"
 - name: ICTBroadcast
   vendor: ICT Innovations
   matchers-condition: and
