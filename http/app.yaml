@@ -5349,16 +5349,11 @@
         - "MaNGOS Web Enhanced V4 Installer"
 - name: Gitness
   vendor: Harness
-  matchers-condition: or
   matchers:
     - part: title
       type: word
       words:
         - "Gitness"
-    - part: body
-      type: word
-      words:
-        - "gitness"
 
 - name: RosarioSIS
   matchers:
