@@ -5494,3 +5494,9 @@
       type: word
       words:
         - "Expert Net Control"
+- name: ray_dashboard
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Ray Dashboard"
