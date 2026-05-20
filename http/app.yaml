@@ -297,7 +297,7 @@
 - name: BeyondTrust
   matchers:
     - type: word
-      part: header
+      part: body
       words:
         - "BeyondTrust"
 - name: BrightSign
