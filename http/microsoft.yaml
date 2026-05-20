@@ -93,3 +93,19 @@
       type: word
       words:
         - "Dkron"
+- name: Microsoft-Exchange-Server
+  vendor: microsoft
+  matchers-condition: or
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1768726119"
+    - part: title
+      type: word
+      words:
+        - "Outlook"
+    - part: header
+      type: word
+      words:
+        - "X-FEServer"
