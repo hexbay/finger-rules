@@ -295,11 +295,23 @@
       words:
         - "BEWARD N100 H.264"
 - name: BeyondTrust
+  vendor: beyondtrust
+  matchers-condition: or
   matchers:
+    - type: word
+      part: header
+      words:
+        - "BeyondTrust"
     - type: word
       part: body
       words:
         - "BeyondTrust"
+    - type: word
+      part: body
+      condition: and
+      words:
+        - "/get_mech_list"
+        - "default_company"
 - name: BrightSign
   matchers:
     - type: word
