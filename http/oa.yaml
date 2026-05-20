@@ -143,3 +143,10 @@
       type: word
       words:
         - "/layer_red/layer.js"
+
+- name: Landray-EIS
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "/jquery.landray.dialog.js"
