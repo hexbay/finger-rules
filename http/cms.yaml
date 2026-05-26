@@ -1699,6 +1699,7 @@
       type: word
       words:
         - RailsAdmin
+
 - name: ServiceStack
   vendor: ServiceStack
   matchers:
