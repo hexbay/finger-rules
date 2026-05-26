@@ -5607,3 +5607,10 @@
       type: word
       words:
         - "OneDev"
+- name: Crestron-device
+  vendor: crestron
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "airmedia"
