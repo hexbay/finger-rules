@@ -5373,6 +5373,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: MPDV HYDRA X
+  vendor: MPDV Mikrolab GmbH
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "MPDV"
 - name: mapproxy
   vendor: mapproxy
   matchers:
