@@ -5373,6 +5373,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: LG-AC-Smart-II
+  vendor: LG
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "AC Smart"
+        - "Doc/WebLogin.asp"
 - name: mapproxy
   vendor: mapproxy
   matchers:
