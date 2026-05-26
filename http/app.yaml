@@ -5581,3 +5581,9 @@
       type: word
       words:
         - "DAEnetIP4"
+- name: Mailpit
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Mailpit"
