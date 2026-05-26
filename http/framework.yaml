@@ -27,3 +27,26 @@
         - "/aurelia-bundle"
       condition: or
   matchers-condition: or
+- name: Aurelia
+  vendor: aurelia
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "aurelia-app"
+        - "aurelia-main"
+      condition: or
+    - part: body
+      type: word
+      words:
+        - "aurelia.setup"
+        - "aurelia.use"
+        - "aurelia-framework"
+      condition: or
+    - part: body
+      type: word
+      words:
+        - "/aurelia-bootstrap"
+        - "/aurelia-bundle"
+      condition: or
+  matchers-condition: or
