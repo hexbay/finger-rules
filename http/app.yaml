@@ -5373,6 +5373,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Eveo-URVE-Web-Manager
+  vendor: eveo
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "URVE Web Manager"
 - name: JHipster
   matchers:
     - part: title
