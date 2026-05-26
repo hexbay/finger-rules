@@ -76,3 +76,16 @@
       type: word
       words:
         - "webconfig menu.cgi"
+
+- name: Kedacom-Network-Keyboard-Console
+  vendor: kedacom
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "kedacom-hs"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "网络键盘控制台"
