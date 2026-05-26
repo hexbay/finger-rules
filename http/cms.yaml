@@ -1706,3 +1706,9 @@
       type: word
       words:
         - "ServiceStack"
+- name: CKFinder
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ckfinder"
