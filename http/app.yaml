@@ -5365,19 +5365,12 @@
       words:
         - "MaNGOS Web Enhanced V4 Installer"
 - name: Chroma DB
-  vendor: Chroma
-  matchers-condition: and
   matchers:
     - part: body
       type: word
       words:
         - '"sync_threshold":'
         - '"log_position"'
-      condition: and
-    - part: header
-      type: word
-      words:
-        - "application/json"
 - name: Homebridge
   vendor: homebridge
   matchers:
