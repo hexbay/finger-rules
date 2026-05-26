@@ -5364,6 +5364,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Homebridge
+  vendor: homebridge
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Homebridge"
 - name: beszel
   vendor: henrygd
   matchers:
