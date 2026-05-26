@@ -5373,6 +5373,12 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: JHipster
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "JHipster"
 - name: Administrate
   vendor: thoughtbot
   matchers:
