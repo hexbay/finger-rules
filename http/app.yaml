@@ -5373,8 +5373,7 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
-- name: JHipster Platform
-  vendor: JHipster
+- name: JHipster
   matchers:
     - part: title
       type: word
