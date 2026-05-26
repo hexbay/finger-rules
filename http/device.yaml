@@ -11,6 +11,23 @@
       - KM-MFP-finger
       - JC-HTTPD
       - NetworkScanner WebServer Ver
+- name: Crestron-AirMedia
+  vendor: crestron
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "airmedia"
+    - part: title
+      type: word
+      words:
+        - "Device Administration"
+      condition: or
+    - part: body
+      type: word
+      words:
+        - "userloginheader"
 - name: DAEnetIP4
   vendor: denkovi
   matchers:
