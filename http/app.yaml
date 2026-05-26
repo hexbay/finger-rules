@@ -5378,6 +5378,7 @@
   matchers:
     - part: header
       type: word
+      condition: and
       words:
         - "access-control-allow-methods: GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
         - "access-control-allow-headers: Content-Type"
