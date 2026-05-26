@@ -5575,3 +5575,9 @@
       words:
         - "/open_file"
         - "lollms"
+- name: DAEnetIP4
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "DAEnetIP4"
