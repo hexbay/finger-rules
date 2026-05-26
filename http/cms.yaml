@@ -1698,4 +1698,4 @@
     - part: body
       type: word
       words:
-        - 'Rails Admin'
+        - 'RailsAdmin'
