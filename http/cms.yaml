@@ -1698,7 +1698,7 @@
     - part: body
       type: word
       words:
-        - 'RailsAdmin'
+        - RailsAdmin
 - name: ServiceStack
   vendor: ServiceStack
   matchers:
