@@ -4,3 +4,13 @@
       type: word
       words:
         - "Server backup manager"
+- name: AdminJS
+  vendor: softwarebrothers
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "window.REDUX_STATE"
+        - "window.AdminBro"
