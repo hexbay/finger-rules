@@ -5614,3 +5614,12 @@
       type: word
       words:
         - "airmedia"
+        
+- name: Aurelia
+  vendor: aurelia
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "aurelia-app"
+        - "aurelia-main"
