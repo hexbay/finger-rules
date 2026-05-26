@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: modular-ds
+  vendor: Modular DS
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /plugins/modular-connector/
+        - /wp-content/plugins/modular-connector/
+      condition: or
