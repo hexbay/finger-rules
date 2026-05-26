@@ -1699,3 +1699,10 @@
       type: word
       words:
         - 'RailsAdmin'
+- name: ServiceStack
+  vendor: ServiceStack
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ServiceStack"
