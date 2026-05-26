@@ -81,3 +81,18 @@
     - '123456789'
     condition: or
   matchers-condition: and
+
+- name: headlamp
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Headlamp: Kubernetes Web UI"
+        - "headlampBaseUrl"
+- name: Chroma DB
+  matchers:
+    - part: body
+      type: word
+      words:
+        - '"sync_threshold":'
+        - '"log_position"'
