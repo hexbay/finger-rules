@@ -4,3 +4,10 @@
       type: word
       words:
         - Metabase
+- name: eXist-DB
+  vendor: exist-db
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "eXist db"
