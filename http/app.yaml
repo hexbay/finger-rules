@@ -5544,4 +5544,9 @@
       type: word
       words:
         - "Remotely"
-  
+- name: InterMapper
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "InterMapper"
