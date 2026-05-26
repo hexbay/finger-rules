@@ -11,6 +11,13 @@
       - KM-MFP-finger
       - JC-HTTPD
       - NetworkScanner WebServer Ver
+- name: DAEnetIP4
+  vendor: denkovi
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "DAEnetIP4"
 - name: Polycom-HDX
   vendor: polycom
   matchers-condition: or
