@@ -5364,6 +5364,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: beszel
+  vendor: henrygd
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "globalThis.BESZEL"
 - name: OpenCode
   vendor: opencode
   matchers:
