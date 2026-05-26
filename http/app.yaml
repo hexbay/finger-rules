@@ -5373,6 +5373,14 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Mockoon
+  vendor: mockoon
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "access-control-allow-methods: GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+        - "access-control-allow-headers: Content-Type"
 - name: MPDV HYDRA X
   vendor: MPDV Mikrolab GmbH
   matchers:
