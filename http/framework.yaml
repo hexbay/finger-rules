@@ -4,3 +4,10 @@
       type: word
       words:
         - "Server backup manager"
+- name: RubyGems
+  vendor: rubygems
+  matchers:
+    - part: body
+      type: word
+      words:
+        - ":rubygems_api_key:"
