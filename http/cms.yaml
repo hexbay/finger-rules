@@ -1693,3 +1693,9 @@
       type: word
       words:
         - '/melis/MelisCms'
+- name: RailsAdmin
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Rails Admin'
