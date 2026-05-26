@@ -5373,6 +5373,19 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: lollms_webui
+  vendor: parisneo
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "LoLLMs"
+    - part: body
+      type: word
+      words:
+        - "/open_file"
+        - "lollms"
+      condition: or
 - name: JHipster
   matchers:
     - part: title
