@@ -5364,6 +5364,16 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Administrate
+  vendor: thoughtbot
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Administrate"
+        - "Search Customers"
 - name: Homebridge
   vendor: homebridge
   matchers:
