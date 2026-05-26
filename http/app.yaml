@@ -4072,6 +4072,15 @@
       type: word
       words:
         - "laravel filemanager"
+- name: laravel_terminal
+  vendor: recca0120
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "Laravel Terminal"
+        - "terminal.endpoint"
 - name: reqlogic
   matchers:
     - part: body
