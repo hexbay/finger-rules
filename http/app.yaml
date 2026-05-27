@@ -5374,17 +5374,11 @@
       words:
         - "MaNGOS Web Enhanced V4 Installer"
 - name: TiTiler
-  vendor: developmentseed
-  matchers-condition: and
   matchers:
     - part: body
       type: word
       words:
         - "TiTiler"
-    - part: body
-      type: word
-      words:
-        - "<imageAttributes> in document"
 - name: MPDV
   matchers:
     - part: body
