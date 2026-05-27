@@ -9074,20 +9074,7 @@
     regex:
     - (^Roxen\/([^\s]+)$)
   name: roxen
-- matchers:
-  - part: headers.server
-    type: regex
-    regex:
-    - (Ruby)
-    - (^WEBrick)
-  - name: version
-    part: headers.server
-    type: regex
-    regex:
-    - (Ruby\/([^\s^\/^\(]+))
-    - (^(WEBrick\/[\d\.]+) \(Ruby\/[\d\.]+\/[\d]{4}-[\d]{2}-[\d]{2}\))
-    - (^WEBrick\/[\d\.]+ \(Ruby\/([\d\.]+)\/[\d]{4}-[\d]{2}-[\d]{2}\))
-  name: ruby
+
 - matchers:
   - part: body
     type: word
