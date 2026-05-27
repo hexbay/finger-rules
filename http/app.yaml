@@ -5628,3 +5628,14 @@
       type: word
       words:
         - "TiTiler"
+- name: AMD Pensando PSM
+  vendor: amd
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1907840597"
+    - part: body
+      type: word
+      words:
+        - "<title>AMD Pensando PSM</title>"
