@@ -1368,6 +1368,7 @@
       regex:
         - Plesk Onyx ([\d\.]+)
 - name: Intelbras
+  vendor: intelbras
   matchers:
     - part: title
       type: word
