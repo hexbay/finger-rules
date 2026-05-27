@@ -201,14 +201,10 @@
       type: word
       words:
         - "Apache StreamPark"
-- name: Apache-Kyuubi
+- name: Kyuubi
   vendor: apache
   matchers-condition: and
   matchers:
-    - part: title
-      type: word
-      words:
-        - "Environment</title>"
     - part: body
       type: word
       words:
