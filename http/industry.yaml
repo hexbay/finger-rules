@@ -4,6 +4,13 @@
       type: word
       words:
         - "61401087"
+- name: OpenPLC Webserver
+  vendor: OpenPLC Project
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "OpenPLC"
 - name: CAREL Boss Mini
   vendor: carel
   matchers:
