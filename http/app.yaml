@@ -5657,3 +5657,11 @@
       type: word
       words:
         - "redirect.pizza"
+
+- name: OneNav
+  vendor: helloxz
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1111283449"
