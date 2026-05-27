@@ -5373,6 +5373,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Redirect.pizza
+  vendor: redirect.pizza
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "redirect.pizza"
+    - part: body
+      type: word
+      words:
+        - "Unable to redirect"
 - name: MPDV
   matchers:
     - part: body
