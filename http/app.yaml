@@ -5373,6 +5373,17 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: AMD Pensando PSM
+  vendor: amd
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1907840597"
+    - part: body
+      type: word
+      words:
+        - "<title>AMD Pensando PSM</title>"
 - name: MPDV
   matchers:
     - part: body
