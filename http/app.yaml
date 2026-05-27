@@ -5373,8 +5373,7 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
-- name: MPDV HYDRA X
-  vendor: MPDV Mikrolab GmbH
+- name: MPDV
   matchers:
     - part: body
       type: word
@@ -5614,7 +5613,7 @@
       type: word
       words:
         - "airmedia"
-        
+
 - name: Aurelia
   vendor: aurelia
   matchers:
