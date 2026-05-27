@@ -5373,6 +5373,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: atlona-at-ome-ms42
+  vendor: atlona
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Login Success!"
+        - "/cgi-bin/login.cgi"
+      condition: and
 - name: MPDV
   matchers:
     - part: body
