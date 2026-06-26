@@ -5374,6 +5374,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Heimdall Application Dashboard
+  vendor: linuxserver
+  matchers-condition: or
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Heimdall"
+    - part: body
+      type: word
+      words:
+        - "heimdall-logo-small.svg"
 - name: dagu
   vendor: dagu-org
   matchers:
