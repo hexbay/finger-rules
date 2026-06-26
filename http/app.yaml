@@ -5374,6 +5374,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: doccano
+  vendor: doccano
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "doccano"
+    - part: body
+      type: word
+      words:
+        - "doccano"
+        - "/_nuxt/"
 - name: dagu
   vendor: dagu-org
   matchers:
