@@ -5374,6 +5374,24 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: OpenText Filr
+  vendor: opentext
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "OpenText Filr"
+    - part: body
+      type: word
+      words:
+        - "/ssf/"
+        - "filr"
+      condition: or
+    - part: title
+      type: word
+      words:
+        - "Filr"
+  matchers-condition: and
 - name: dagu
   vendor: dagu-org
   matchers:
