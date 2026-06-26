@@ -5374,6 +5374,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: litellm
+  vendor: berriai
+  matchers-condition: or
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "LiteLLM API"
+    - part: body
+      type: word
+      words:
+        - "LiteLLM"
 - name: dagu
   vendor: dagu-org
   matchers:
