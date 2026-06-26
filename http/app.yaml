@@ -5055,6 +5055,20 @@
       type: word
       words:
         - "RevPi"
+- name: Postiz
+  vendor: postiz
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Postiz Register"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Create Account"
+        - "Sign Up"
 - name: poststaticfooter
   matchers:
     - part: body
