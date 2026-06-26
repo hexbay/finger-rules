@@ -144,6 +144,14 @@
       words:
         - "/layer_red/layer.js"
 
+- name: ChanJet-CRM
+  vendor: chanjet
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "畅捷CRM"
+
 - name: Landray-EIS
   matchers:
     - type: word
