@@ -5374,6 +5374,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Krayin CRM
+  vendor: webkul
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Krayin Installer"
+    - part: body
+      type: word
+      words:
+        - "Welcome to Installation"
 - name: dagu
   vendor: dagu-org
   matchers:
