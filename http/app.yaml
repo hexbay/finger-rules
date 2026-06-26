@@ -5374,6 +5374,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Retool
+  vendor: retool
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Retool"
 - name: atlona-at-ome-ms42
   vendor: atlona
   matchers:
