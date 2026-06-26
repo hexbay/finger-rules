@@ -5374,6 +5374,21 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Go Ethereum (Geth) JSON-RPC
+  vendor: ethereum
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - '"jsonrpc"'
+        - '"error"'
+        - "missing value for required argument"
+    - part: body
+      type: word
+      words:
+        - '"jsonrpc":"2.0"'
 - name: dagu
   vendor: dagu-org
   matchers:
