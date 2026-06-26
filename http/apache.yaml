@@ -201,6 +201,13 @@
       type: word
       words:
         - "Apache StreamPark"
+- name: Apache-Polaris
+  vendor: apache
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache Polaris"
 - name: Apache CXF
   matchers:
     - part: title
