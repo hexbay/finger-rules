@@ -5374,6 +5374,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: dagu
+  vendor: dagu-org
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Dagu"
 - name: atlona-at-ome-ms42
   vendor: atlona
   matchers:
