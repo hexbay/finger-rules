@@ -5374,6 +5374,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: laravel_pulse
+  vendor: laravel
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Laravel Pulse"
+    - part: body
+      type: word
+      words:
+        - "livewire"
+  matchers-condition: and
 - name: dagu
   vendor: dagu-org
   matchers:
