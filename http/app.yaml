@@ -5374,6 +5374,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Dell-Wyse-Management-Suite
+  vendor: dell
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/ccm-web/"
+        - "Wyse Management Suite"
+      condition: or
 - name: atlona-at-ome-ms42
   vendor: atlona
   matchers:
