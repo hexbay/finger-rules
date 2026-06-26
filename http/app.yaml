@@ -5374,6 +5374,25 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Marimo
+  vendor: marimo-team
+  matchers-condition: or
+  matchers:
+    - type: word
+      part: icon_hash
+      words:
+        - "-1864630356"
+    - condition: and
+      type: word
+      part: body
+      words:
+        - 'Connection refused"}'
+        - 'detail":'
+    - condition: and
+      type: word
+      part: header
+      words:
+        - 'application/json'
 - name: dagu
   vendor: dagu-org
   matchers:
