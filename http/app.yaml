@@ -5374,6 +5374,20 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Hazelcast Management Center
+  vendor: hazelcast
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "memberVersion"
+        - "members"
+    - part: body
+      type: word
+      words:
+        - "hazelcast"
 - name: dagu
   vendor: dagu-org
   matchers:
