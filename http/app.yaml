@@ -5374,6 +5374,17 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: GraphiQL
+  vendor: graphql
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "graphiql.createFetcher"
+        - "id=\"graphiql\""
+        - "id='graphiql'"
+        - "/graphiql.css"
+      condition: or
 - name: dagu
   vendor: dagu-org
   matchers:
