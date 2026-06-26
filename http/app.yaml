@@ -5374,6 +5374,19 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Checkmk
+  vendor: Checkmk
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Check_MK"
+    - part: body
+      type: word
+      words:
+        - "check_mk"
+      condition: or
+  matchers-condition: and
 - name: dagu
   vendor: dagu-org
   matchers:
