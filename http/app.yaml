@@ -5374,6 +5374,20 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Erigon
+  vendor: ledgerwatch
+  matchers-condition: or
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "erigon"
+    - condition: and
+      part: body
+      type: word
+      words:
+        - '"jsonrpc"'
+        - "erigon"
 - name: dagu
   vendor: dagu-org
   matchers:
