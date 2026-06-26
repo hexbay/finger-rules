@@ -5374,6 +5374,21 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: MuleSoft DataWeave Interactive Learning Environment
+  vendor: mulesoft
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "DataWeave Interactive Learning Environment"
+        - "dw-monaco-version"
+        - "MuleSoft Developers"
+      condition: and
+    - type: word
+      part: header
+      words:
+        - "data-weave"
+  matchers-condition: and
 - name: dagu
   vendor: dagu-org
   matchers:
