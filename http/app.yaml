@@ -5374,6 +5374,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Argo Workflows
+  vendor: argoproj
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Argo Workflows"
 - name: dagu
   vendor: dagu-org
   matchers:
