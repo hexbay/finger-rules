@@ -5665,3 +5665,18 @@
       type: word
       words:
         - "1111283449"
+
+- name: phpjabbers-event-booking-calendar
+  vendor: phpjabbers
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Event Booking Calendar"
+        - "PHPJabbers"
+    - part: body
+      type: word
+      words:
+        - "/event-booking-calendar/"
