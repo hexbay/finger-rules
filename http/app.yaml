@@ -4088,6 +4088,19 @@
       type: word
       words:
         - "reqlogic"
+- name: Laravel Debugbar
+  vendor: barryvdh
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "_debugbar"
+        - "debugbar"
+      condition: or
+    - part: body
+      type: word
+      words:
+        - "laravel"
 - name: moveit_transfer
   matchers:
     - part: icon_hash
