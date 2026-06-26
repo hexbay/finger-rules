@@ -5374,6 +5374,23 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: laravel_passport
+  vendor: laravel
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "-----BEGIN RSA PRIVATE KEY-----"
+        - "-----BEGIN PUBLIC KEY-----"
+      condition: or
+    - part: body
+      type: word
+      words:
+        - "<html"
+        - "<!DOCTYPE"
+      condition: and
+      negative: true
 - name: dagu
   vendor: dagu-org
   matchers:
