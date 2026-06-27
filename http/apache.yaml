@@ -201,6 +201,28 @@
       type: word
       words:
         - "Apache StreamPark"
+- name: Apache-Polaris
+  vendor: apache
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache Polaris"
+
+- name: Apache-Sling
+  vendor: apache
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache Sling"
+    - part: header
+      type: word
+      words:
+        - "Set-Cookie: sling.formauth"
+        - "/j_security_check"
+
 - name: Apache CXF
   matchers:
     - part: title
