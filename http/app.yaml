@@ -5388,6 +5388,13 @@
       words:
         - 'content="BaGet"'
         - "BaGet.Web"
+- name: doccano
+  vendor: doccano
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "doccano"
 - name: Infinispan
   vendor: redhat
   matchers-condition: and
