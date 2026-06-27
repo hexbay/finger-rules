@@ -5388,6 +5388,18 @@
       words:
         - 'content="BaGet"'
         - "BaGet.Web"
+- name: Infinispan
+  vendor: redhat
+  matchers-condition: and
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "647951307"
+    - part: header
+      type: word
+      words:
+        - "Digest realm="
 - name: dagu
   vendor: dagu-org
   matchers:
