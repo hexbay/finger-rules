@@ -201,7 +201,14 @@
       type: word
       words:
         - "Apache StreamPark"
-- name: Apache-Sling
+- name: Apache-Polaris
+  vendor: apache
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache Polaris"
+name: Apache-Sling
   vendor: apache
   matchers-condition: and
   matchers:
