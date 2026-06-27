@@ -5705,3 +5705,10 @@
       type: word
       words:
         - "1111283449"
+- name: Checkmk
+  vendor: Checkmk
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Check_MK"
