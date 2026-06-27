@@ -5374,6 +5374,20 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: BaGet
+  vendor: loic-sharma
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "BaGet"
+    - part: body
+      type: word
+      condition: or
+      words:
+        - 'content="BaGet"'
+        - "BaGet.Web"
 - name: Infinispan
   vendor: redhat
   matchers-condition: and
