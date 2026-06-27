@@ -209,7 +209,7 @@
       words:
         - "Apache Polaris"
 
-name: Apache-Sling
+- name: Apache-Sling
   vendor: apache
   matchers-condition: and
   matchers:
