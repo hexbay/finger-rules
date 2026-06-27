@@ -208,6 +208,7 @@
       type: word
       words:
         - "Apache Polaris"
+
 name: Apache-Sling
   vendor: apache
   matchers-condition: and
@@ -216,12 +217,12 @@ name: Apache-Sling
       type: word
       words:
         - "Apache Sling"
-    - condition: or
-      part: header
+    - part: header
       type: word
       words:
         - "Set-Cookie: sling.formauth"
         - "/j_security_check"
+
 - name: Apache CXF
   matchers:
     - part: title
