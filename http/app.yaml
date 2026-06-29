@@ -4082,6 +4082,13 @@
       words:
         - "Laravel Terminal"
         - "terminal.endpoint"
+- name: Laravel Sanctum
+  vendor: laravel
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "sanctum.csrf-cookie"
 - name: reqlogic
   matchers:
     - part: body
