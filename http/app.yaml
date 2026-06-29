@@ -5376,36 +5376,11 @@
         - "MaNGOS Web Enhanced V4 Installer"
 - name: Redis Exporter
   vendor: oliver006
-  matchers-condition: and
   matchers:
     - part: body
       type: word
       words:
         - "redis_exporter_build_info"
-    - part: body
-      type: word
-      words:
-        - "redis_up"
-    - part: header
-      type: word
-      words:
-        - "text/plain"
-- name: Redis Exporter
-  vendor: oliver006
-  matchers-condition: and
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "redis_exporter_build_info"
-    - part: body
-      type: word
-      words:
-        - "redis_up"
-    - part: header
-      type: word
-      words:
-        - "text/plain"
 - name: dagu
   vendor: dagu-org
   matchers:
