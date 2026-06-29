@@ -46,7 +46,6 @@
         - "contentFrame"
 - name: Polycom-HDX
   vendor: polycom
-  matchers-condition: or
   matchers:
     - part: title
       type: word
