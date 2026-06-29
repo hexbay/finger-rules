@@ -5381,6 +5381,39 @@
       type: word
       words:
         - "redis_exporter_build_info"
+- name: BaGet
+  vendor: loic-sharma
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "BaGet"
+    - part: body
+      type: word
+      condition: or
+      words:
+        - 'content="BaGet"'
+        - "BaGet.Web"
+- name: doccano
+  vendor: doccano
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "doccano"
+- name: Infinispan
+  vendor: redhat
+  matchers-condition: and
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "647951307"
+    - part: header
+      type: word
+      words:
+        - "Digest realm="
 - name: dagu
   vendor: dagu-org
   matchers:
@@ -5679,3 +5712,10 @@
       type: word
       words:
         - "1111283449"
+- name: Checkmk
+  vendor: Checkmk
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Check_MK"

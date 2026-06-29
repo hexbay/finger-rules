@@ -76,3 +76,10 @@
       type: word
       words:
         - "Elastic Storage System"
+- name: IBM-MobileFirst-Foundation
+  vendor: ibm
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "MobileFirst Operations Console"
