@@ -4,6 +4,13 @@
       type: word
       words:
         - "61401087"
+- name: Circutor Line-TCPRS1
+  vendor: circutor
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Line-TCPRS1"
 - name: OpenPLC Webserver
   vendor: OpenPLC Project
   matchers:
