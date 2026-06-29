@@ -5374,6 +5374,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Redis Exporter
+  vendor: oliver006
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "redis_exporter_build_info"
 - name: BaGet
   vendor: loic-sharma
   matchers-condition: and
