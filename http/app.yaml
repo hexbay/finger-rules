@@ -4084,16 +4084,11 @@
         - "terminal.endpoint"
 - name: Laravel Sanctum
   vendor: laravel
-  matchers-condition: or
   matchers:
     - type: word
       part: body
       words:
         - "sanctum.csrf-cookie"
-    - type: word
-      part: header
-      words:
-        - "XSRF-TOKEN"
 - name: reqlogic
   matchers:
     - part: body
