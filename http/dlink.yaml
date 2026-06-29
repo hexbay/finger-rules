@@ -186,15 +186,9 @@
         - "-1317621215"
 
 - name: D-Link DSL-2600U
-  vendor: d-link
-  matchers-condition: and
   matchers:
     - type: word
-      part: headers.server
-      words:
-        - "RomPager"
-    - type: word
-      part: body
+      part: header
       words:
         - "DSL-2600U"
 - name: DIR-803
