@@ -5763,3 +5763,10 @@
       type: word
       words:
         - "Laravel Pulse"
+- name: OpenText Filr
+  vendor: opentext
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "OpenText Filr"
