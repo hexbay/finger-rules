@@ -4073,6 +4073,14 @@
       type: word
       words:
         - "laravel filemanager"
+- name: Laravel Nova
+  vendor: laravel
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Nova.booting"
+        - "nova-resources"
 - name: laravel_terminal
   vendor: recca0120
   matchers:
