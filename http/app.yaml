@@ -5403,60 +5403,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
-- name: Hazelcast Management Center
-  vendor: hazelcast
-  matchers-condition: and
-  matchers:
-    - part: body
-      type: word
-      condition: and
-      words:
-        - "memberVersion"
-        - "members"
-    - part: body
-      type: word
-      words:
-        - "hazelcast"
-- name: Redis Exporter
-  vendor: oliver006
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "redis_exporter_build_info"
-- name: BaGet
-  vendor: loic-sharma
-  matchers-condition: and
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "BaGet"
-    - part: body
-      type: word
-      condition: or
-      words:
-        - 'content="BaGet"'
-        - "BaGet.Web"
-- name: doccano
-  vendor: doccano
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "doccano"
-- name: Infinispan
-  vendor: redhat
-  matchers-condition: and
+- name: 中庆纳博教育云平台
+  vendor: ZhongQing
   matchers:
     - part: icon_hash
       type: word
       words:
-        - "647951307"
-    - part: header
-      type: word
-      words:
-        - "Digest realm="
+        - "-1474228802"
 - name: dagu
   vendor: dagu-org
   matchers:
@@ -5762,3 +5715,9 @@
       type: word
       words:
         - "Check_MK"
+- name: 中庆纳博教育云平台
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1474228802"
