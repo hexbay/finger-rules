@@ -5727,3 +5727,13 @@
       part: icon_hash
       words:
         - "-1864630356"
+- name: Heimdall Application Dashboard
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Heimdall"
+    - part: body
+      type: word
+      words:
+        - "heimdall-logo-small.svg"
