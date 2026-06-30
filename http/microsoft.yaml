@@ -99,3 +99,18 @@
       type: word
       words:
         - "SMS_DP_SMSPKG$"
+- name: Azure Functions
+  vendor: Microsoft
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - '"Microsoft.Azure.Functions.ExtensionBundle"'
+    - part: body
+      type: word
+      condition: or
+      words:
+        - '"extensionBundle"'
+        - '"functionTimeout"'
+        - '"concurrency"'

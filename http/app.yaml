@@ -5867,13 +5867,11 @@
       type: word
       words:
         - "jake."
-  - name: filezilla_client_config
+- name: filezilla_client_config
   vendor: filezilla-project
-  matchers-condition: and
   matchers:
     - part: body
       type: word
-      condition: and
       words:
         - "<filezilla"
         - "<User>"
