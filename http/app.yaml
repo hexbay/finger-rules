@@ -5756,3 +5756,10 @@
       part: header
       words:
         - "data-weave"
+- name: laravel_pulse
+  vendor: laravel
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Laravel Pulse"
