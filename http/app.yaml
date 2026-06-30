@@ -5737,3 +5737,10 @@
       type: word
       words:
         - "heimdall-logo-small.svg"
+- name: Erigon
+  vendor: ledgerwatch
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "erigon"
