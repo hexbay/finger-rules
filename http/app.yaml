@@ -5738,9 +5738,21 @@
       words:
         - "heimdall-logo-small.svg"
 - name: Erigon
-  vendor: ledgerwatch
   matchers:
     - part: headers.server
       type: word
       words:
         - "erigon"
+- name: MuleSoft DataWeave Interactive Learning Environment
+  vendor: mulesoft
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "DataWeave Interactive Learning Environment"
+        - "dw-monaco-version"
+        - "MuleSoft Developers"
+    - type: word
+      part: header
+      words:
+        - "data-weave"
