@@ -5721,3 +5721,9 @@
       type: word
       words:
         - "-1474228802"
+- name: Marimo
+  matchers:
+    - type: word
+      part: icon_hash
+      words:
+        - "-1864630356"
