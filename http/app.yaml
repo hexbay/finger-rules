@@ -5783,3 +5783,11 @@
       type: word
       words:
         - "_shibsession_"
+
+- name: litellm
+  vendor: berriai
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "LiteLLM API"
