@@ -5376,7 +5376,6 @@
         - "MaNGOS Web Enhanced V4 Installer"
 - name: Heimdall Application Dashboard
   vendor: linuxserver
-  matchers-condition: or
   matchers:
     - part: title
       type: word
