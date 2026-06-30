@@ -93,3 +93,9 @@
       type: word
       words:
         - "Dkron"
+- name: SCCM-Distribution-Point
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "SMS_DP_SMSPKG$"
