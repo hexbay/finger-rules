@@ -5770,3 +5770,16 @@
       type: word
       words:
         - "OpenText Filr"
+
+- name: Shibboleth Service Provider
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/Shibboleth.sso/"
+        - "Shibboleth"
+      condition: and
+    - part: header
+      type: word
+      words:
+        - "_shibsession_"
