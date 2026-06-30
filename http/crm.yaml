@@ -52,3 +52,20 @@
       type: word
       words:
           - "SuiteCRM"
+- name: Krayin CRM
+  vendor: webkul
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Krayin"
+- name: GraphiQL
+  vendor: graphql
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "graphiql.createFetcher"
+        - "id=\"graphiql\""
+        - "id='graphiql'"
+        - "/graphiql.css"

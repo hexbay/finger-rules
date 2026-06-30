@@ -5791,3 +5791,14 @@
       type: word
       words:
         - "LiteLLM API"
+- name: Chainlit
+  vendor: chainlit
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Chainlit"
+    - part: body
+      type: word
+      words:
+        - "Chainlit/chainlit"
