@@ -4073,6 +4073,14 @@
       type: word
       words:
         - "laravel filemanager"
+- name: Laravel Nova
+  vendor: laravel
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Nova.booting"
+        - "nova-resources"
 - name: laravel_terminal
   vendor: recca0120
   matchers:
@@ -4082,6 +4090,13 @@
       words:
         - "Laravel Terminal"
         - "terminal.endpoint"
+- name: Laravel Sanctum
+  vendor: laravel
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "sanctum.csrf-cookie"
 - name: reqlogic
   matchers:
     - part: body
@@ -5055,6 +5070,20 @@
       type: word
       words:
         - "RevPi"
+- name: Postiz
+  vendor: postiz
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Postiz Register"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Create Account"
+        - "Sign Up"
 - name: poststaticfooter
   matchers:
     - part: body
@@ -5679,3 +5708,16 @@
       type: word
       words:
         - "1111283449"
+- name: Checkmk
+  vendor: Checkmk
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Check_MK"
+- name: 中庆纳博教育云平台
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1474228802"
