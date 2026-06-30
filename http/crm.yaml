@@ -59,13 +59,11 @@
       type: word
       words:
         - "Krayin"
-- name: GraphiQL
-  vendor: graphql
+
+- name: ChanJet-CRM
+  vendor: chanjet
   matchers:
-    - type: word
-      part: body
+    - part: title
+      type: word
       words:
-        - "graphiql.createFetcher"
-        - "id=\"graphiql\""
-        - "id='graphiql'"
-        - "/graphiql.css"
+        - "畅捷CRM"

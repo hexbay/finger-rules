@@ -26,3 +26,10 @@
       type: word
       words:
         - "Unisphere"
+- name: Dell-Wyse-Management-Suite
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/ccm-web/"
+        - "Wyse Management Suite"

@@ -5802,3 +5802,27 @@
       type: word
       words:
         - "Chainlit/chainlit"
+- name: Argo Workflows
+  vendor: argoproj
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Argo Workflows"
+- name: GraphiQL
+  vendor: graphql
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "graphiql.createFetcher"
+        - "id=\"graphiql\""
+        - "id='graphiql'"
+        - "/graphiql.css"
+- name: Vlife
+  vendor: vlife
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "vlife"
