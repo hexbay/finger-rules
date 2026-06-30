@@ -4090,6 +4090,13 @@
       words:
         - "Laravel Terminal"
         - "terminal.endpoint"
+- name: Laravel Sanctum
+  vendor: laravel
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "sanctum.csrf-cookie"
 - name: reqlogic
   matchers:
     - part: body
@@ -5063,6 +5070,20 @@
       type: word
       words:
         - "RevPi"
+- name: Postiz
+  vendor: postiz
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Postiz Register"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Create Account"
+        - "Sign Up"
 - name: poststaticfooter
   matchers:
     - part: body
@@ -5382,6 +5403,60 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Hazelcast Management Center
+  vendor: hazelcast
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "memberVersion"
+        - "members"
+    - part: body
+      type: word
+      words:
+        - "hazelcast"
+- name: Redis Exporter
+  vendor: oliver006
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "redis_exporter_build_info"
+- name: BaGet
+  vendor: loic-sharma
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "BaGet"
+    - part: body
+      type: word
+      condition: or
+      words:
+        - 'content="BaGet"'
+        - "BaGet.Web"
+- name: doccano
+  vendor: doccano
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "doccano"
+- name: Infinispan
+  vendor: redhat
+  matchers-condition: and
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "647951307"
+    - part: header
+      type: word
+      words:
+        - "Digest realm="
 - name: dagu
   vendor: dagu-org
   matchers:
@@ -5680,3 +5755,10 @@
       type: word
       words:
         - "1111283449"
+- name: Checkmk
+  vendor: Checkmk
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Check_MK"
