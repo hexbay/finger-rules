@@ -5880,3 +5880,15 @@
       type: word
       words:
         - "Leantime"
+- name: AzuraCast
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "AzuraCast"
+- name: Budibase
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Budibase"
