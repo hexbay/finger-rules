@@ -14,7 +14,7 @@
       type: word
       words:
         - /tplus/
-- name: ChanJet-CRM
+- name: 畅捷CRM
   matchers:
     - part: title
       type: word
