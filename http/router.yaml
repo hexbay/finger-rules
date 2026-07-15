@@ -394,7 +394,7 @@
       words:
         - "lighttpd"
 
-- name: emerge_e3_firmware
+- name: linear_emerge_e3_access_control
   matchers:
     - part: title
       type: word
@@ -492,3 +492,22 @@
       type: word
       words:
         - "868509217"
+- name: netis
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "netis router"
+
+- name: Four-Faith F3x36 Router
+  vendor: four-faith
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Four-Faith"
+    - part: headers.server
+      type: word
+      words:
+        - "httpd_four-faith"

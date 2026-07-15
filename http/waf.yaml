@@ -140,36 +140,7 @@
         - Mod_Security
       type: word
   name: mod_security
-- matchers:
-    - part: headers.server
-      words:
-        - BigIP
-      type: word
-  name: F5-BIG-IP-APM
-- matchers:
-    - part: headers.server
-      words:
-        - BIG-IP
-      type: word
-  name: F5-BIG-IP-APM
-- matchers:
-    - part: header
-      words:
-        - X-WA-Info
-      type: word
-  name: F5-BIG-IP-ASM
-- matchers:
-    - part: header
-      words:
-        - X-Cnection
-      type: word
-  name: F5-BIG-IP-ASM
-- matchers:
-    - part: headers.server
-      words:
-        - F5-TrafficShield
-      type: word
-  name: F5-TrafficShield
+
 - matchers:
     - part: header
       words:
@@ -656,3 +627,10 @@
         - Powered by UTM Web Protection
       type: word
   name: Sophos-UTM-Firewall
+
+- name: 绿盟下一代防火墙
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "绿盟下一代防火墙"

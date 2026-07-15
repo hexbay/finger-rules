@@ -417,6 +417,20 @@
       words:
         - "plugin/FoscamFlashPlayer.swf"
 
+- name: Digiever-DS-2105-Pro
+  vendor: digiever
+  matchers-condition: and
+  matchers:
+    - part: header
+      type: word
+      condition: and
+      words:
+        - "IE=EmulateIE10"
+    - part: body
+      type: word
+      words:
+        - "/cgi-bin/cgi_main.cgi"
+
 - matchers:
   - part: body
     type: word

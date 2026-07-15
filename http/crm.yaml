@@ -28,6 +28,7 @@
       - "var module_sugar_grp1"
       - "Powered By SugarCRM"
       - "SugarCRM is a customer"
+      - "SUGAR.ajaxUI.loadContent"
   name: sugarcrm
 
 
@@ -44,10 +45,25 @@
     words:
     - stats.vtiger.com
     - vtigercrm_icon.ico
-  name: vtigercrm
+  name: vtiger-crm
 - name: SuiteCRM
   matchers:
     - part: icon_hash
       type: word
       words:
           - "SuiteCRM"
+- name: Krayin CRM
+  vendor: webkul
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Krayin"
+
+- name: ChanJet-CRM
+  vendor: chanjet
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "畅捷CRM"

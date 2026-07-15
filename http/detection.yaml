@@ -1,0 +1,62 @@
+﻿# 主要识别信息泄露风险
+- name: Potential-Risk-Files
+  matchers:
+  - part: body
+    type: word
+    words:
+      - 'Index of /backup'
+      - 'Index of /db_backup'
+      - 'Index of /database_backup'
+      - 'Index of /sql_backup'
+      - 'Index of /site_backup'
+      - 'Index of /www_backup'
+      - 'Index of /web_backup'
+      - 'Index of /ftp_backup'
+      - 'Index of /admin_backup'
+      - 'Index of /bak'
+      - 'Index of /backup.sql'
+      - 'Index of /db.sql'
+      - 'Index of /database.sql'
+      - 'Index of /site.sql'
+      - 'Index of /www.sql'
+      - 'Index of /web.sql'
+      - 'Index of /ftp.sql'
+      - 'Index of /admin.sql'
+      - 'Index of /.env'
+      - 'Index of /.git'
+      - 'Index of /.svn'
+      - 'Index of /.htpasswd'
+      - 'Index of /.bash_history'
+      - 'Index of /config.php'
+      - 'Index of /wp-config.php'
+      - 'Index of /configuration.php'
+      - 'Index of /settings.py'
+      - 'Index of /db_config.php'
+      - 'Index of /dbsettings.py'
+      - 'Index of /db.php'
+      - 'Index of /database.php'
+      - 'Index of /web.config'
+      - 'Index of /routes.ini'
+      - 'Index of /.sass-lint.yml'
+      - 'Index of /wc.db'
+      - 'Index of /credentials.json'
+      - 'Index of /phinx.yml'
+      - 'Index of /Makefile'
+      - 'Index of /.flowconfig'
+      - 'Index of /.bashrc'
+      - 'Index of /.zshrc'
+      - 'Index of /.profile'
+      - 'Index of /.bash_profile'
+      - 'Index of /.my.cnf'
+      - 'desktop.ini'
+
+- name: 1password-phish
+  matchers:
+  - type: word
+    words:
+      - 'Password Manager for Families, Enterprise &amp; Business | 1Password'
+- name: cipherSecretKey
+  matchers:
+  - type: word
+    words:
+      - 'cipherSecretKey'

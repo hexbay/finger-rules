@@ -106,3 +106,28 @@
       name: model
       regex:
         - "H3C&nbsp;(.*)&nbsp路由器登录"
+- name: CNSSS
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "/selfservice"
+- name: Halo ITSM
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "489905671"
+- name: Securden
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1798893256"
+        - "-766529773"
+- name: nopCommerce
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "nopCommerce"

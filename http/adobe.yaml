@@ -29,3 +29,16 @@
       type: word
       words:
           - Adobe Media Server
+- name: Commerce
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "X-Magento-Tags"
+
+- matchers:
+    - part: body
+      type: word
+      words:
+        - Magento_PageCache
+  name: Magento

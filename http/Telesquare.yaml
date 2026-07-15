@@ -16,3 +16,9 @@
       type: word
       words:
         - "TLR-2855KS6"
+- name: Change-Detection
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Change Detection"

@@ -33,3 +33,53 @@
         - IBM_HTTP_Server
       type: word
   name: IBM HTTP Server
+
+- name: data_risk_manager
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "IBM Data Risk Manager"
+- name: planning_analytics
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Arc for TM1"
+- name: bigfix_platform
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "BigFixHTTPServer"
+- name: hardware_management_console
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "262502857"
+- name: aspera_faspex
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Aspera Faspex"
+- name: ibm_mq_console
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ibmmq/console/login.html"
+- name: elastic_storage_system
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Elastic Storage System"
+- name: IBM-MobileFirst-Foundation
+  vendor: ibm
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "MobileFirst Operations Console"

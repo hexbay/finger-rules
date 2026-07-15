@@ -11,3 +11,15 @@
       type: word
       words:
         - "eims"
+- name: 智能云网关注册管理平台
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "智能云网关注册管理平台"
+- name: 智能物联综合管理平台
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "2058933700"

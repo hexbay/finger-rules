@@ -42,6 +42,11 @@
       words:
         - Next.js
       type: word
+    - part: body
+      words:
+        - __NEXT_DATA__
+        - _next/static
+      type: word
   name: Next.js
 - matchers:
     - part: body
@@ -82,8 +87,10 @@
     - part: body
       type: word
       words:
+        - "react.production.min.js"
         - "react.min.js"
         - "react.js"
+        - "React.createElement"
 - name: Backbone.js
   matchers:
     - part: body

@@ -11,3 +11,51 @@
       - KM-MFP-finger
       - JC-HTTPD
       - NetworkScanner WebServer Ver
+- name: Grandstream-GRP-Series
+  vendor: grandstream
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "tl.account.ucm.js"
+        - "/cgi-bin/access"
+- name: DAEnetIP4
+  vendor: denkovi
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "DAEnetIP4"
+- name: Polycom-HDX
+  vendor: polycom
+  matchers-condition: or
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Polycom HDX"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Polycom"
+        - "u_keepalive.htm"
+        - "u_status.xml"
+        - "contentFrame"
+- name: Polycom-HDX
+  vendor: polycom
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Polycom HDX"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Polycom"
+        - "u_keepalive.htm"
+        - "u_status.xml"
+        - "contentFrame"

@@ -13,3 +13,37 @@
         - "vsFTPd"
   service: ftp
   name: vsFTPd
+- name: Pure-FTPd
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Welcome to Pure-FTPd"
+  service: ftp
+
+- name: filezilla_server
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "FileZilla Server version"
+  service: ftp
+
+- name: Titan FTP Server
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Titan FTP Server"
+  service: ftp
+- name: filezilla_client_config
+  vendor: filezilla-project
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "<filezilla"
+        - "<User>"
+        - "<Pass>"
+        - "<Logontype>"

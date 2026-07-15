@@ -73,6 +73,12 @@
         - "蓝凌软件 版权所有"
         - "jsp/clearSsoCookie.jsp"
       condition: and
+- name: landray_ekp
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "831854882"
 - name: O2OA
   matchers:
     - part: title
@@ -111,3 +117,17 @@
       type: word
       words:
         - "iOffice"
+
+- name: 致翔OA
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/layer_red/layer.js"
+
+- name: Landray-EIS
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "/jquery.landray.dialog.js"

@@ -13,3 +13,9 @@
         - CANON HTTP Server
       type: word
   name: Canon-Print-Server
+- name: imageRUNNER
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "imageRUNNER"

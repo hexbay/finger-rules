@@ -14,3 +14,22 @@
       type: word
       words:
         - "DELL SonicWALL"
+- name: Dell-Laser-printer
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'Laser Printer'
+- name: Dell-Unisphere
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Unisphere"
+- name: Dell-Wyse-Management-Suite
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/ccm-web/"
+        - "Wyse Management Suite"

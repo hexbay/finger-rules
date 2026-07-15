@@ -31,7 +31,7 @@
       words:
         - asp.net
       type: word
-  name: ASP.NET
+  name: .net_framework
 - matchers:
     - type: word
       part: header
@@ -81,3 +81,36 @@
       type: word
       words:
         - "Provide a link that opens Word,"
+- name: OfficeWeb365
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "OfficeWeb365"
+- name: Dkron
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Dkron"
+- name: SCCM-Distribution-Point
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "SMS_DP_SMSPKG$"
+- name: Azure Functions
+  vendor: Microsoft
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - '"Microsoft.Azure.Functions.ExtensionBundle"'
+    - part: body
+      type: word
+      condition: or
+      words:
+        - '"extensionBundle"'
+        - '"functionTimeout"'
+        - '"concurrency"'

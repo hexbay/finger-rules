@@ -6,3 +6,40 @@
         - "BIG-IP"
         - "Redirect"
   name: F5-BigIP
+
+- matchers:
+    - part: headers.server
+      words:
+        - BigIP
+      type: word
+  name: F5-BIG-IP-APM
+- matchers:
+    - part: headers.server
+      words:
+        - BIG-IP
+      type: word
+  name: F5-BIG-IP-APM
+- matchers:
+    - part: header
+      words:
+        - X-WA-Info
+      type: word
+  name: F5-BIG-IP-ASM
+- matchers:
+    - part: header
+      words:
+        - X-Cnection
+      type: word
+  name: F5-BIG-IP-ASM
+- matchers:
+    - part: headers.server
+      words:
+        - F5-TrafficShield
+      type: word
+  name: F5-TrafficShield
+- name: big_ip_global_traffic_manager
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Global Traffic Statistics"

@@ -238,7 +238,7 @@
       regex:
         - tornadoserver(?:/([\d.]+))?
       type: regex
-  name: tornadoserver
+  name: tornado
 - matchers:
     - group: 1
       name: version
@@ -691,3 +691,10 @@
       type: word
       words:
         - calibre
+
+- name: uc-httpd
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - uc-httpd

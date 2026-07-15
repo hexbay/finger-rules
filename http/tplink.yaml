@@ -133,3 +133,9 @@
       words:
         - "com.tplink.tether"
         - "Opening..."
+- name: Archer C20
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Archer C20"

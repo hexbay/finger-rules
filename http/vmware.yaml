@@ -56,7 +56,7 @@
       type: word
       words:
         - "VMware vRealize Operations"
-- name: Vmware-vCenter
+- name: vCenter-Server
   matchers:
     - part: body
       type: word
@@ -171,3 +171,9 @@
       type: word
       words:
       - "VMware Aria Operations for Logs"
+- name: VeloCloud
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "VeloCloud"

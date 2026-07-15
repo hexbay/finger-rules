@@ -1,13 +1,12 @@
-- name: Metabase
+- name: PfSense-Wifi
   matchers:
     - part: title
       type: word
       words:
-        - Metabase
-- name: eXist-DB
-  vendor: exist-db
+        - "pfSense-fsl-wifi"
+- name: PfSense
   matchers:
     - part: title
       type: word
       words:
-        - "eXist db"
+        - "pfSense"

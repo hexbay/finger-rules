@@ -4,3 +4,18 @@
       type: word
       words:
           - "ownCloud"
+- name: Gitpod
+  vendor: gitpod
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "FROM"
+        - "gitpod"
+      condition: and
+    - part: header
+      type: word
+      words:
+        - "text/html"
+      negative: true

@@ -13,3 +13,9 @@
       words:
         - Printer Cartridges
         - /hp/device/contentHeader.html
+- name: linuxki
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /linuxki/

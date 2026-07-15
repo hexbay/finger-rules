@@ -14,7 +14,8 @@
       words:
         - SonicWALL SSL-VPN Web Server
       type: word
-  name: SonicWALL-SSL-VPN
+  vendor: SonicWall
+  name: SSLVPN
 - matchers:
   - part: headers.server
     words:
@@ -29,3 +30,9 @@
       - "SonicWALL Universal Management Suite"
       - "SonicWALL Global Management System"
   name: sonicwall_gms
+- name: email_security
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "SonicWALL Email Security"

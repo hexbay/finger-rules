@@ -7,14 +7,10 @@
 - name: F460
   matchers-condition: and
   matchers:
-    - part: body
+    - part: title
       type: word
       words:
         - "F460"
-    - part: headers.server
-      type: word
-      words:
-        - "ZTE"
 - name: H167A
   matchers:
     - part: title

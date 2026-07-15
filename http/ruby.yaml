@@ -1,0 +1,15 @@
+- name: RubyGems Credentials
+  vendor: rubygems
+  matchers:
+    - part: body
+      type: word
+      words:
+        - ":rubygems_api_key:"
+
+- name: ruby
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "Ruby"
+        - "WEBrick"

@@ -4,3 +4,21 @@
       type: word
       words:
         - "-266008933"
+- name: content_server
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-266008933"
+- name: solution_manager
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "sap/bc/ui2/flp"
+- name: SAP-HANA-Cloud-Tools
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SAP HANA Cloud Tools"

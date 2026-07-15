@@ -4,3 +4,10 @@
       type: word
       words:
         - 金蝶云星空
+
+- name: kingdee_eas
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "eassessionid"

@@ -184,3 +184,17 @@
       part: icon_hash
       words:
         - "-1317621215"
+
+- name: D-Link DSL-2600U
+  matchers:
+    - type: word
+      part: header
+      words:
+        - "DSL-2600U"
+- name: DIR-803
+  vendor: dlink
+  matchers:
+    - type: word
+      part: title
+      words:
+        - "DIR-803"

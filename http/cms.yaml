@@ -61,10 +61,6 @@
 - name: AeroCMS
   matchers:
     - part: body
-      type: regex
-      regex:
-        - 'content="(.*)AeroCMS(.*)'
-    - part: title
       type: word
       words:
         - AeroCMS
@@ -406,7 +402,7 @@
       type: word
       words:
         - october_session
-  name: October-CMS
+  name: October
 - name: Batflat-CMS
   matchers:
     - part: headers.X-Created-By
@@ -1083,7 +1079,7 @@
       type: word
       words:
         - Subrion CMS
-  name: Subrion-CMS
+  name: Subrion
 - matchers:
     - part: body
       words:
@@ -1597,8 +1593,6 @@
       type: word
       words:
         - 'Camaleon CMS'
-
-
 - matchers:
   - part: body
     type: word
@@ -1623,3 +1617,99 @@
       type: word
       words:
         - "content=\"smartstore"
+
+- matchers:
+  - part: headers.x-powered-by
+    type: word
+    words:
+    - dragonfly cms
+  name: cpg_dragonfly
+- name: RiteCMS
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'RiteCMS'
+
+- name: ChanCMS
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'ChanCMS'
+
+- name: Piwik
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'Piwik'
+- name: tpshop
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'tpshop.css'
+        - 'tpshop_config'
+- name: ipeakcms
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'ipeak'
+- name: doorgets
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Powered with doorGets'
+- name: FleetCart
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'FleetCart'
+- name: CPAS Management System
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - '-58141038'
+- name: prison_management_system
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Prison Management System'
+- name: ep_web_cms
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'EPweb'
+- name: MelisCms
+  matchers:
+    - part: body
+      type: word
+      words:
+        - '/melis/MelisCms'
+- name: RailsAdmin
+  matchers:
+    - part: body
+      type: word
+      words:
+        - RailsAdmin
+
+- name: ServiceStack
+  vendor: ServiceStack
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ServiceStack"
+- name: CKFinder
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ckfinder"

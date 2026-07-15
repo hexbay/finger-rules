@@ -297,7 +297,7 @@
 - name: BeyondTrust
   matchers:
     - type: word
-      part: header
+      part: body
       words:
         - "BeyondTrust"
 - name: BrightSign
@@ -537,7 +537,7 @@
     - type: word
       part: body
       words:
-        - Nexus Repository Manager
+        - Nexus Repository
 
 - name: weiphp
   matchers:
@@ -725,6 +725,12 @@
       type: word
       words:
         - SolarWinds
+- name: web_help_desk
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1895809524"
 - name: Certbot
   matchers:
     - part: title
@@ -814,6 +820,12 @@
       type: word
       words:
         - Tiny File Manager
+- name: tiny_tiny_rss
+  matchers:
+    - part: body
+      type: word
+      words:
+        - Tiny Tiny RSS
 - name: PowerJob
   matchers:
     - part: title
@@ -1356,6 +1368,7 @@
       regex:
         - Plesk Onyx ([\d\.]+)
 - name: Intelbras
+  vendor: intelbras
   matchers:
     - part: title
       type: word
@@ -2810,16 +2823,6 @@
         - dnn_IsMobile
       type: word
   name: DotNetNuke
-- matchers:
-    - part: headers.Set-Cookie
-      type: word
-      words:
-        - mage-cache-storage
-        - mage-cache-storage-section-invalidation
-        - mage-translation-file-version
-        - mage-translation-storage
-        - x-magento-vary
-  name: Magento
 
 - name: FreeBoxOS
   matchers:
@@ -3356,6 +3359,10 @@
 - name: Mongoose
   matchers:
     - part: title
+      type: word
+      words:
+        - "Mongoose"
+    - part: header
       type: word
       words:
         - "Mongoose"
@@ -4056,6 +4063,30 @@
       type: word
       words:
         - "laravel filemanager"
+- name: Laravel Nova
+  vendor: laravel
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Nova.booting"
+        - "nova-resources"
+- name: laravel_terminal
+  vendor: recca0120
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "Laravel Terminal"
+        - "terminal.endpoint"
+- name: Laravel Sanctum
+  vendor: laravel
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "sanctum.csrf-cookie"
 - name: reqlogic
   matchers:
     - part: body
@@ -4356,16 +4387,12 @@
       type: word
       words:
       - "Mitel Networks"
-
-
 - name: appliance_base_software
   matchers:
     - part: headers.set-cookie
       type: word
       words:
       - "nsbase_session"
-
-
 - matchers:
   - part: body
     type: word
@@ -4509,13 +4536,13 @@
 - name: WebPanel
   vendor: "control-webpanel"
   matchers:
-    - part: title
+    - part: headers.server
       type: word
       words:
-      - "-356182173"
+      - "cwpsrv"
 - name: netmaker
   matchers:
-    - part: title
+    - part: body
       type: word
       words:
       - "netmaker"
@@ -4544,3 +4571,1300 @@
       type: word
       words:
       - "WebsitePanel"
+
+- matchers:
+  - part: body
+    type: word
+    words:
+    - <a name="topofdoc" id="topofdoc"></a>
+    - content="nicola asuni - tecnick.com s.r.l." />
+  name: tcexam
+
+- name: dragonfly
+  matchers:
+    - part: body
+      type: word
+      words:
+      - "logo_dragonfly.png"
+
+- name: micollab
+  matchers:
+    - part: body
+      type: word
+      words:
+      - "micollab"
+
+- name: ligeo_basics
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Ligeo"
+
+- name: Jackett
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Jackett"
+- name: dify
+  vendor: langgenius
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+       - "97378986"
+    - part: body
+      type: word
+      words:
+       - "dify.ai"
+
+- name: ntpsec
+  matchers:
+    - part: body
+      type: word
+      words:
+       - "ntpsec-logo.png"
+
+- name: udp
+  vendor: arcserve
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+       - "1015186617"
+- name: BentoML
+  matchers:
+    - part: body
+      type: word
+      words:
+       - "BentoML"
+- name: tileserver_php
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "TileServer PHP"
+- name: CockroachDB
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Cockroach Console"
+- name: 123solar
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "123solar"
+- name: secure_web_gateway
+  vendor: iboss
+  matchers:
+    - part: body
+      type: word
+      words:
+      - "iboss-font.css"
+- name: Yeti
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Yeti"
+
+- name: n8n
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "n8n"
+
+- name: LibreChat
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "LibreChat"
+
+- name: OneView
+  matchers:
+    - part: body
+      type: word
+      words:
+       - "HPE"
+       - "OneView"
+
+- name: Datart
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Datart"
+
+- name: Agent-Zero
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Agent Zero"
+
+- name: N-central
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "N-central Login"
+- name: NeDi
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "NeDi"
+
+- name: biotime
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "BioTime"
+
+- name: Zipline
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Zipline"
+
+- name: Р7-Office
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Р7-Офис"
+
+- name: Zipkin
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "webpackJsonpzipkin-lens"
+
+- name: Yacht
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Yacht"
+- name: YeaLink
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "YeaLink"
+- name: Zmanda 
+  matchers:
+    - part: header
+      type: word
+      words:
+       - "ZMC_Admin_Login"
+- name: Zitadel
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Zitadel"
+
+- name: Zebra
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Zebra"
+
+- name: YonBIP
+  matchers:
+    - part: title
+      type: word
+      words:
+      - "YonBIP"
+      - "数字化工作台"
+- name: Codis
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Codis • Dashboard"
+- name: TitanNit
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "TitanNit Web Control"
+- name: syncthing
+  matchers:
+    - part: body
+      type: word
+      words:
+       - 'ng-app="syncthing"'
+- name: StarNet
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+       - "-260118452"
+- name: pelco_videoxpert
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "VideoXpert"
+- name: Redpanda
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Redpanda Console"
+- name: PgHero
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "PgHero"
+- name: NeoDash
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "NeoDash"
+- name: ImageResizer
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "ImageResizer"
+- name: Artifactory
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Artifactory"
+- name: KCFinder
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "KCFinder"
+- name: Ambassador
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Ambassador Diagnostic Overview"
+- name: Weaviate
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Weaviate"
+- name: Codian-MCU
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Codian MCU"
+- name: webcamXP
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "webcamXP"
+- name: MySQLd-exporter
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "MySQLd Exporter"
+- name: Heatmiser Wifi Thermostat
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Heatmiser Wifi Thermostat"
+- name: WebDAV
+  matchers:
+    - part: header
+      type: word
+      words:
+       - "Ms-Author-Via: DAV"
+- name: Pacts
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Pacts"
+- name: puppetdb
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "PuppetDB: Dashboard"
+- name: ServerStatus
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "ServerStatus"
+- name: cyber_infrastructure
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "Acronis Cyber Infrastructure"
+- name: acmailer
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "ACMAILER4.0"
+- name: AcuToWeb
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "AcuToWeb"
+- name: AmpJuke
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-121681558"
+- name: aim
+  vendor: aimstack
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1047157256"
+- name: Bugzilla
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Bugzilla"
+- name: AnteeoWMS
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ANTEEO"
+- name: avaya_aura_utility_services
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Avaya Aura&reg;&nbsp;Utility Services"
+- name: openwebui
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-286484075"
+- name: Portal API
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/_proxy/api/v3/"
+- name: laminas-http
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "laminas"
+- name: Glimpse
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Glimpse.axd"
+- name: Frappe
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Login to Frappe"
+- name: kace_systems_management_appliance
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-463230636"
+- name: Triofox
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-177043778"
+- name: ESPHome
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ESPHome"
+- name: Traccar
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Traccar"
+- name: EWEBS
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "ClientDownload.xgi"
+        - "NewSoft"
+- name: LED Assistant
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "LED Assistant"
+- name: Monsta FTP
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Monsta FTP"
+- name: business_intelligence_and_reporting_tools
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "eclipse birt home"
+- name: MikoPBX
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "MikoPBX"
+- name: larecipe
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/binarytorch/larecipe/"
+- name: revpi_status
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "RevPi"
+- name: Postiz
+  vendor: postiz
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Postiz Register"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Create Account"
+        - "Sign Up"
+- name: poststaticfooter
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "posstaticfooter"
+- name: asustor_data_master
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ASUSTOR"
+- name: Redis Commander
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Redis Commander"
+- name: Blackbox Exporter
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Blackbox Exporter"
+- matchers:
+  - part: body
+    type: word
+    words:
+    - episerver
+  name: episerver
+- name: fides
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "SERVER_SIDE_FIDES_API_URL"
+- name: nvt_web_server
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/viewer/viewer.html"
+    - part: header
+      type: word
+      words:
+        - "lighttpd"
+- name: memtracker
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "MemTracker"
+- name: vben
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "vben"
+- name: mitel_6000
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1940372141"
+        - "-447557905"
+- name: Letta
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Letta"
+- name: peplink
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Peplink"
+- name: vsa
+  vendor: kaseya
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1445519482"
+- name: vantara_pentaho_business_analytics_server
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1749354953"
+- name: bonita
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Bonita"
+    - part: header
+      type: word
+      words:
+        - "Bonita"
+- name: viaware
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1521468900"
+- name: sonlogger
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SonLogger"
+- name: aura_device_services
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Avaya Aura&reg;&nbsp;Utility Services"
+- name: mindsdb
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "MindsDB"
+- name: projectsend
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ProjectSend"
+- name: Infinitt PACS
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1474455751"
+        - "702238928"
+- name: simplehelp
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "SimpleHelp"
+- name: kace_system_management_appliance
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-463230636"
+- name: Optergy
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Optergy"
+
+- matchers:
+  - part: header
+    type: word
+    words:
+    - Nette Framework
+  name: nette_framework
+- name: Stash
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Stash"
+- name: CyberPower
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "PDNU"
+- name: Veeam
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Veeam"
+- name: Plenti
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Plenti"
+- name: Vendure
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "Vendure"
+- name: Netdisco
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Netdisco"
+- name: pREST
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "authorization token is empty"
+- name: vicidial
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1375401192"
+- name: Vanna
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "vanna.ai"
+- name: FileCatalyst
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "FileCatalyst file transfer solution"
+- name: node-red
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "321591353"
+- name: Fumeng Cloud
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Fumeng Cloud"
+- name: 孚盟云
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "孚盟云"
+- name: SafeGuard
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Safeguard for Privileged Passwords"
+- name: Malwared
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "487145192"
+- name: 云安宝
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "云安宝"
+- name: AstrBot
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "AstrBot"
+- matchers:
+  - part: body
+    type: word
+    words:
+    - ISPConfig
+  name: ispconfig
+- name: security_event_manager
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SolarWinds Security Event Manager"
+- name: idoc文档管理系统
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "I Doc View"
+- name: chef
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Chef Automate"
+- name: protop
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Protop"
+- name: pinger
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Pinger"
+- name: Stylelint
+  vendor: stylelint
+  matchers:
+    - part: body
+      type: word
+      words:
+        - ".stylelintignore"
+    - part: title
+      type: word
+      words:
+        - "stylelint"
+- name: MaNGOSWebV4
+  vendor: mangoswebv4_project
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "MaNGOS Web Enhanced V4 Installer"
+- name: 中庆纳博教育云平台
+  vendor: ZhongQing
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1474228802"
+- name: dagu
+  vendor: dagu-org
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Dagu"
+- name: atlona-at-ome-ms42
+  vendor: atlona
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Login Success!"
+        - "/cgi-bin/login.cgi"
+      condition: and
+- name: MPDV
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "MPDV"
+- name: mapproxy
+  vendor: mapproxy
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "MapProxy"
+- name: Eveo-URVE-Web-Manager
+  vendor: eveo
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "URVE Web Manager"
+- name: JHipster
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "JHipster"
+- name: Administrate
+  vendor: thoughtbot
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Administrate"
+        - "Search Customers"
+- name: Homebridge
+  vendor: homebridge
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Homebridge"
+- name: beszel
+  vendor: henrygd
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "globalThis.BESZEL"
+- name: OpenCode
+  vendor: opencode
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "opencode"
+- name: D-Tale
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "D-Tale"
+- name: Gitness
+  vendor: Harness
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Gitness"
+- name: ICTBroadcast
+  vendor: ICT Innovations
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ICTBroadcast"
+- name: VDO.Ninja
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "vdo.ninja"
+- name: NocoBase
+  vendor: nocobase
+  matchers-condition: and
+  matchers:
+    - type: word
+      part: body
+      condition: and
+      words:
+        - '"authType":'
+        - '"env":'
+        - '"version":'
+        - '"ncSiteUrl":'
+    - type: word
+      part: header
+      words:
+        - "application/json"
+- name: PHP Login System
+  vendor: msaad1999
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "klik_loginsystem"
+        - "Embeddable PHP Login System"
+      condition: and
+- name: whodb
+  vendor: clidey
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "whodb"
+
+- name: RosarioSIS
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "RosarioSIS"
+- name: Avid NEXIS
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Avid Nexis"
+  
+- name: Weblate
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Weblate"
+- name: Plone
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "Plone"
+- name: imgproxy
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "imgproxy"
+- name: kodexplorer
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "kodexplorer"
+- name: FUXA
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "FUXA"
+- name: livewire
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Livewire Styles'
+        - "Livewire Styles"
+- name: tandoor
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Tandoor Recipes"
+- name: Expert Net Control
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Expert Net Control"
+- name: ray_dashboard
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Ray Dashboard"
+- name: ITFlow
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ITFlow"
+  
+- name: Remotely
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Remotely"
+- name: InterMapper
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "InterMapper"
+- name: lollms_webui
+  vendor: parisneo
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "LoLLMs"
+    - part: body
+      type: word
+      words:
+        - "/open_file"
+        - "lollms"
+- name: DAEnetIP4
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "DAEnetIP4"
+- name: Mailpit
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Mailpit"
+- name: OneDev
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "OneDev"
+- name: Crestron-device
+  vendor: crestron
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "airmedia"
+
+- name: Aurelia
+  vendor: aurelia
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "aurelia-app"
+        - "aurelia-main"
+- name: TiTiler
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "TiTiler"
+- name: AMD Pensando PSM
+  vendor: amd
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1907840597"
+    - part: body
+      type: word
+      words:
+        - "<title>AMD Pensando PSM</title>"
+
+- name: Redirect.pizza
+  vendor: redirect.pizza
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "redirect.pizza"
+
+- name: OneNav
+  vendor: helloxz
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1111283449"
+- name: Checkmk
+  vendor: Checkmk
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Check_MK"
+- name: 中庆纳博教育云平台
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1474228802"
+- name: Marimo
+  matchers:
+    - type: word
+      part: icon_hash
+      words:
+        - "-1864630356"
+- name: Heimdall Application Dashboard
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Heimdall"
+    - part: body
+      type: word
+      words:
+        - "heimdall-logo-small.svg"
+- name: Erigon
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "erigon"
+- name: MuleSoft DataWeave Interactive Learning Environment
+  vendor: mulesoft
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "DataWeave Interactive Learning Environment"
+        - "dw-monaco-version"
+        - "MuleSoft Developers"
+    - type: word
+      part: header
+      words:
+        - "data-weave"
+- name: laravel_pulse
+  vendor: laravel
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Laravel Pulse"
+- name: OpenText Filr
+  vendor: opentext
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "OpenText Filr"
+
+- name: Shibboleth Service Provider
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/Shibboleth.sso/"
+        - "Shibboleth"
+      condition: and
+    - part: header
+      type: word
+      words:
+        - "_shibsession_"
+
+- name: litellm
+  vendor: berriai
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "LiteLLM API"
+- name: Chainlit
+  vendor: chainlit
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Chainlit"
+    - part: body
+      type: word
+      words:
+        - "Chainlit/chainlit"
+- name: Argo Workflows
+  vendor: argoproj
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Argo Workflows"
+- name: GraphiQL
+  vendor: graphql
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "graphiql.createFetcher"
+        - "id=\"graphiql\""
+        - "id='graphiql'"
+        - "/graphiql.css"
+- name: Vlife
+  vendor: vlife
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "vlife"
+- name: Retool
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Retool"
+- name: orbeon_forms
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1253194620"
+- name: jake
+  vendor: jakejs
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "task("
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "desc("
+        - "jake."
+        - "namespace("
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "<!DOCTYPE"
+        - "<html"
+      negative: true
+- name: jake
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "jake."
+- name: Appsmith
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Appsmith"
+    - part: body
+      type: word
+      words:
+        - "window.APPSMITH"
+        - "APPSMITH_CONFIG"

@@ -1,0 +1,30 @@
+﻿- name: Sharp-Printer
+  matchers:
+    - part: header
+      type: word
+      words:
+        - 'MFPSESSIONID='
+- name: Lexmark-Printer
+  matchers:
+    - part: header
+      type: word
+      words:
+        - 'lexmark_web_server'
+- name: Brother-Printer
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'Brother MFC'
+- name: AMR-Printer
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'AMR Printer Management'
+- name: Sato
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'Sato'

@@ -795,13 +795,7 @@
     regex:
     - Article Publisher PRO.*v([\d\.]+)
   name: articlepublisherpro
-- matchers:
-  - part: body
-    type: word
-    words:
-    - artifactory.ui
-    - jf-body-class
-  name: artifactory
+
 - matchers:
   - name: version
     part: body
@@ -942,13 +936,6 @@
     regex:
     - avantfax-big\.png[^<]*<\/a><\/p>[\s]+<p[^>]*>([^\s^<]+)
   name: avantfax
-- matchers:
-  - part: body
-    type: word
-    words:
-    - <span class="vmsTitle">Avaya Aura&#8482;&nbsp;Utility Server</span>
-    - <div id="topBar"><div id="topBarLeft"><a href="#" class="helpAndExit" onclick="window.open('/webhelp/Base/Utility_toc.htm
-  name: avaya_aura_utility_server
 - matchers:
   - part: body
     type: word
@@ -3188,22 +3175,6 @@
   name: epic_web_honeypot
 - matchers:
   - part: body
-    type: word
-    words:
-    - src="/Util/javascript/episerverscriptmanager.js"
-  - name: meta generator tag with EPiServer
-    part: body
-    type: word
-    words:
-    - <meta name="GENERATOR" content="EPiServer" />
-  - name: EPiServer comment
-    part: body
-    type: word
-    words:
-    - <!-- EPiServer -->
-  name: episerver
-- matchers:
-  - part: body
     type: regex
     regex:
     - (<div id="jsWarning" class="javascript_warning">\s+This web-site requires javascript\.\s+Please enable javascript to access this web-site\.\s+<\/div>)
@@ -4884,24 +4855,6 @@
   - part: body
     type: word
     words:
-    - '<strong><font color="#FF0000">Warning! This heldesk requires a browser with javascript '
-    - '<!-- Copyright Line: Unauthorized removal can void license -->'
-  - name: version
-    part: body
-    type: regex
-    regex:
-    - '(<p align="center"><font size="1">Powered by: Support Center v([^<^\s]+)<br>)'
-  name: isolsoft_support_center
-- matchers:
-  - part: body
-    type: regex
-    regex:
-    - (powered by <a HREF="finger:\/\/www.ispconfig.org">ISPConfig<\/a>)
-  name: ispconfig
-- matchers:
-  - part: body
-    type: word
-    words:
     - <title>ispCP Omega a Virtual Hosting Control System</title>
     - Powered by <a class="login" href="finger://www.isp-control.net" target="_blank">ispCP Omega
     - themes/omega_original/images/login/login_lock.jpg
@@ -4960,12 +4913,7 @@
     - '<!-- Congratulations on bringing CAS online!  The default authentication handler authenticates where usernames equal passwords: go ahead, try it out.  -->'
     - <p>Powered by <a href="finger://www.jasig.org/cas">Jasig Central Authentication Service</a></p>
   name: jasig_cas
-- matchers:
-  - part: headers.Set-Cookie
-    type: word
-    words:
-    - jsessionid
-  name: java
+
 - matchers:
   - part: body
     type: regex
@@ -6463,26 +6411,6 @@
   - part: body
     type: word
     words:
-    - <html><head><title>my webcamXP server!</title>
-    - "\t\t\t<h1><span>webcamXP 5</span></h1>"
-    - newWindow = window.open(camstr, winstr, 'toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=' + width + ',height=' + height);
-    - <br><br><table border="1" cellpadding="0" cellspacing="0" bordercolor="#579A48"><tr><td><a href="finger://www.webcamXP.com"><img src="finger://www.darkwet.net/banners/webcamxp2.gif" width="88" height="31" border="0"></a>
-    - '<html><head><title>webcamXP :: unauthorized access</title></head>'
-  - name: version
-    part: body
-    type: regex
-    regex:
-    - (<meta name="generator" content="webcamXP [^"]{0,15}v([\d\.]+)">)
-    - (mXP.com" target="_blank">webcamXP 5<\/a> v([\d\.]+))
-    - (powered by <a href="finger:\/\/www.webcamXP.com" target="_blank">webcamXP<\/a>[\ \d]* v([\d\.a-z\ ]+)<\/div>)
-    - (<\/td><\/tr><\/table><br>powered by webcamXP PRO[\ \d]* v([\d\.]+)<br><br><br><\/font><\/center><\/body><\/html>)
-    - "(\t\t\tpowered by <a href=\"finger:\\/\\/www.webcamxp.com\" title=\"www.webcamxp.com\">webcamxp 5<\\/a> v([\\d\\.]+))"
-    - (powered by <a href="finger:\/\/www.webcamXP.com" target="_blank">webcamXP 5<\/a> v([\d\.]+)<\/a>)
-  name: my_webcamxp_server
-- matchers:
-  - part: body
-    type: word
-    words:
     - ' (Powered by MyHobbySite)</title>'
     - "\t\t\t\t\t<!-- Removing the copyright notice without purchasing the MyHobbySite Copyright Removal License voids the MyHobbySite End User License Agreement -->"
     - "\t\t<a name=\"top\"></a> <!-- Necessary for the \"jump to the top of the page\" links -->"
@@ -6861,20 +6789,7 @@
     regex:
     - (^NetTalk-WebServer\/([\d\.]+)$)
   name: nettalk_webserver
-- matchers:
-  - part: headers.x-powered-by
-    type: regex
-    regex:
-    - ^nette framework
-  - part: headers.Set-Cookie
-    type: word
-    words:
-    - nette-browser
-  - part: body
-    type: regex
-    regex:
-    - <div[^>]+id="snippet-
-  name: nette_framework
+
 - matchers:
   - part: body
     type: word
@@ -8189,20 +8104,7 @@
     words:
     - <meta name="description" content="PHPKIT, WCMS, Web Content Management System, Administration" />
   name: phpkit
-- matchers:
-  - name: version
-    part: body
-    type: regex
-    regex:
-    - (<head><title>phpLDAPadmin - ([^\s^<]+)[\s]?<\/title><\/head>)
-    - (<h3 class="subtitle" style="margin:0px">phpLDAPadmin - ([^\s^<]+))
-    - (<title>phpLDAPadmin \(([^\s^\)]+)\) - <\/title>)
-    - (<div id="ajFOOT">([^\s^<]+)<\/div><a href="https:\/\/sourceforge\.net\/projects\/phpldapadmin">)
-  - part: body
-    type: word
-    words:
-    - (<td class="icon"><img src="images\/[^\/^"]*\/server.png" alt="Server" \/><\/td><td class="name" colspan="2">([^<]+)<\/td><\/tr>)
-  name: phpldapadmin
+
 - matchers:
   - name: version
     part: body
@@ -8393,19 +8295,7 @@
     regex:
     - (Powered by <a href="finger:\/\/www.phpshop.org"[^>]*>phpShop<\/a>[\r\n\s]+([\d\.]+) )
   name: phpshop
-- matchers:
-  - part: body
-    type: word
-    words:
-    - var sTargetURL = "index.php?disp=dynamic";
-  - name: version
-    part: body
-    type: regex
-    regex:
-    - (Generated by[\s&nbsp;]*<a href="finger:\/\/phpsysinfo.sourceforge.net[^>]*>[\s&nbsp;]*phpSysInfo[\s&nbsp;]*-[\s&nbsp;]*([^<]+)<\/a>)
-    - (Created by[\s&nbsp;]*<a href="finger:\/\/phpsysinfo.sourceforge.net[^>]*>[\s&nbsp;]*phpSysInfo[\s&nbsp;]*-[\s&nbsp;]*([^<]+)<\/a>)
-    - (<span>Created by <\/span><a href="finger:\/\/phpsysinfo.sourceforge.net\/"><span>phpSysInfo - <\/span><span>([^<]+)<\/span>)
-  name: phpsysinfo
+
 - matchers:
   - part: body
     type: word
@@ -8791,18 +8681,6 @@
     - <p id="copyright">Powered by <strong><a href="finger://punbb.informer.com/">PunBB</a></strong>, supported by <strong><a href="finger://www.informer.com/">Informer Technologies, Inc</a></strong>.</p>
   name: punbb
 - matchers:
-  - name: version
-    part: body
-    type: regex
-    regex:
-    - (<li class='' id='dashboard-version'>[\s]+<a href="https:\/\/github\.com\/puppetlabs\/puppet-dashboard\/blob\/([^\s]+)\/CHANGELOG">)
-  - part: body
-    type: word
-    words:
-    - (<p><a href="finger:\/\/puppetlabs\.com\/">&copy; Copyright (20[\d]{2}) Puppet Labs<\/a><\/p>)
-    - '<a href=''/'' style="background-repeat: no-repeat; text-indent: -9000px; background-image: url(''/images/dashboard_logo.png''); height: 23px; width: 155px" title=''Puppet Dashboard''>Puppet Dashboard</a>'
-  name: puppet_dashboard
-- matchers:
   - part: body
     type: word
     words:
@@ -8857,66 +8735,6 @@
     - (<div id="codeVersion">QCubed Development Framework ([^\(]+) \([^\)]+\)<\/div>)
     - (<b>PHP Version:<\/b> [^;]+;&nbsp;&nbsp;<b>Zend Engine Version:<\/b> [^;]+;&nbsp;&nbsp;<b>QCubed Version:<\/b> ([^\(]+) \([^\(]+\)<br \/>)
   name: qcubed_development_framework
-- matchers:
-  - part: body
-    type: word
-    words:
-    - <!-- Developers should be aware that for Gecko-based browsers (NS 6.x)
-    - <!---- This initializes the navigator.family object ---->
-  - part: body
-    type: regex
-    regex:
-    - (<SCRIPT LANGUAGE="Javascript">\s+<!--\s+insertLink\("sansurfer\.jnlp",\s+"Start SANsurfer FC HBA Manager"\);)
-  name: qlogic_sansurfer_fc_hba_manager
-- matchers:
-  - part: body
-    type: word
-    words:
-    - <a href="finger://www.qnap.yaml.com"><img src="/ajax_obj/images/qnap_logo_w.gif" alt="QNAP Turbo NAS" title="QNAP Turbo NAS"
-    - <td class="header_tb_logo"><img id='qlogo' src="/ajax_obj/images/qnap_logo_dark.gif" width="158" height="75"></td>
-    - <title>Welcome to QNAP Turbo NAS</title>
-  - name: module:Photo Station
-    part: body
-    type: word
-    words:
-    - <title>QNAP Photo Station</title>
-  - name: module:Download Station
-    part: body
-    type: word
-    words:
-    - <title>QNAP Download Station</title>
-    - <img id="img_download" src="/ajax_obj/images/login_main_4.jpg" longdesc="javascript:onQuickLinkChange(4);" alt="Download Station" />
-  - name: module:Multimedia Station
-    part: body
-    type: word
-    words:
-    - <TITLE>QNAP Multimedia Station (Photo Album)</TITLE>
-    - <img id="img_multimedia" src="/ajax_obj/images/login_main_3.jpg" longdesc="javascript:onQuickLinkChange(3);" alt="Multimedia Station" />
-  - name: model:Unknown Model (not TS Series)
-    part: body
-    type: word
-    words:
-    - <table width="100%" border="0" background="/v3_menu/images/admin_header.jpg" cellpadding="0" cellspacing="0" class="12-blue">
-  - name: module:QWeb Server
-    part: body
-    type: word
-    words:
-    - <img id="img_webserver" src="/ajax_obj/images/login_main_2.jpg" longdesc="javascript:onQuickLinkChange(2);" alt="Web Server" />
-  - name: module:Web File Manager
-    part: body
-    type: word
-    words:
-    - <img id="img_webfile" src="/ajax_obj/images/login_main_5.jpg" longdesc="javascript:onQuickLinkChange(5);" alt="Web File Manager" />
-  - name: module:Surveillance Station
-    part: body
-    type: word
-    words:
-    - <img id="img_surveillance" src="/ajax_obj/images/login_main_6.jpg" longdesc="javascript:onQuickLinkChange(6);" alt="Surveillance Station" />
-  - part: body
-    type: regex
-    regex:
-    - (^\/\/window.location = '\/indexnas\.cgi\?counter=' \+ Math\.floor\(\(diff1-diff2\)\/1000\);[\r\n]^window.location.replace\('\/indexnas\.cgi\?counter=' \+ Math\.floor\(\(diff1-diff2\)\/1000\)\);$)
-  name: qnap_nas
 - matchers:
   - name: version
     part: body
@@ -9256,20 +9074,7 @@
     regex:
     - (^Roxen\/([^\s]+)$)
   name: roxen
-- matchers:
-  - part: headers.server
-    type: regex
-    regex:
-    - (Ruby)
-    - (^WEBrick)
-  - name: version
-    part: headers.server
-    type: regex
-    regex:
-    - (Ruby\/([^\s^\/^\(]+))
-    - (^(WEBrick\/[\d\.]+) \(Ruby\/[\d\.]+\/[\d]{4}-[\d]{2}-[\d]{2}\))
-    - (^WEBrick\/[\d\.]+ \(Ruby\/([\d\.]+)\/[\d]{4}-[\d]{2}-[\d]{2}\))
-  name: ruby
+
 - matchers:
   - part: body
     type: word
@@ -9889,21 +9694,6 @@
     words:
     - (^(.*)$)
   name: smartcds
-- matchers:
-  - part: body
-    type: word
-    words:
-    - (<a href='finger:\/\/www.smartertools.com\/smartermail\/mail-server-software.aspx' target='_blank'>SmarterMail (Enterprise|Professional|Free|FREE) ([\d\.]+)<\/a>( |&nbsp;)\|( |&nbsp;)<a href='finger:\/\/www.smartertools.com\/smartermail\/mail-server-software.aspx' target='_blank'>(Windows Mail Server|Email Server Software|Mail Server Software)<\/a>)
-    - "(\t\t\t\t\t\t\t\t\t\t<td class=\"?bar1inner\"?>SmarterMail (Enterprise|Professional|Free|FREE) Edition ([\\d\\.]+)<\\/td>)"
-    - <title>Login - SmarterMail</title>
-  - group: 1
-    name: version
-    part: body
-    type: regex
-    regex:
-    - (<a href='finger:\/\/www.smartertools.com\/smartermail\/mail-server-software.aspx' target='_blank'>SmarterMail (Enterprise|Professional|Free|FREE) ([\d\.]+)<\/a>( |&nbsp;)\|( |&nbsp;)<a href='finger:\/\/www.smartertools.com\/smartermail\/mail-server-software.aspx' target='_blank'>(Windows Mail Server|Email Server Software|Mail Server Software)<\/a>)
-    - "(\t\t\t\t\t\t\t\t\t\t<td class=\"?bar1inner\"?>SmarterMail (Enterprise|Professional|Free|FREE) Edition ([\\d\\.]+)<\\/td>)"
-  name: smartermail
 - matchers:
   - part: body
     type: word
@@ -10686,26 +10476,7 @@
     regex:
     - '(Powered by <a href="(finger:\/\/)?(www\.tbdev\.net|bit-torrent\.kiev\.ua\/)" target="_blank" style="cursor: help;" title="[^"]*" class="copyright">TBDev<\/a> v([\d\.]+) )'
   name: tbdev_yse
-- matchers:
-  - part: body
-    type: word
-    words:
-    - <a name="topofdoc" id="topofdoc"></a>
-    - <meta name="author" content="Nicola Asuni - Tecnick.com s.r.l." />
-    - <!-- TCExam19730104 -->
-    - <li><a href="tce_login.php" title="click on this link to access on this system">
-    - <meta name="tcexam_level" content="0" />
-  - part: body
-    type: regex
-    regex:
-    - (<!-- TCExam \(c\) 2004-20[\d]{2} Nicola Asuni - Tecnick.com s\.r\.l\. - www\.tcexam\.com -->)
-  - group: 1
-    name: version
-    part: body
-    type: regex
-    regex:
-    - (<span class="copyright"><a href="finger:\/\/www\.tcexam\.(org|com)">TCExam<\/a> ver\. ([^\s]+) - Copyright &copy; 2004-20[\d]{2} Nicola Asuni - <a href="finger:\/\/www\.tecnick\.com">Tecnick.com S\.r\.l\.<\/a><\/span>)
-  name: tcexam
+
 - matchers:
   - name: TLTSID cookie
     part: headers.set-cookie
@@ -13450,12 +13221,6 @@
     - flow/?(.+)?$
   name: neos_flow
 - matchers:
-  - part: body
-    type: regex
-    regex:
-    - '<[^>]{1,512}\bwire:'
-  name: livewire
-- matchers:
   - part: headers.server
     type: word
     words:
@@ -13896,12 +13661,7 @@
     regex:
     - ^cdn77-turbo$
   name: cdn77
-- matchers:
-  - part: headers.x-powered-by
-    type: regex
-    regex:
-    - ^dragonfly cms
-  name: cpg_dragonfly
+
 - matchers:
   - part: headers.server
     type: regex
@@ -15255,12 +15015,6 @@
     - (?:<iframe id="meebo-iframe"|meebo\('domready'\))
   name: meebo
 - matchers:
-  - part: body
-    type: word
-    words:
-    - <!-- rendered with melis cms v2
-  name: melis_platform
-- matchers:
   - part: headers.Set-Cookie
     type: word
     words:
@@ -15550,18 +15304,6 @@
     words:
     - epi:statemarker
   name: optimizely_commerce
-- matchers:
-  - part: headers.content-security-policy
-    type: word
-    words:
-    - \.episerver\.net
-  - part: headers.Set-Cookie
-    type: word
-    words:
-    - epi:statemarker
-    - episerver
-    - episessionid
-    - epitrace
   name: optimizely_content_management
 - matchers:
   - part: headers.x-generator
@@ -15595,12 +15337,7 @@
     regex:
     - <script [^>]+data-requiremodule="oro/
   name: orocommerce
-- matchers:
-  - part: body
-    type: regex
-    regex:
-    - <body class=(?:"|')[^"']*oxygen-body
-  name: oxygen
+
 - matchers:
   - part: body
     type: regex
@@ -16497,12 +16234,6 @@
     words:
     - <!-- powered by strikingly\.com
   name: strikingly
-- matchers:
-  - part: headers.x-powered-cms
-    type: word
-    words:
-    - subrion cms
-  name: subrion
 - matchers:
   - part: headers.x-cluster
     type: word

@@ -87,3 +87,9 @@
       words:
         - "宝塔"
         - "面板"
+- name: 拓尔思-MAS
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1402419986"

@@ -28,12 +28,6 @@
       type: word
       words:
         - "用友 FE协同办公平台"
-- name: UFida-NC
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "ufida_nc.png"
 - name: YonYou-KSOA
   matchers:
     - part: body
@@ -71,3 +65,10 @@
       type: word
       words:
         - "1085941792"
+
+- name: yonyou-U9
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "U9-登录"

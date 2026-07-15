@@ -13,3 +13,10 @@
       regex:
         - ^IceWarp\/(.+)$
       type: regex
+
+- matchers:
+  - part: title
+    type: word
+    words:
+      - "SmarterMail"
+  name: SmarterMail

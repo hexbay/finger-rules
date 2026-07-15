@@ -142,7 +142,7 @@
       type: word
       words:
         - "OU=RV320"
-- name: Unified
+- name: unified_communications_domain_manager
   matchers:
     - part: body
       type: word
@@ -181,3 +181,33 @@
       type: word
       words:
       - "prime infrastructure"
+
+- name: identity_services_engine
+  matchers:
+    - part: header
+      type: word
+      words:
+      - '"Set-Cookie: APPSESSIONID=" "Path=/admin"'
+    - part: title
+      type: word
+      words:
+      - "identity services engine"
+- name: finesse
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Cisco Finesse'
+- name: adaptive_security_appliance_software
+  matchers:
+    - part: body
+      type: word
+      words:
+        - '/+CSCOE+/logon.html'
+
+- name: unified_communications_manager
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Unified Communications Self Care Portal"

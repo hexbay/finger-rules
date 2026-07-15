@@ -157,3 +157,118 @@
       type: word
       words:
         - "tapestry-console.css"
+
+- name: streampipes
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "apache streampipes"
+
+- name: Drill
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache Drill"
+- name: Pinot
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1696974531"
+- name: aquatronica-controller
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "aquatronica"
+- name: CodeChecker
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1496590341"
+- name: Cleo
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "Server: Cleo"
+- name: StreamPark
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache StreamPark"
+- name: Apache-Polaris
+  vendor: apache
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache Polaris"
+
+- name: Apache-Sling
+  vendor: apache
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache Sling"
+    - part: header
+      type: word
+      words:
+        - "Set-Cookie: sling.formauth"
+        - "/j_security_check"
+
+- name: Apache CXF
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache CXF"
+- name: Kyuubi
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Kyuubi"
+- name: tolgee
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Tolgee"
+- name: lodash
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Lodash"
+- name: AntD Admin
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/@@/devScripts.js"
+        - "/umi.js"
+- name: RustDesk
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "RustDesk API Admin"
+- name: BMCFootPrints
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "/footprints/servicedesk/"
+- name: inlong
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1155196680"
