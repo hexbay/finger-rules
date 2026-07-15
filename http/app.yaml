@@ -5857,3 +5857,14 @@
       type: word
       words:
         - "jake."
+- name: Appsmith
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Appsmith"
+    - part: body
+      type: word
+      words:
+        - "window.APPSMITH"
+        - "APPSMITH_CONFIG"
