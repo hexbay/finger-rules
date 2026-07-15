@@ -1,0 +1,13 @@
+- name: Synway-SMG
+  vendor: Synway
+  match-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "网关管理软件"
+        - "Gateway Management"
+    - part: body
+      type: word
+      words:
+        - "text ml10 mr20"
