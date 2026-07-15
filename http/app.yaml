@@ -5868,3 +5868,9 @@
       words:
         - "window.APPSMITH"
         - "APPSMITH_CONFIG"
+- name: FreeScout
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "FreeScout"
