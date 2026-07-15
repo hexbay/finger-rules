@@ -5874,3 +5874,9 @@
       type: word
       words:
         - "FreeScout"
+- name: Leantime
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Leantime"
