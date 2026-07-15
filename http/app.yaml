@@ -2823,16 +2823,6 @@
         - dnn_IsMobile
       type: word
   name: DotNetNuke
-- matchers:
-    - part: headers.Set-Cookie
-      type: word
-      words:
-        - mage-cache-storage
-        - mage-cache-storage-section-invalidation
-        - mage-translation-file-version
-        - mage-translation-storage
-        - x-magento-vary
-  name: Magento
 
 - name: FreeBoxOS
   matchers:
@@ -5867,13 +5857,3 @@
       type: word
       words:
         - "jake."
-- name: filezilla_client_config
-  vendor: filezilla-project
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "<filezilla"
-        - "<User>"
-        - "<Pass>"
-        - "<Logontype>"

@@ -35,3 +35,10 @@
       type: word
       words:
         - "X-Magento-Tags"
+
+- matchers:
+    - part: body
+      type: word
+      words:
+        - Magento_PageCache
+  name: Magento
