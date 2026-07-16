@@ -136,3 +136,14 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: varnish-nginx-proxy-caching
+  vendor: razvanstanga
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/vcaching/
+    - part: body
+      type: word
+      words:
+        - varnish_caching_download
