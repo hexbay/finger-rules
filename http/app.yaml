@@ -5393,6 +5393,22 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: rclone-rc
+  vendor: rclone
+  matchers-condition: and
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "rclone/"
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "\"rclone\""
+        - "\"remotes\""
+        - "\"bytes.total\""
+        - "\"speed\""
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
