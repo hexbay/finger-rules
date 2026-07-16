@@ -5402,6 +5402,15 @@
         - "lgcookieslaw"
         - "modules/lgcookieslaw"
       condition: and
+- name: EU Cookie Law GDPR (lgcookieslaw)
+  vendor: lineagrafica
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "lgcookieslaw"
+        - "modules/lgcookieslaw"
+      condition: and
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
