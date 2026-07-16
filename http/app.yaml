@@ -5393,6 +5393,19 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Filestash
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "FILESTASH"
+        - "Filestash"
+    - part: title
+      type: word
+      words:
+        - "Filestash"
+  matchers-condition: or
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
