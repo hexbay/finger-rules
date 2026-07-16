@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: prodigy-commerce
+  vendor: prodigy-commerce
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/prodigy-commerce/
+        - prodigy-render-my-account-widget
+      condition: and
