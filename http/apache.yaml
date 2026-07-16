@@ -271,11 +271,11 @@
     - part: icon_hash
       type: word
       words:
-        - "1155196680"
+      - "1155196680"
 - name: Apache-Casbin-MCP-Gateway
   vendor: apache
   matchers:
-    - part: body
+    - part: header
       type: word
       words:
-        - '"service": "mcp-gateway"'
+        - 'mcp-gateway'
