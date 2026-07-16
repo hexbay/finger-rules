@@ -62,14 +62,8 @@
       words:
         - AtlassianEdge
 - name: MCP Atlassian
-  vendor: sooperset
-  matchers-condition: or
   matchers:
     - type: word
       part: body
       words:
         - "Atlassian MCP"
-    - type: word
-      part: header
-      words:
-        - "mcp-session-id"
