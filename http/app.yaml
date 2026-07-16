@@ -5369,6 +5369,17 @@
       type: word
       words:
         - "Protop"
+- name: Spring-Cloud-Config-Server
+  vendor: Spring
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "propertySources"
+        - "profiles"
+        - "label"
 - name: pinger
   matchers:
     - part: title
