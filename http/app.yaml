@@ -5400,6 +5400,13 @@
       type: word
       words:
         - "PraisonAI App"
+- name: PraisonAI AgentOS
+  vendor: praison
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "PraisonAI App"
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
