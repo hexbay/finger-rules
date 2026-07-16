@@ -5894,10 +5894,6 @@
         - "Budibase"
 - name: Filestash
   matchers:
-    - part: title
-      type: word
-      words:
-        - "Admin Console"
     - part: body
       type: word
       words:
@@ -5926,3 +5922,26 @@
       type: word
       words:
         - "SABnzbd"
+- name: grocy
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "grocy"
+    - part: body
+      type: word
+      words:
+        - "grocy-version"
+- name: owncast
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Owncast"
+- name: avaya_ip_phone
+  vendor: avaya
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Avaya J179 Phone"
