@@ -5375,6 +5375,18 @@
       type: word
       words:
         - "Pinger"
+- name: glances
+  vendor: nicolargo
+  matchers-condition: and
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "application/json"
+    - part: body
+      type: word
+      words:
+        - "/api/4/"
 - name: Stylelint
   vendor: stylelint
   matchers:
