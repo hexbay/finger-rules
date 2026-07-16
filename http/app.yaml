@@ -5399,6 +5399,19 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: spip_saisies
+  vendor: spip
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "spip.php?page=contact"
+        - "SPIP"
+      condition: and
+    - part: header
+      type: word
+      words:
+        - "Composed-By: SPIP"
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
