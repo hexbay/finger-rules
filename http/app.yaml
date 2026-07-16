@@ -5393,6 +5393,21 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Accept Donations with PayPal & Stripe
+  vendor: easy-paypal-donation
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "wpedon"
+        - "/wp-content/plugins/easy-paypal-donation/"
+    - part: body
+      type: word
+      words:
+        - "donation"
+        - "stripe"
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
