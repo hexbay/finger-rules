@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: ninja-forms-file-uploads
+  vendor: ninjaforms
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "nfpluginsettings.js"
