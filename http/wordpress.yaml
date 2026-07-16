@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: madara-wordpress-theme
+  vendor: mangabooth
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/themes/madara/
