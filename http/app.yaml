@@ -5892,3 +5892,37 @@
       type: word
       words:
         - "Budibase"
+- name: Filestash
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Admin Console"
+    - part: body
+      type: word
+      words:
+        - "component-loader"
+  matchers-condition: and
+- name: MistServer
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "MistServer"
+- name: GlitchTip
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "GlitchTip"
+    - part: body
+      type: word
+      words:
+        - "GlitchTip"
+  matchers-condition: or
+- name: SABnzbd
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SABnzbd"
