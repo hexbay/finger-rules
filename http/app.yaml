@@ -5404,6 +5404,17 @@
         - "propertySources"
         - "profiles"
         - "label"
+- name: Spring-Cloud-Config-Server
+  vendor: Spring
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "propertySources"
+        - "profiles"
+        - "label"
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
