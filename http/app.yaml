@@ -5369,6 +5369,18 @@
       type: word
       words:
         - "Protop"
+- name: glances
+  vendor: nicolargo
+  matchers-condition: and
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "application/json"
+    - part: body
+      type: word
+      words:
+        - "/api/4/"
 - name: pinger
   matchers:
     - part: title
