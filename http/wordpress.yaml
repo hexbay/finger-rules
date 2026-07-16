@@ -136,3 +136,14 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: hippoo-mobile-app-for-woocommerce
+  vendor: hippoo
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "hippoo"
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/hippoo/
