@@ -1,4 +1,5 @@
 - name: ownCloud
+  vendor: ownCloud
   matchers:
     - part: title
       type: word
