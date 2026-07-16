@@ -437,3 +437,13 @@
     words:
     - Web Viewer for Samsung DVR
   name: argus_surveillance_dvr
+- name: Brickcom-Camera
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Brickcom"
+    - part: headers.www-authenticate
+      type: word
+      words:
+        - "Brickcom"
