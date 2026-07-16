@@ -5967,3 +5967,9 @@
       type: word
       words:
         - "PhotoPrism"
+- name: jsonrpc
+  matchers:
+    - part: body
+      type: word
+      words:
+        - '"jsonrpc":"2.0"'
