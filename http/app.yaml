@@ -5945,3 +5945,17 @@
       type: word
       words:
         - "Avaya J179 Phone"
+- name: Supabase Studio
+  vendor: supabase
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Supabase Studio"
+- name: PhotoPrism
+  vendor: photoprism
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "PhotoPrism"
