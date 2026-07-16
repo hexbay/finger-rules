@@ -5952,6 +5952,7 @@
       type: word
       words:
         - "redis_exporter_build_info"
+        - "redis_up"
 - name: Supabase Studio
   vendor: supabase
   matchers:
