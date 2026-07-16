@@ -5393,6 +5393,17 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: sar2html
+  matchers-condition: or
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "sar2html"
+    - part: body
+      type: word
+      words:
+        - "sar2html"
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
