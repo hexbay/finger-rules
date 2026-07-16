@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: mystyle-custom-product-designer
+  vendor: mystyle
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/mystyle-custom-product-designer/
+        - mystyle-design-profile
+      condition: or
