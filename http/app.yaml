@@ -3935,17 +3935,11 @@
       words:
         - "nginxwebui"
 - name: Nginx-UI
-  vendor: 0xjacky
-  matchers-condition: or
   matchers:
     - part: title
       type: word
       words:
         - "nginx ui"
-    - part: header
-      type: word
-      words:
-        - "X-Backup-Security"
 - name: issabel
   matchers:
     - part: title
