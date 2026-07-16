@@ -5405,6 +5405,18 @@
       type: word
       words:
         - "/api/4/"
+- name: glances
+  vendor: nicolargo
+  matchers-condition: and
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "application/json"
+    - part: body
+      type: word
+      words:
+        - "/api/4/"
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
