@@ -5953,7 +5953,7 @@
       words:
         - "redis_exporter_build_info"
         - "redis_up"
-- name: Supabase Studio
+- name: Supabase
   vendor: supabase
   matchers:
     - part: body
