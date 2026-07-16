@@ -5393,6 +5393,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: SiYuan Note
+  vendor: siyuan-note
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1450125239"
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
