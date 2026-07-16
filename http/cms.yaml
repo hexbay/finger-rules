@@ -1687,6 +1687,19 @@
       type: word
       words:
         - 'EPweb'
+- name: TYPO3 ceselector Extension
+  vendor: mmc
+  matchers-condition: and
+  matchers:
+    - part: header
+      type: word
+      condition: or
+      words:
+        - 'T3_ceselector_'
+    - part: body
+      type: word
+      words:
+        - 'TYPO3'
 - name: MelisCms
   matchers:
     - part: body
