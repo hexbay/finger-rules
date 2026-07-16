@@ -5393,6 +5393,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Web-Check
+  vendor: lissy93
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Web-Check"
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
