@@ -5973,3 +5973,10 @@
       type: word
       words:
         - '"jsonrpc":"2.0"'
+- name: Cloudlog
+  vendor: magicbug
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Login - Cloudlog"
