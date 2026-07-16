@@ -177,3 +177,10 @@
       type: word
       words:
         - "VeloCloud"
+- name: Spring Cloud Config
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "propertySources"
