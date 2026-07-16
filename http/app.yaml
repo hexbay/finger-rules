@@ -235,6 +235,14 @@
       part: headers.set-cookie
       words:
         - "PrestaShop"
+- name: EU Cookie Law GDPR (lgcookieslaw)
+  vendor: lineagrafica
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "/modules/lgcookieslaw/"
+        - "lgcookieslaw"
 - name: 3CX
   matchers:
     - type: word
