@@ -3270,6 +3270,12 @@
   - part: header
     type: word
     words:
+      - "Composed-By: SPIP"
+      - "X-Spip-Cache:"
+    condition: or
+  - part: header
+    type: word
+    words:
       - www.spip.net
   name: spip
 
