@@ -136,3 +136,12 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: gravity-smtp
+  vendor: rocketgenius
+  matchers:
+    - part: body
+      type: word
+      words:
+        - gravitysmtp_admin_config
+        - system_report_clipboard
+      condition: and
