@@ -3934,6 +3934,12 @@
       type: word
       words:
         - "nginxwebui"
+- name: Nginx-UI
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "nginx ui"
 - name: issabel
   matchers:
     - part: title
