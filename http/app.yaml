@@ -4520,6 +4520,14 @@
       words:
       - "Audiocodes"
 
+- name: modern_events_calendar
+  vendor: webnus
+  matchers:
+    - part: body
+      type: word
+      words:
+      - "mec_fes_speakers"
+
 - name: ellucian
   matchers:
     - part: body
