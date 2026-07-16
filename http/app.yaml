@@ -5945,6 +5945,13 @@
       type: word
       words:
         - "Avaya J179 Phone"
+- name: Redis Exporter
+  vendor: oliver006
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "redis_exporter_build_info"
 - name: Supabase Studio
   vendor: supabase
   matchers:
