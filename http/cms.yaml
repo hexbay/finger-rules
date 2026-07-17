@@ -1770,3 +1770,9 @@
       type: word
       words:
         - "-1909533337"
+- name: Vanguard Marketplace CMS
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Vanguard Marketplace'
