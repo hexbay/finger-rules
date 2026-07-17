@@ -1687,6 +1687,17 @@
       type: word
       words:
         - 'EPweb'
+- name: asanhamayesh_cms
+  vendor: asanhamayesh
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'Asanhamayesh CMS'
+    - part: body
+      type: word
+      words:
+        - 'asanhamayesh.com'
 - name: tinacms
   matchers:
     - part: body
