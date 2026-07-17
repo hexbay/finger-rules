@@ -1687,6 +1687,13 @@
       type: word
       words:
         - 'EPweb'
+- name: spa_cart_ecommerce_cms
+  vendor: spa_cart
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'SPA-Cart'
 - name: tinacms
   matchers:
     - part: body
