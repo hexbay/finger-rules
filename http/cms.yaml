@@ -1687,6 +1687,12 @@
       type: word
       words:
         - 'EPweb'
+- name: tinacms
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "TinaCMS"
 - name: MelisCms
   matchers:
     - part: body
