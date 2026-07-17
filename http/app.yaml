@@ -6003,3 +6003,9 @@
       type: word
       words:
         - "NodeBB"
+- name: lobechat
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "lobechat"
