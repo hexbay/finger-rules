@@ -6009,4 +6009,9 @@
       type: word
       words:
         - "lobechat"
-        
+- name: Astro
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "lobechat"
