@@ -1687,6 +1687,13 @@
       type: word
       words:
         - 'EPweb'
+- name: quickcms
+  vendor: quickcms
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'QuickCMS Installation'
 - name: tinacms
   matchers:
     - part: body
