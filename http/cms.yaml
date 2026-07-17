@@ -1687,6 +1687,17 @@
       type: word
       words:
         - 'EPweb'
+- name: Vanguard Marketplace CMS
+  matchers-condition: or
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'Vanguard Marketplace'
+    - part: body
+      type: word
+      words:
+        - 'Vanguard Marketplace CMS'
 - name: tinacms
   matchers:
     - part: body
