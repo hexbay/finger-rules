@@ -2034,23 +2034,7 @@
     regex:
     - (^Error from cloudfront)
   name: cloudfront
-- matchers:
-  - name: CMSSESSID cookie
-    part: headers.set-cookie
-    type: regex
-    regex:
-    - (^CMSSESSID)
-  - name: Meta generator
-    part: body
-    type: word
-    words:
-    - <meta name="Generator" content="CMS Made Simple
-  - name: version
-    part: body
-    type: regex
-    regex:
-    - (This site is powered by <a[^>]+>CMS Made Simple<\/a> version ([0-9\.]+))
-  name: cms_made_simple
+
 - matchers:
   - part: body
     type: word

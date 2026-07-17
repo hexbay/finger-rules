@@ -1738,5 +1738,10 @@
       type: word
       words:
         - "آسانهمایش"
-
+- name: cms_made_simple
+  matchers:
+  - part: body
+    type: word
+    words:
+    - CMS Made Simple
   
