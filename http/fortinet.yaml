@@ -88,3 +88,10 @@
       type: word
       words:
         - "var hst = location.hostname"
+
+- name: FortiClientEMS 
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-800551065"
