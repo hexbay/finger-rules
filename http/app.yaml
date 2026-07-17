@@ -3294,12 +3294,13 @@
     type: word
   name: b2evolution
 
-- name: metinfo
+- name: MetInfo
   matchers:
-    - part: body
-      words:
-        - "powered_by_metinfo"
+    - part: title
       type: word
+      words:
+        - "MetInfo"
+
 - name: ETQ-Reliance 
   matchers:
     - part: title
