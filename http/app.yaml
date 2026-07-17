@@ -3134,6 +3134,14 @@
       type: word
       words:
         - "SAP NetWeaver Application Server Java"
+
+- name: SAP-BusinessObjects-Business-Intelligence-Platform
+  vendor: sap
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SAP BusinessObjects Business Intelligence Platform"
 - matchers:
   - part: body
     words:
