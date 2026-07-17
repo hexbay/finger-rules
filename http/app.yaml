@@ -5402,7 +5402,6 @@
         - "MaNGOS Web Enhanced V4 Installer"
 - name: Kiwi TCMS
   vendor: kiwitcms
-  matchers-condition: and
   matchers:
     - part: title
       type: word
