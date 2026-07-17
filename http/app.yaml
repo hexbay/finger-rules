@@ -5408,6 +5408,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Universal Media Server
+  vendor: universal_media_server
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-902890504"
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
