@@ -1033,11 +1033,11 @@
         - pyrocms
   name: pyrocms
 - matchers:
-    - part: title
+    - part: body
       type: word
       words:
-        - 'Quick.Cms'
-  name: Quick-CMS
+        - 'QuickCMS'
+  name: QuickCMS
 - matchers:
     - part: body
       type: word
