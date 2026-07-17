@@ -5400,6 +5400,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Kiwi TCMS
+  vendor: kiwitcms
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Kiwi TCMS - Login"
+    - part: icon_hash
+      type: word
+      words:
+        - "-1909533337"
 - name: 中庆纳博教育云平台
   vendor: ZhongQing
   matchers:
