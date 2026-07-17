@@ -5986,3 +5986,10 @@
       type: word
       words:
         - "Cloudlog"
+- name: TYPO3
+  matchers:
+    - part: header
+      type: word
+      condition: or
+      words:
+        - 'T3_ceselector_'
