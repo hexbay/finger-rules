@@ -3142,10 +3142,6 @@
       type: word
       words:
         - "SAP BusinessObjects Business Intelligence Platform"
-    - part: body
-      type: word
-      words:
-        - "SAP BusinessObjects Business Intelligence Platform"
 - matchers:
   - part: body
     words:
