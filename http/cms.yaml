@@ -1687,6 +1687,12 @@
       type: word
       words:
         - 'EPweb'
+- name: Luftguitar CMS
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'ftb.imagegallery.aspx'
 - name: tinacms
   matchers:
     - part: body
