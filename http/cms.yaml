@@ -1758,3 +1758,15 @@
       type: word
       words:
         - 'SPA-Cart'
+
+- name: Kiwi TCMS
+  vendor: kiwitcms
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Kiwi TCMS - Login"
+    - part: icon_hash
+      type: word
+      words:
+        - "-1909533337"
