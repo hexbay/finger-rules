@@ -1687,6 +1687,16 @@
       type: word
       words:
         - 'EPweb'
+- name: tinacms
+  vendor: tinacms
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "TinaCMS"
+        - "tinacms"
+        - "tina-tailwind"
 - name: MelisCms
   matchers:
     - part: body
