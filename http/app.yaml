@@ -5993,3 +5993,13 @@
       condition: or
       words:
         - 'T3_ceselector_'
+- name: NodeBB
+  matchers:
+    - part: headers.x-powered-by
+      type: word
+      words:
+        - "NodeBB"
+    - part: title
+      type: word
+      words:
+        - "NodeBB"
