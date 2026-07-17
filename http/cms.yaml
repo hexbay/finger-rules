@@ -1725,3 +1725,18 @@
       type: word
       words:
         - "JreCms"
+- name: Qibocms
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Qibocms"
+- name: Asanhamayesh-CMS
+  vendor: asanhamayesh
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "آسانهمایش"
+
+  
