@@ -1751,3 +1751,10 @@
     words:
     - CMS Made Simple
   
+- name: spa_cart_ecommerce_cms
+  vendor: spa_cart
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'SPA-Cart'
