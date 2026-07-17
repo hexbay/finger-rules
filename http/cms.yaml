@@ -1719,3 +1719,9 @@
       type: word
       words:
         - "ckfinder"
+- name: JFinalCMS
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "JreCms"
