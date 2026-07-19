@@ -6044,16 +6044,15 @@
       words:
         - "Pgwatch2"
 - name: Anteon
-  vendor: getanteon
-  matchers-condition: and
   matchers:
     - part: title
       type: word
       words:
-        - "Anteon:"
-    - part: body
-      type: word
-      condition: and
-      words:
         - "Anteon"
-        - "Monitoring Solution"
+- name: Devtron
+  vendor: devtron-labs
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Devtron
