@@ -5392,6 +5392,20 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Anteon
+  vendor: getanteon
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Anteon:"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Anteon"
+        - "Monitoring Solution"
 - name: OpenSearch
   matchers:
     - part: title
