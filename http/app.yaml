@@ -1007,6 +1007,20 @@
       type: word
   name: SeedDMS
 - matchers:
+    - part: title
+      words:
+        - Seq
+      type: word
+    - part: body
+      words:
+        - Log out
+        - dashboards</a>
+      condition: and
+      type: word
+  matchers-condition: and
+  name: Seq
+  vendor: datalust
+- matchers:
     - group: 1
       name: version
       part: headers.server
