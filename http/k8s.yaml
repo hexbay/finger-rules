@@ -5,3 +5,18 @@
       name: version
       regex:
           - etcdserver":"([\d\.]+)"
+
+- name: Devtron
+  vendor: devtron-labs
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Devtron
+    - part: body
+      type: word
+      condition: and
+      words:
+        - window._env_
+        - CENTRAL_API_ENDPOINT
+        - DEVTRON_APP_DETAILS_POLLING_INTERVAL
