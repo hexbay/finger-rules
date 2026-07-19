@@ -5408,6 +5408,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Whisparr
+  vendor: whisparr
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "<title>Whisparr</title>"
 - name: Lidarr
   vendor: lidarr
   matchers:
