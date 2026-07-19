@@ -5408,6 +5408,12 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Fastvue
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1117549627"
 - name: Whisparr
   vendor: whisparr
   matchers:
