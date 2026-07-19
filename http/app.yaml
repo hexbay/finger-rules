@@ -5434,7 +5434,7 @@
     - part: title
       type: word
       words:
-        - "Good Job Dashboard"
+        - "Good Job"
 - name: Whisparr
   vendor: whisparr
   matchers:
