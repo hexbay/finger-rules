@@ -6,10 +6,10 @@
       regex:
           - etcdserver\":\"([\\d\\.]+)\"
 
-- name: Helm Dashboard
+- name: Helm
   vendor: helm
   matchers:
     - part: icon_hash
       type: word
       words:
-          - "-594722214"":"([\d\.]+)"
+          - "-594722214"
