@@ -5392,13 +5392,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
-- name: NextcloudPi
-  vendor: nextcloud
+- name: Sonarr
+  vendor: sonarr
   matchers:
-    - part: title
+    - part: body
       type: word
       words:
-        - "NextcloudPi Panel"
+        - "sonarr"
 - name: OpenSearch
   matchers:
     - part: title
