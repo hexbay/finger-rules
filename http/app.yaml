@@ -5392,6 +5392,20 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: NextcloudPi
+  vendor: nextcloud
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "NextcloudPi Panel"
+    - part: body
+      condition: and
+      type: word
+      words:
+        - "Power Off"
+        - "Nextcloud configuration"
 - name: OpenSearch
   matchers:
     - part: title
