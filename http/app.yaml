@@ -5408,6 +5408,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: GoodJob
+  vendor: bensheldon
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Good Job Dashboard"
 - name: Whisparr
   vendor: whisparr
   matchers:
