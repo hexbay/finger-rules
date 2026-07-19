@@ -6079,3 +6079,11 @@
       type: word
       words:
         - Devtron
+- name: Rclone
+  vendor: rclone
+  matchers:
+    - part: header
+      type: word
+      words:
+        - 'rclone'
+      condition: and
