@@ -5408,6 +5408,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Whisparr
+  vendor: whisparr
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Whisparr"
 - name: Lidarr
   vendor: lidarr
   matchers:
@@ -6092,3 +6099,9 @@
       type: word
       words:
         - Radarr
+- name: Crontab-UI
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Crontab UI
