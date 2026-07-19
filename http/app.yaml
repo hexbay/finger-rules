@@ -5507,20 +5507,12 @@
         - "vdo.ninja"
 - name: NocoBase
   vendor: nocobase
-  matchers-condition: and
   matchers:
     - type: word
       part: body
-      condition: and
       words:
-        - '"authType":'
-        - '"env":'
-        - '"version":'
-        - '"ncSiteUrl":'
-    - type: word
-      part: header
-      words:
-        - "application/json"
+        - 'NocoBase'
+        
 - name: PHP Login System
   vendor: msaad1999
   matchers:
