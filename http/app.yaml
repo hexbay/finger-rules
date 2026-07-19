@@ -6105,3 +6105,16 @@
       type: word
       words:
         - Crontab UI
+- name: FreshRSS
+  vendor: freshrss
+  matchers:
+    - part: title
+      type: word
+      words:
+        - FreshRSS
+- name: Change-Detection
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Change Detection"
