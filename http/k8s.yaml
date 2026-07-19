@@ -7,9 +7,3 @@
           - etcdserver\":\"([\\d\\.]+)\"
 
 - name: Helm Dashboard
-  vendor: helm
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-          - "-594722214"":"([\d\.]+)"
