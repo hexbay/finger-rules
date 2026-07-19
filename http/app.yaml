@@ -6138,3 +6138,11 @@
       type: word
       words:
         - "Change Detection"
+
+- name: Helm
+  vendor: helm
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+          - "-594722214"
