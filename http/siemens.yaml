@@ -1,0 +1,7 @@
+- matchers:
+  - part: body
+    type: word
+    words:
+      - "SIMATIC"
+      - "Miniweb Start Page"
+  name: SIMATIC

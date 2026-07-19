@@ -5399,6 +5399,20 @@
       type: word
       words:
         - "Lidarr"
+- name: Prowlarr
+  vendor: Prowlarr
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Prowlarr"
+- name: Sonarr
+  vendor: sonarr
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "sonarr"
 - name: OpenSearch
   matchers:
     - part: title

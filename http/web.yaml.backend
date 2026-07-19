@@ -9401,38 +9401,6 @@
   - part: body
     type: word
     words:
-    - <img src="/Images/Siemens_Firmenmarke.gif" alt="Siemens" border="0"></td>
-    - "(\t<tr><td class=\"sph_td\"><b>Device Name<\\/b><\\/td><td class=\"sph_td\">([^<]+)&nbsp;<\\/td><\\/tr>)"
-    - <link rel="stylesheet" type="text/css" href="/S7Web.css">
-  - name: model:HMI
-    part: body
-    type: word
-    words:
-    - <font color="#ffffff"> <!-- font ist da, um bei einer Anzeige OHNE CSS nicht schwarz auf schwarz anzuzeigen -->
-    - Hint:<br> When the devicename contains an underscore ( _ ) some browsers have a bug that makes it impossible to log in.<br> One possible solution may be to use the IP address of the device instead of the name, or to use another browser.
-  - name: model:NET
-    part: body
-    type: word
-    words:
-    - <title>SIMATIC NET IT-CP</title>
-  - name: model:PCS 7
-    part: body
-    type: word
-    words:
-    - <td class="Login_Area" colspan="2"><img src="/SIMATIC_CONTROLLER.png" alt="Simatic S7 CP"></td>
-    - <td><img src="/Siemens_Firmenmarke_Header.gif" alt="Siemens" border="0"></td>
-    - <td class="MainMenu_Navigation_Level1"><a class="MainMenu_Navigation_Text_Level1" href='Portal5000.htm'>PROFINET IO</a></td>
-  name: siemens_simatic
-- matchers:
-  - part: body
-    type: word
-    words:
-    - <TITLE>SpeedStream Router Management Interface</TITLE>
-  name: siemens_speedstream_router
-- matchers:
-  - part: body
-    type: word
-    words:
     - <div class="image"><img src="/logo-lpage.png" width="40" height="40" alt="Simbix Framework" /></div>
   - name: version
     part: body
