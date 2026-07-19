@@ -5392,6 +5392,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Sonarr
+  vendor: sonarr
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Sonarr"
+    - part: body
+      type: word
+      words:
+        - "sonarr"
 - name: OpenSearch
   matchers:
     - part: title
