@@ -6038,15 +6038,22 @@
 
 - name: Pgwatch2
   vendor: cybertec
-  matchers-condition: and
   matchers:
     - part: title
       type: word
       words:
         - "Pgwatch2"
+- name: Anteon
+  vendor: getanteon
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Anteon:"
     - part: body
       type: word
       condition: and
       words:
-        - "Databases under monitoring"
-        - "pgwatch2"
+        - "Anteon"
+        - "Monitoring Solution"
