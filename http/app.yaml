@@ -5392,6 +5392,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Lidarr
+  vendor: lidarr
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Lidarr"
 - name: Prowlarr
   vendor: Prowlarr
   matchers:
