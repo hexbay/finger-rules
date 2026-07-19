@@ -6086,4 +6086,9 @@
       type: word
       words:
         - 'rclone'
-      condition: and
+- name: Radarr
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Radarr
