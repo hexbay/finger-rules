@@ -2800,6 +2800,13 @@
       type: word
       words:
         - "gitblit"
+- name: fossbilling
+  vendor: fossbilling
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "FOSSBilling"
 - name: Datataker
   matchers:
     - part: title
@@ -5414,6 +5421,13 @@
       type: word
       words:
         - "-1117549627"
+- name: GoodJob
+  vendor: bensheldon
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Good Job Dashboard"
 - name: Whisparr
   vendor: whisparr
   matchers:
@@ -6118,7 +6132,7 @@
       type: word
       words:
         - FreshRSS
-- name: Change-Detection
+- name: ChangeDetection
   matchers:
     - part: body
       type: word
