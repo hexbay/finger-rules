@@ -5392,6 +5392,20 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Pgwatch2
+  vendor: cybertec
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Pgwatch2"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Databases under monitoring"
+        - "pgwatch2"
 - name: OpenSearch
   matchers:
     - part: title
