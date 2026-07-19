@@ -1,0 +1,6 @@
+- matchers:
+  - part: body
+    type: word
+    words:
+      - "SIMATIC"
+  name: SIMATIC
