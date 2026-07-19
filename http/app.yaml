@@ -5394,17 +5394,11 @@
         - "MaNGOS Web Enhanced V4 Installer"
 - name: Lidarr
   vendor: lidarr
-  matchers-condition: and
   matchers:
     - part: body
       type: word
       words:
-        - "<title>Lidarr</title>"
-    - part: body
-      type: word
-      negative: true
-      words:
-        - "Login - Lidarr"
+        - "Lidarr"
 - name: OpenSearch
   matchers:
     - part: title
