@@ -1007,6 +1007,13 @@
       type: word
   name: SeedDMS
 - matchers:
+    - part: title
+      words:
+        - Seq
+      type: word
+  name: Seq
+  vendor: datalust
+- matchers:
     - group: 1
       name: version
       part: headers.server
