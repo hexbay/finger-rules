@@ -5392,6 +5392,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Prowlarr
+  vendor: Prowlarr
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Prowlarr"
 - name: Sonarr
   vendor: sonarr
   matchers:
