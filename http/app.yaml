@@ -6027,3 +6027,26 @@
       type: word
       words:
         - "lobechat"
+- name: NextcloudPi
+  vendor: nextcloud
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "NextcloudPi Panel"
+
+- name: Pgwatch2
+  vendor: cybertec
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Pgwatch2"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Databases under monitoring"
+        - "pgwatch2"
