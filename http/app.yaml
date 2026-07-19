@@ -6112,7 +6112,7 @@
       type: word
       words:
         - FreshRSS
-- name: Change-Detection
+- name: ChangeDetection
   matchers:
     - part: body
       type: word
