@@ -5392,8 +5392,7 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
-- name: OpenSearch Dashboards
-  vendor: opensearch-project
+- name: OpenSearch
   matchers:
     - part: title
       type: word
