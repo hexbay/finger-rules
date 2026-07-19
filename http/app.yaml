@@ -5398,7 +5398,14 @@
     - part: title
       type: word
       words:
-        - "<title>Prowlarr</title>"
+        - "Prowlarr"
+- name: Sonarr
+  vendor: sonarr
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "sonarr"
 - name: OpenSearch
   matchers:
     - part: title
