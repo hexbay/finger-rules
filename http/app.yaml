@@ -1785,6 +1785,7 @@
       type: word
   name: ShardingSphere
 - name: ShareFile
+  vendor: progress
   matchers:
     - part: title
       type: word
