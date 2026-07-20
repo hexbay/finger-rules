@@ -699,6 +699,10 @@
 - name: cPanel
   matchers:
     - type: word
+      part: header
+      words:
+        - "cPanel"
+    - type: word
       part: headers.set-cookie
       words:
         - "cprelogin"
