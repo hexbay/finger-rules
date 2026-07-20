@@ -89,6 +89,14 @@
       words:
         - "var hst = location.hostname"
 
+- name: FortiSandbox
+  vendor: fortinet
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "FortiSandbox"
+
 - name: FortiClientEMS 
   matchers:
     - part: icon_hash
