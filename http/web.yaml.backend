@@ -16339,12 +16339,7 @@
     words:
     - \.uptimerobot\.com
   name: uptimerobot
-- matchers:
-  - part: headers.server
-    type: word
-    words:
-    - uvicorn
-  name: uvicorn
+
 - matchers:
   - part: headers.Set-Cookie
     type: word

@@ -1,4 +1,10 @@
 - matchers:
+  - part: headers.server
+    type: word
+    words:
+    - uvicorn
+  name: uvicorn
+- matchers:
     - group: 1
       name: version
       part: headers.server
