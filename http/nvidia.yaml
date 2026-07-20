@@ -1,4 +1,4 @@
-- name: trino
+- name: triton_inference_server
   vendor: nvidia
   matchers:
     - part: title
