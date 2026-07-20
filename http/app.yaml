@@ -5426,6 +5426,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: 9Router
+  vendor: decolua
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "9Router"
+    - part: body
+      type: word
+      words:
+        - "9Router"
+  matchers-condition: or
 - name: Fastvue
   matchers:
     - part: icon_hash
