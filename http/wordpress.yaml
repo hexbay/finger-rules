@@ -136,3 +136,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: ymc-filter
+  vendor: ymc
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /wp-content/plugins/ymc-smart-filter/
