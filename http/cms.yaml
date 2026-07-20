@@ -292,15 +292,10 @@
       words:
         - "zzzphp"
 - matchers:
-    - part: body
-      type: word
-      words:
-        - Powered By <a href="finger://www.mybboard.com" target="_blank">MyBB</a>
     - part: headers.set-Cookie
       type: word
       words:
-        - mybb[lastvisit]
-        - mybb[lastactive]
+        - mybb
   name: mybb
 - matchers:
     - name: xf_session cookie
