@@ -23,3 +23,10 @@
       type: word
       words:
         - Google Cloud
+- name: Google-Gemini-API
+  vendor: google
+  matchers:
+    - part: body
+      type: word
+      words:
+        - generativelanguage.googleapis.com
