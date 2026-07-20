@@ -5426,6 +5426,20 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Interswitch Webpay
+  vendor: Interswitch
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "macKey"
+    - part: body
+      type: word
+      words:
+        - "interswitch"
+        - "webpay"
+      condition: or
 - name: Polyaxon
   vendor: polyaxon
   matchers:
