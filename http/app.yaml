@@ -5427,17 +5427,11 @@
       words:
         - "MaNGOS Web Enhanced V4 Installer"
 - name: CtrlPanel
-  vendor: ctrlpanel
-  matchers-condition: or
   matchers:
     - part: body
       type: word
       words:
-        - "CtrlPanel | installer"
-    - part: title
-      type: word
-      words:
-        - "CtrlPanel.gg installer Script"
+        - "CtrlPanel"
 - name: Fastvue
   matchers:
     - part: icon_hash
