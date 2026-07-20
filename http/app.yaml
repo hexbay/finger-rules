@@ -6167,3 +6167,9 @@
     words:
       - OSTSESSID
   name: osticket
+- name: seaweedfs
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "seaweedfs"
