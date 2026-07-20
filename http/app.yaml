@@ -5426,6 +5426,25 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: vllm
+  vendor: vllm
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/v1/models"
+    - part: body
+      type: word
+      words:
+        - "vllm"
+- name: OneUptime
+  vendor: OneUptime
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "OneUptime"
 - name: Gorse
   vendor: gorse-io
   matchers:
