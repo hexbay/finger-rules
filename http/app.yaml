@@ -5426,6 +5426,14 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Blinko
+  vendor: blinko-space
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1446811182"
+        - "-717082057"
 - name: MISP
   vendor: MISP
   matchers:
