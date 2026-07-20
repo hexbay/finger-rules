@@ -6186,3 +6186,9 @@
       type: word
       words:
         - "seaweedfs"
+- name: trino
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Cluster Overview - Trino"
