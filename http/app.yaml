@@ -5426,6 +5426,12 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: CtrlPanel
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "CtrlPanel"
 - name: Fastvue
   matchers:
     - part: icon_hash
