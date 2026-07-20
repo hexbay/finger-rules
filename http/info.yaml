@@ -1,4 +1,10 @@
 #一些组件或者信息泄露匹配
+- name: Directory Listing
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Directory Listing For"
 - matchers:
     - part: body
       type: word
