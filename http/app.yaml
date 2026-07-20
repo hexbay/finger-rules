@@ -2072,6 +2072,7 @@
       words:
         - "Easy!Appointments"
 - name: Opcache
+  vendor: amnuts
   matchers:
     - type: word
       part: title
