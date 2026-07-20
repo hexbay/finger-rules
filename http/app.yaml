@@ -6186,3 +6186,10 @@
       type: word
       words:
         - "seaweedfs"
+- name: Balbooa Forms
+  vendor: balbooa
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "com_baforms"
