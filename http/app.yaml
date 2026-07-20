@@ -5426,7 +5426,7 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
-- name: Scramble for Laravel
+- name: Scramble
   vendor: dedoc
   matchers:
     - part: body
