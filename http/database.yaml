@@ -4,6 +4,14 @@
       type: word
       words:
         - Metabase
+
+- name: Trino
+  vendor: Trino Software Foundation
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Cluster Overview - Trino"
 - name: eXist-DB
   vendor: exist-db
   matchers:
