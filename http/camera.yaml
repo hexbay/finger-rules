@@ -437,6 +437,19 @@
     words:
     - Web Viewer for Samsung DVR
   name: argus_surveillance_dvr
+
+- name: Tattile-Camera
+  vendor: tattile
+  matchers-condition: or
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "2030104257"
+    - part: body
+      type: word
+      words:
+        - "Tattile camera manager"
 - name: Brickcom-Camera
   matchers:
     - part: title
