@@ -3406,8 +3406,14 @@
       words:
         - "Maltrail"
 - name: WeGIA
+  vendor: labredescefetRJ
+  matchers-condition: or
   matchers:
     - part: title
+      type: word
+      words:
+        - "WeGIA"
+    - part: body
       type: word
       words:
         - "WeGIA"
