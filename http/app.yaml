@@ -5792,6 +5792,10 @@
       part: icon_hash
       words:
         - "-1864630356"
+    - type: word
+      part: title
+      words:
+        - "marimo"
 - name: Heimdall Application Dashboard
   matchers:
     - part: title
