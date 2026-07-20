@@ -210,23 +210,7 @@
     regex:
     - ^strapi
   name: strapi
-- matchers:
-  - name: version
-    part: body
-    type: regex
-    regex:
-    - <div id="nav">[\s]+<ul id="sub_nav">[\s]+<li>osTicket version ([^\-^<]+) - Basic installation</li>
-  - part: body
-    type: word
-    words:
-    - <title>osTicket Installer</title>
-    - osticket.com
-    - /images/poweredby.jpg
-  - part: headers.Set-Cookie
-    type: word
-    words:
-    - ostsessid
-  name: osticket
+
 - matchers:
   - name: version
     part: headers.server

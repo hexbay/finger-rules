@@ -6161,3 +6161,9 @@
       type: word
       words:
           - "-594722214"
+- matchers:
+  - part: headers.Set-Cookie
+    type: word
+    words:
+      - OSTSESSID
+  name: osticket
