@@ -140,11 +140,17 @@
         - "<i>Hypertext Transfer Protocol -- HTTP/1.1</i>"
   name: WebLogic-Server
 - name: Oracle-PeopleSoft
+  vendor: oracle
+  matchers-condition: or
   matchers:
     - part: title
       type: word
       words:
         - "Oracle PeopleSoft"
+    - part: body
+      type: word
+      words:
+        - "PeopleSoft Environment Management Hub"
 - name: Business-Intelligence
   matchers:
     - part: title
