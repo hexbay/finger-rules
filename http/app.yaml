@@ -6256,3 +6256,10 @@
       type: word
       words:
         - "Cluster Overview - Trino"
+- name: OpenBullet2
+  vendor: openbullet
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Openbullet2WebClient"
