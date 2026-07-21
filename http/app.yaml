@@ -6295,6 +6295,7 @@
         - "PraisonAI"
 
 - name: Cockpit
+  vendor: cockpit-project
   matchers:
     - part: title
       type: word
