@@ -6315,3 +6315,11 @@
       type: word
       words:
         - "Cockpit"
+
+- name: xerte_online_toolkits
+  vendor: thexerteproject
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Xerte Online Toolkits"
