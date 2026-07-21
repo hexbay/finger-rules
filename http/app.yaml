@@ -5426,6 +5426,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: web-check
+  vendor: lissy93
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Web-Check"
 - name: Dashy
   matchers:
     - part: title
