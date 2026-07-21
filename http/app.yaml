@@ -6294,3 +6294,9 @@
       words:
         - "PraisonAI"
 
+- name: Cockpit
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Cockpit"
