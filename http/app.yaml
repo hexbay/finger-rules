@@ -6269,3 +6269,9 @@
       type: word
       words:
         - "Openbullet2WebClient"
+- name: ComfyUI
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ComfyUI"
