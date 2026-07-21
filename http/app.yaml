@@ -6337,6 +6337,7 @@
         - "svelte-global-loader"
 - name: milvus
   vendor: milvus
+  matchers-condition: and
   matchers:
     - part: body
       type: word
