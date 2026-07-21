@@ -5426,6 +5426,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Google ADK-Python
+  vendor: google
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ADK"
+    - part: header
+      type: word
+      words:
+        - "uvicorn"
 - name: SiYuan
   vendor: siyuan_note
   matchers:
