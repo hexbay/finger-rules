@@ -5426,7 +5426,7 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
-- name: SiYuan Note
+- name: SiYuan
   vendor: siyuan_note
   matchers:
     - part: title
