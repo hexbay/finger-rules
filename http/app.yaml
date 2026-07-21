@@ -6281,3 +6281,9 @@
       type: word
       words:
         - "Pi-hole"
+- name: esm.sh
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "esm.sh"
