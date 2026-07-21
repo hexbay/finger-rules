@@ -23,3 +23,13 @@
       type: word
       words:
         - Google Cloud
+- name: adk_python
+  vendor: Google
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Agent Development Kit"
+        - "google-adk"
+        - "adk-python"
+      condition: or
