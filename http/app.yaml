@@ -6354,3 +6354,11 @@
       type: word
       words:
         - "9091"
+
+- name: anything_llm
+  vendor: Mintplex Labs
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "AnythingLLM"
