@@ -6287,3 +6287,10 @@
       type: word
       words:
         - "esm.sh"
+- name: PraisonAI
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "PraisonAI"
+
