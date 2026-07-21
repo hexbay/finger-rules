@@ -6315,3 +6315,11 @@
       type: word
       words:
         - "Cockpit"
+
+- name: arcane
+  vendor: getarcaneapp
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "arcane"
