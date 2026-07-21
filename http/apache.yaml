@@ -9,6 +9,10 @@
       regex:
         - Apache\/[0-9.]+ \(([^\)]+)\)
       type: regex
+    - part: headers.server
+      type: word
+      words:
+        - "Apache"
   name: Apache-HTTP-Server
 - name: Airflow
   matchers:
