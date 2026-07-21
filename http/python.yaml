@@ -12,6 +12,18 @@
         - Python(?:/([\d.]+))?
       type: regex
   name: python
+- name: adk_python
+  vendor: google
+  matchers-condition: and
+  matchers:
+    - type: word
+      part: header
+      words:
+        - "uvicorn"
+    - type: word
+      part: title
+      words:
+        - "ADK"
 - name: TornadoServer
   matchers:
   - part: headers.server
