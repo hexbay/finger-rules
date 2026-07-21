@@ -6289,6 +6289,13 @@
       type: word
       words:
         - "ComfyUI"
+- name: mesop
+  vendor: mesop_dev
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Mesop"
 - name: Pi-hole
   matchers:
     - part: title
