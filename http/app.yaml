@@ -6275,3 +6275,9 @@
       type: word
       words:
         - "ComfyUI"
+- name: Pi-hole
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Pi-hole"
