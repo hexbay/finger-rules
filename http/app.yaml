@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "SillyTavern"
+- name: dash-uploader
+  vendor: fohrloop
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "_dash-undo-redo"
 - name: Scramble
   vendor: dedoc
   matchers:

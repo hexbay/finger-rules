@@ -4,6 +4,14 @@
       type: word
       words:
         - Metabase
+
+- name: Dgraph
+  vendor: dgraph
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Dgraph
 - name: eXist-DB
   vendor: exist-db
   matchers:

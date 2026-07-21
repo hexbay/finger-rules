@@ -204,6 +204,13 @@
       type: word
       words:
         - '/+CSCOE+/logon.html'
+- name: Cisco Secure Firewall Management Center
+  vendor: cisco
+  matchers:
+    - part: body
+      type: word
+      words:
+        - BackdraftSyncIntegration
 
 - name: unified_communications_manager
   matchers:
