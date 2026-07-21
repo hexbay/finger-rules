@@ -6315,3 +6315,16 @@
       type: word
       words:
         - "Cockpit"
+
+- name: windmill
+  vendor: windmill
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Windmill"
+    - part: body
+      type: word
+      words:
+        - "svelte-global-loader"
