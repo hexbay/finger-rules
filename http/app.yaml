@@ -5426,6 +5426,12 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: Dashy
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Dashy"
 - name: SillyTavern
   vendor: sillytavern
   matchers:
