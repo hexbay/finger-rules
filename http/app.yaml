@@ -5426,6 +5426,17 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: gotenberg
+  vendor: gotenberg
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "gotenberg"
+    - part: header
+      type: word
+      words:
+        - "gotenberg"
 - name: lmdeploy
   vendor: internlm
   matchers:
