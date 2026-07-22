@@ -5426,6 +5426,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: docassemble
+  vendor: jhpyle
+  matchers-condition: or
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-575790689"
+    - part: title
+      type: word
+      words:
+        - "docassemble"
 - name: bazarr
   vendor: morpheus65535
   matchers-condition: and
