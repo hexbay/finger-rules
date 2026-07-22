@@ -98,6 +98,14 @@
       type: word
       words:
         - "PHPnow works"
+
+- name: user_registration_login_and_user_management_system
+  vendor: phpgurukul
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Registration and Login System"
 - name: phpjabbers-event-booking-calendar
   matchers:
     - part: body
