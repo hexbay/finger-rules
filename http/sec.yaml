@@ -172,6 +172,13 @@
         - SonicWALL SSL-VPN Web Server
       type: word
   name: SonicWALL-SSL-VPN
+- name: quantum_security_gateway
+  vendor: checkpoint
+  matchers:
+    - part: body
+      words:
+        - "Check Point SSL Network Extender"
+      type: word
 
 - name: 启明星辰-防火墙
   matchers:
