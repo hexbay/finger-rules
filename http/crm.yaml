@@ -52,6 +52,15 @@
       type: word
       words:
           - "SuiteCRM"
+- name: salesforce_community
+  vendor: salesforce
+  matchers:
+    - part: body
+      type: word
+      words:
+          - "sfsites"
+          - "force.com"
+      condition: and
 - name: Krayin CRM
   vendor: webkul
   matchers:
