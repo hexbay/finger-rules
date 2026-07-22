@@ -5426,6 +5426,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: bazarr
+  vendor: morpheus65535
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Bazarr"
+    - part: icon_hash
+      type: word
+      words:
+        - "-1983413099"
 - name: dialogic_xms_admin_console
   vendor: dialogic
   matchers:
@@ -5437,6 +5449,13 @@
       type: word
       words:
         - "DialogicDojo"
+- name: wandb_weave_server
+  vendor: wandb
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/__weave/"
 - name: kodbox
   vendor: kodcloud
   matchers:

@@ -205,6 +205,13 @@
       type: word
       words:
         - "Apache StreamPark"
+- name: activemq_apollo
+  vendor: apache
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache Apollo"
 - name: Apache-Polaris
   vendor: apache
   matchers:
