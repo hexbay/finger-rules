@@ -5426,6 +5426,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: debug_kit
+  vendor: cakephp
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "debug_kit"
+        - "CakePHP"
 - name: s3cmd
   vendor: s3tools
   matchers:
