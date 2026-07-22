@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "/__weave/"
+- name: kodbox
+  vendor: kodcloud
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "kodbox"
 - name: cluster_control
   vendor: severalnines
   matchers-condition: or
