@@ -438,6 +438,14 @@
     - Web Viewer for Samsung DVR
   name: argus_surveillance_dvr
 
+- name: gv_snvr0811
+  vendor: geovision
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "Cross Web Server"
+
 - name: Tattile-Camera
   vendor: tattile
   matchers-condition: or
