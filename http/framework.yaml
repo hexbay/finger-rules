@@ -4,3 +4,12 @@
       type: word
       words:
         - "Server backup manager"
+- name: laravel_ignition
+  vendor: spatie
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/_ignition/"
+        - "Ignition"
+      condition: and
