@@ -5433,10 +5433,6 @@
       type: word
       words:
         - "gotenberg"
-    - part: header
-      type: word
-      words:
-        - "gotenberg"
 - name: lmdeploy
   vendor: internlm
   matchers:
