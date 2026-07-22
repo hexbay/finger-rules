@@ -204,6 +204,17 @@
       type: word
       words:
         - '/+CSCOE+/logon.html'
+- name: cisco_sd_wan
+  vendor: cisco
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Cisco SD-WAN"
+    - part: cert
+      type: word
+      words:
+        - "Cisco SD-WAN"
 - name: Cisco Secure Firewall Management Center
   vendor: cisco
   matchers:
