@@ -22,3 +22,10 @@
       type: word
       words:
         - "NETGEAR DGN2200"
+- name: netgear_dgnd3700v2
+  vendor: netgear
+  matchers:
+    - part: headers.Www-Authenticate
+      type: word
+      words:
+        - "NETGEAR DGND3700v2"
