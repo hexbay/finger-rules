@@ -437,6 +437,12 @@
     words:
     - Web Viewer for Samsung DVR
   name: argus_surveillance_dvr
+- name: icatch_camera
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "iCatch"
 
 - name: gv_snvr0811
   vendor: geovision
