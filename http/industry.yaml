@@ -4,6 +4,14 @@
       type: word
       words:
         - "61401087"
+
+- name: emerson_intellislot_webcard
+  vendor: emerson
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Emerson Network Power IntelliSlot Web Card"
 - name: Circutor Line-TCPRS1
   vendor: circutor
   matchers:
