@@ -5426,6 +5426,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: livegbs
+  vendor: livegbs
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-206100324"
 - name: docassemble
   vendor: jhpyle
   matchers-condition: or
