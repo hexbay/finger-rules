@@ -5426,6 +5426,12 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: listmonk
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "listmonk"
 - name: openclaw
   vendor: openclaw
   matchers:
