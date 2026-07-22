@@ -23,3 +23,13 @@
       type: word
       words:
         - "X3500"
+
+- name: re7000
+  vendor: linksys
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Linksys"
+        - "RE7000"
