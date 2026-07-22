@@ -699,6 +699,14 @@
       words:
         - uc-httpd
 
+- name: linx_sphere
+  vendor: gmaolinx
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "SCS.Web.Server.SPI/1.0"
+
 - name: shokoserver
   vendor: shokoanime
   matchers:
