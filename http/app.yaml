@@ -5426,6 +5426,17 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: dialogic_xms_admin_console
+  vendor: dialogic
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Dialogic XMS Admin Console"
+    - part: body
+      type: word
+      words:
+        - "DialogicDojo"
 - name: kodbox
   vendor: kodcloud
   matchers:
