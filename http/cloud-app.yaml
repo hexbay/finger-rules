@@ -4,6 +4,14 @@
       type: word
       words:
           - "ownCloud"
+- name: softr
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+          - "The application you were looking for was built on Softr"
+          - "Get started with Softr"
 - name: Gitpod
   vendor: gitpod
   matchers-condition: and
