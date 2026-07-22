@@ -5426,6 +5426,22 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: ezservermonitor_web
+  vendor: shevabam
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "eZ Server Monitor"
+    - part: body
+      type: word
+      words:
+        - "web/css/frontend.css"
+    - part: body
+      type: word
+      words:
+        - "icon-gauge eSM"
+  matchers-condition: or
 - name: helix_core
   vendor: perforce
   matchers:
