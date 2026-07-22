@@ -698,3 +698,11 @@
       type: word
       words:
         - uc-httpd
+
+- name: shokoserver
+  vendor: shokoanime
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Shoko WEB UI"
