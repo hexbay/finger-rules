@@ -4,6 +4,15 @@
       type: word
       words:
           - "ownCloud"
+- name: squadcast
+  vendor: squadcast
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+          - "There doesn't seem to be an active status page associated with this URL."
+          - "Please check the URL and try again."
 - name: Gitpod
   vendor: gitpod
   matchers-condition: and
