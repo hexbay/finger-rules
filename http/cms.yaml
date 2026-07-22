@@ -1682,6 +1682,13 @@
       type: word
       words:
         - 'EPweb'
+- name: quicklancer
+  vendor: bylancer
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - '1099370896'
 - name: Luftguitar CMS
   matchers:
     - part: body
