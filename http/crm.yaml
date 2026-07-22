@@ -52,6 +52,14 @@
       type: word
       words:
           - "SuiteCRM"
+- name: salesforce_community
+  vendor: salesforce
+  matchers:
+    - part: cert
+      type: word
+      words:
+          - "sfsites"
+
 - name: Krayin CRM
   vendor: webkul
   matchers:
