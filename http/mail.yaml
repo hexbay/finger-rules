@@ -20,3 +20,11 @@
     words:
       - "SmarterMail"
   name: SmarterMail
+
+- name: smtp4dev
+  vendor: rnwood
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "smtp4dev"
