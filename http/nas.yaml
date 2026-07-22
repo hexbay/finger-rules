@@ -81,6 +81,13 @@
     - '123456789'
     condition: or
   matchers-condition: and
+- name: samba
+  vendor: samba
+  matchers:
+  - part: headers.server
+    type: word
+    words:
+    - Samba
 
 - name: headlamp
   matchers:
