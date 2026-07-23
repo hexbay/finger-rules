@@ -200,6 +200,14 @@
       words:
         - "/webauthd?op=sslvpn_get_pagetxt&ip_and_port="
 
+- name: invicti_enterprise
+  vendor: invicti
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Invicti Enterprise - Installation Wizard"
+
 - name: helpdocs
   matchers:
     - part: body
