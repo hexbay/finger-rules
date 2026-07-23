@@ -199,3 +199,10 @@
       type: word
       words:
         - "/webauthd?op=sslvpn_get_pagetxt&ip_and_port="
+
+- name: helpdocs
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "You've tried to access an account/page that does not exist"
