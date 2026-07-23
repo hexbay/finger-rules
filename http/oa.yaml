@@ -125,6 +125,17 @@
       words:
         - "/layer_red/layer.js"
 
+- name: 蓝凌-OA
+  vendor: landray
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "蓝凌"
+        - "/ekp/"
+        - "landray"
+
 - name: Landray-EIS
   matchers:
     - type: word
