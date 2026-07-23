@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: easy_installer
+  vendor: viserlab
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Easy Installer by ViserLab"
 - name: easy_wi
   vendor: easy_wi
   matchers:
