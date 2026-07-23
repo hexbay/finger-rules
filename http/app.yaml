@@ -1,3 +1,10 @@
+- matchers:
+  - part: headers.set-cookie
+    type: word
+    words:
+      - groupoffice
+  name: group_office
+
 - name: zabbix
   matchers:
     - part: headers.set-cookie
