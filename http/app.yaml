@@ -5433,6 +5433,14 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: easy_wi
+  vendor: easy_wi
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Easy-WI Installer"
+        - "Welcome to the Easy-WI installer!"
 - name: forgejo
   vendor: forgejo
   matchers:
