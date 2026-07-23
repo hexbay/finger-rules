@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: growi
+  vendor: weseek
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Installer - GROWI"
 - name: invoice_ninja
   matchers:
     - part: body
