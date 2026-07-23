@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: holmes
+  vendor: wipro
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Holmes Orchestrator"
 - name: cal.com
   vendor: cal
   matchers:
