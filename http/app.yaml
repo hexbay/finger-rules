@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: next_terminal
+  vendor: dushixiang
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Next Terminal"
 - name: holmes
   vendor: wipro
   matchers:
