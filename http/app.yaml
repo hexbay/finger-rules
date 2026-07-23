@@ -5426,6 +5426,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: onlyoffice
+  vendor: onlyoffice
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Portal Setup"
+        - "onlyoffice"
 - name: profittrailer
   vendor: profittrailer
   matchers:
