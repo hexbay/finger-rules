@@ -5650,8 +5650,10 @@
       type: word
       words:
         - "P4D"
-        - "Perforce"
-      condition: and
+    - part: port
+      type: word
+      words:
+        - 1666 
 - name: remote_spark_gateway
   vendor: sparkview
   matchers:

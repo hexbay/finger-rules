@@ -1,0 +1,12 @@
+- name: helix_core
+  vendor: perforce
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "P4D"
+    - part: port
+      type: word
+      words:
+        - 1666
