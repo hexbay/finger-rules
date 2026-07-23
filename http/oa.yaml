@@ -125,7 +125,7 @@
       words:
         - "/layer_red/layer.js"
 
-- name: landray_office_automation
+- name: 蓝凌-OA
   vendor: landray
   matchers:
     - part: body
