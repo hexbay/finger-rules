@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: cubebackup
+  vendor: cubebackup
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "CubeBackup setup"
 - name: easy_installer
   vendor: viserlab
   matchers:
