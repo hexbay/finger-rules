@@ -1682,6 +1682,13 @@
       type: word
       words:
         - 'EPweb'
+- name: tastyigniter
+  vendor: tastyigniter
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'TastyIgniter - Setup - License agreement'
 - name: quicklancer
   vendor: bylancer
   matchers:
