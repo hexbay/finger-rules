@@ -21,6 +21,14 @@
       - "SmarterMail"
   name: SmarterMail
 
+- name: raidenmaild
+  vendor: raidenmaild
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "RaidenMAILD"
+
 - name: smtp4dev
   vendor: rnwood
   matchers:
