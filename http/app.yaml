@@ -5426,6 +5426,12 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: trilium_notes
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Trilium Notes"
 - name: ubersmith
   vendor: ubersmith
   matchers:
