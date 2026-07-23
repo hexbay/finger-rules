@@ -4,6 +4,13 @@
       type: word
       words:
           - "ownCloud"
+- name: gohire
+  vendor: gohire
+  matchers:
+    - part: body
+      type: word
+      words:
+          - "You may have followed an invalid link or the job you are looking for has been archived"
 - name: softr
   matchers:
     - part: body
