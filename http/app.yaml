@@ -5433,6 +5433,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: cal.com
+  vendor: cal
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Setup | Cal.com"
+        - "Minimum 15 characters long</li>"
 - name: control
   vendor: connectwise
   matchers:
