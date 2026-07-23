@@ -5426,6 +5426,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: profittrailer
+  vendor: profittrailer
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ProfitTrailer Setup"
 - name: snipe_it
   vendor: snipeitapp
   matchers:
