@@ -5433,6 +5433,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: control
+  vendor: connectwise
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "SetupWizardPage"
+        - "ContentPanel SetupWizard"
 - name: cubebackup
   vendor: cubebackup
   matchers:
