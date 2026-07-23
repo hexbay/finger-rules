@@ -438,6 +438,19 @@
     - Web Viewer for Samsung DVR
   name: argus_surveillance_dvr
 
+- name: dw_spectrum
+  vendor: digital_watchdog
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "868509217"
+    - part: title
+      type: word
+      words:
+        - "Digital Watchdog - Default Login"
+  matchers-condition: or
+
 - name: gv_snvr0811
   vendor: geovision
   matchers:
