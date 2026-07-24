@@ -6889,3 +6889,10 @@
       type: word
       words:
         - "AnythingLLM"
+
+- matchers:
+  - part: header
+    type: word
+    words:
+      - x-envoy-peer-metadata
+  name: envoy

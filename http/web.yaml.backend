@@ -14010,12 +14010,6 @@
     - ^engintron$
   name: engintron
 - matchers:
-  - part: headers.server
-    type: regex
-    regex:
-    - ^envoy$
-  name: envoy
-- matchers:
   - part: body
     type: regex
     regex:
