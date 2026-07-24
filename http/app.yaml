@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: xerte_online_toolkits
+  vendor: thexerteproject
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Xerte Online Toolkits"
 - name: hexstrike_ai
   vendor: hexstrike_ai
   matchers:
