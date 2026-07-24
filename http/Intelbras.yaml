@@ -10,3 +10,14 @@
       type: word
       words:
         - "NPLUG"
+- name: intelbras_tip200lite
+  vendor: intelbras
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "TIP200"
+    - part: body
+      type: word
+      words:
+        - "intelbras.com"
