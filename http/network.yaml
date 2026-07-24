@@ -76,6 +76,18 @@
       type: word
       words:
         - "webconfig menu.cgi"
+- name: ucm6200
+  vendor: grandstream
+  matchers-condition: and
+  matchers:
+    - part: cert
+      type: word
+      words:
+        - "Grandstream"
+    - part: header
+      type: word
+      words:
+        - "TRACKID"
 - name: linkerd
   vendor: linkerd
   matchers:
