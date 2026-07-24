@@ -28,3 +28,10 @@
       type: word
       words:
         - 'Sato'
+- name: net_viewer
+  vendor: kyocera
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'http://www.kyoceramita.com/ws/km-wsdl/setting/address_book'
