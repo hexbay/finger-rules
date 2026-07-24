@@ -4,6 +4,14 @@
       type: word
       words:
         - "Server backup manager"
+- name: qwik
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "q:container"
+        - "qwikloader"
+      condition: or
 - name: laravel_ignition
   vendor: spatie
   matchers:
