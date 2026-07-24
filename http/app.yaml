@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: lyrion_music_server
+  vendor: lyrion
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Lyrion Music Server"
 - name: xerte_online_toolkits
   vendor: thexerteproject
   matchers:
