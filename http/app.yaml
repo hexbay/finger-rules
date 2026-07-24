@@ -5433,6 +5433,22 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: jake___javascript_build_tool_for_node.js
+  vendor: jakejs
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Jakefile"
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "task("
+        - "desc("
+        - "jake."
+        - "namespace("
 - name: wekan
   matchers-condition: and
   matchers:
