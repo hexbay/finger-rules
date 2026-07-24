@@ -699,6 +699,14 @@
       words:
         - uc-httpd
 
+- name: mamp
+  vendor: mamp
+  matchers:
+    - part: title
+      type: word
+      words:
+        - MAMP
+
 - name: linx_sphere
   vendor: gmaolinx
   matchers:
