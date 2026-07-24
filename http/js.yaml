@@ -111,3 +111,10 @@
       type: word
       words:
         - "/@vite/client"
+- name: vvvebjs
+  vendor: vvvebjs
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "VvvebJs"
