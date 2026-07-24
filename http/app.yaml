@@ -5433,6 +5433,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: parse_server
+  vendor: parseplatform
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "parse server"
+    - part: body
+      type: word
+      words:
+        - "parse-server"
+  matchers-condition: or
 - name: microsoft_system_center_configuration_manager_(sccm)
   vendor: microsoft
   matchers:
