@@ -5433,6 +5433,16 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: checkmk_agent
+  vendor: checkmk
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "<<<check_mk>>>"
+        - "AgentOS:"
+        - "Version:"
 - name: parse_server
   vendor: parseplatform
   matchers:
