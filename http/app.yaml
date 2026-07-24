@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: rocket_lms
+  vendor: rocketsoft
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Rocket LMS"
 - name: motive_esim
   vendor: motive_software_solutions
   matchers:
