@@ -4,6 +4,17 @@
       type: word
       words:
         - Metabase
+- name: prisma
+  vendor: prisma
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "generator"
+        - "datasource "
+        - "provider ="
+        - "model "
 
 - name: Dgraph
   vendor: dgraph
