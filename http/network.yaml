@@ -76,6 +76,15 @@
       type: word
       words:
         - "webconfig menu.cgi"
+- name: hipath_cordless_ip
+  vendor: unify
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/html/wbm_login.html"
+        - "/cgi-bin/ikon_button.exe"
+      condition: and
 - name: loadmaster
   vendor: kemptechnologies
   matchers:
