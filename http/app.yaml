@@ -5433,6 +5433,14 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: dozzle
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Dozzle"
+        - '"authorizationNeeded"'
 - name: camunda
   vendor: camunda
   matchers:
