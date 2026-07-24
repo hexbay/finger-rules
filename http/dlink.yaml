@@ -184,6 +184,13 @@
       part: icon_hash
       words:
         - "-1317621215"
+- name: dir_605l
+  vendor: dlink
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "l_tb>DIR-605"
 - name: DIR-823X
   vendor: dlink
   matchers:
