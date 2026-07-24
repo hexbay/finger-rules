@@ -76,6 +76,13 @@
       type: word
       words:
         - "webconfig menu.cgi"
+- name: linkerd
+  vendor: linkerd
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "l5d-"
 
 - name: Kedacom-Network-Keyboard-Console
   vendor: kedacom
