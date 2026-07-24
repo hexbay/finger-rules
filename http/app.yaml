@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: siam_convite
+  vendor: siam
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "siam-convite"
 - name: request_baskets
   vendor: rbaskets
   matchers:
