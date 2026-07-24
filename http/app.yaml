@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: remita
+  vendor: systemspecs
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "remita"
 - name: dozzle
   matchers:
     - part: title
