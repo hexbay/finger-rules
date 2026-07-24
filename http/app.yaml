@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: ez_net_portal
+  vendor: cedargate
+  matchers:
+    - part: headers.set-cookie
+      type: word
+      words:
+        - "EZNET_"
 - name: parse_server
   vendor: parseplatform
   matchers:
