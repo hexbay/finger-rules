@@ -4,6 +4,13 @@
       type: word
       words:
         - "61401087"
+- name: mcvie
+  vendor: jiangsu_maiwei_intelligent_technology
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "安全生产数字化管理平台"
 
 - name: emerson_intellislot_webcard
   vendor: emerson
