@@ -5433,6 +5433,12 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: hoppscotch_community_edition
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Hoppscotch"
 - name: magicmirror
   vendor: magicmirrororg
   matchers:
