@@ -1682,6 +1682,12 @@
       type: word
       words:
         - 'EPweb'
+- name: podcast_generator
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'PodcastGenerator'
 - name: tastyigniter
   vendor: tastyigniter
   matchers:
