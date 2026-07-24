@@ -11,6 +11,13 @@
       - KM-MFP-finger
       - JC-HTTPD
       - NetworkScanner WebServer Ver
+- name: enviromux
+  vendor: network_technologies_inc
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ENVIROMUX"
 - name: seh_utnserver
   vendor: seh
   matchers:
