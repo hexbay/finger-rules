@@ -12,8 +12,8 @@
       type: word
       words:
         - ZM_LOGIN_CSRF
-- name: collaboration
-  vendor: Zimbra
+- name: collaboration_server
+  vendor: zimbra
   matchers:
     - part: icon_hash
       type: word
@@ -23,4 +23,4 @@
     - part: body
       type: word
       words:
-        - "zimbra collaboration suite web client"
+        - "Zimbra Collaboration Suite Web Client"
