@@ -1,2 +1,4 @@
 - name: samba
   service: samba
+- name: samba
+  service: smb
