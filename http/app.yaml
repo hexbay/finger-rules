@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: voyager
+  vendor: devdojo
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Voyager"
 - name: siam_convite
   vendor: siam
   matchers:
