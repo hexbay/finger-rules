@@ -5433,6 +5433,17 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: wekan
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "__meteor_runtime_config__"
+    - part: body
+      type: word
+      words:
+        - "Wekan"
 - name: coveralls
   vendor: coveralls
   matchers:
