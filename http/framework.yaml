@@ -10,7 +10,7 @@
       type: word
       words:
         - "q:container"
-        - "qwikloader"
+        - "q:version"
       condition: or
 - name: laravel_ignition
   vendor: spatie
