@@ -5433,6 +5433,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: microsoft_system_center_configuration_manager_(sccm)
+  vendor: microsoft
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "SMS_DP_SMSPKG$"
+        - "Datalib"
 - name: jake___javascript_build_tool_for_node.js
   vendor: jakejs
   matchers-condition: and
