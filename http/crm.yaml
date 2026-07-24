@@ -52,6 +52,13 @@
       type: word
       words:
           - "SuiteCRM"
+- name: espocrm
+  vendor: espocrm
+  matchers:
+    - part: body
+      type: word
+      words:
+          - "Welcome to Espocrm"
 - name: salesforce_community
   vendor: salesforce
   matchers:
