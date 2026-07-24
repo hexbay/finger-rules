@@ -76,6 +76,13 @@
       type: word
       words:
         - "webconfig menu.cgi"
+- name: loadmaster
+  vendor: kemptechnologies
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "LoadMaster"
 - name: ucm6200
   vendor: grandstream
   matchers-condition: and
