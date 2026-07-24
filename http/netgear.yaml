@@ -22,6 +22,13 @@
       type: word
       words:
         - "NETGEAR DGN2200"
+- name: netgear_wnr614
+  vendor: netgear
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "NETGEAR WNR614"
 - name: netgear_dgnd3700v2
   vendor: netgear
   matchers:
