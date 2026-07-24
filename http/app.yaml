@@ -5433,6 +5433,12 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: greatpages
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "greatpages.com.br"
 - name: rocket_lms
   vendor: rocketsoft
   matchers:
