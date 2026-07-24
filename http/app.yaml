@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: powershell_universal
+  vendor: ironman_software
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "PowerShell Universal"
 - name: webmethods
   vendor: softwareag
   matchers-condition: or
