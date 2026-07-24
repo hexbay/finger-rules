@@ -98,7 +98,8 @@
       words:
           - "/ReportServer?op=resource"
 
-- name: Glodon
+- name: glodon_linkworks
+  vendor: glodon
   matchers:
     - part: body
       type: word
