@@ -4,6 +4,14 @@
       type: word
       words:
         - "61401087"
+
+- name: osasi_plc
+  vendor: osasi
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-268676052"
 - name: mcvie
   vendor: jiangsu_maiwei_intelligent_technology
   matchers:
