@@ -1682,6 +1682,15 @@
       type: word
       words:
         - 'EPweb'
+- name: jce
+  vendor: joomlacontenteditor
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - 'com_jce'
+        - '/media/jce/'
 - name: podcast_generator
   matchers:
     - part: body
