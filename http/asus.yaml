@@ -16,3 +16,13 @@
       type: word
       words:
         - '<div class="prod_madelName">ZenWiFi AX</div>'
+- name: wl_520gu
+  vendor: asus
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "ASUS"
+        - "WL-520GU"
+        - "return 'Connected"

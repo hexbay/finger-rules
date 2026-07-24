@@ -94,5 +94,4 @@
     - part: body
       type: word
       words:
-        - '"sync_threshold":'
-        - '"log_position"'
+        - 'ChromaDB'

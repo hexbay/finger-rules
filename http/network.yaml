@@ -76,6 +76,32 @@
       type: word
       words:
         - "webconfig menu.cgi"
+- name: loadmaster
+  vendor: kemptechnologies
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "LoadMaster"
+- name: ucm6200
+  vendor: grandstream
+  matchers-condition: and
+  matchers:
+    - part: cert
+      type: word
+      words:
+        - "Grandstream"
+    - part: header
+      type: word
+      words:
+        - "TRACKID"
+- name: linkerd
+  vendor: linkerd
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "l5d-"
 
 - name: Kedacom-Network-Keyboard-Console
   vendor: kedacom

@@ -1,3 +1,10 @@
+- matchers:
+  - part: headers.set-cookie
+    type: word
+    words:
+      - groupoffice
+  name: group_office
+
 - name: zabbix
   matchers:
     - part: headers.set-cookie
@@ -5426,6 +5433,526 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: voyager
+  vendor: devdojo
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Voyager"
+- name: siam_convite
+  vendor: siam
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "siam-convite"
+- name: request_baskets
+  vendor: rbaskets
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Request-Baskets"
+- name: greatpages
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "greatpages.com.br"
+- name: rocket_lms
+  vendor: rocketsoft
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Rocket LMS"
+- name: motive_esim
+  vendor: motive_software_solutions
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "EIM"
+- name: ez_net_portal
+  vendor: cedargate
+  matchers:
+    - part: headers.set-cookie
+      type: word
+      words:
+        - "EZNET_"
+- name: parse_server
+  vendor: parseplatform
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "parse server"
+    - part: body
+      type: word
+      words:
+        - "parse-server"
+  matchers-condition: or
+- name: microsoft_system_center_configuration_manager_(sccm)
+  vendor: microsoft
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "SMS_DP_SMSPKG$"
+        - "Datalib"
+- name: jake___javascript_build_tool_for_node.js
+  vendor: jakejs
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Jakefile"
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "task("
+        - "desc("
+        - "jake."
+        - "namespace("
+- name: wekan
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "__meteor_runtime_config__"
+    - part: body
+      type: word
+      words:
+        - "Wekan"
+- name: coveralls
+  vendor: coveralls
+  matchers:
+    - part: body
+      type: word
+      words:
+        - ".coveralls.yml"
+- name: hoppscotch_community_edition
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Hoppscotch"
+- name: magicmirror
+  vendor: magicmirrororg
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "MagicMirror"
+- name: lyrion_music_server
+  vendor: lyrion
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Lyrion Music Server"
+- name: xerte_online_toolkits
+  vendor: thexerteproject
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Xerte Online Toolkits"
+- name: hexstrike_ai
+  vendor: hexstrike_ai
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "HexStrike"
+- name: webpay
+  vendor: interswitch
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "macKey"
+        - "payItemId"
+        - "interswitch"
+        - "webpay"
+- name: remita
+  vendor: systemspecs
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "remita"
+- name: dozzle
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Dozzle"
+- name: camunda
+  vendor: camunda
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Camunda Welcome"
+- name: powershell_universal
+  vendor: ironman_software
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "PowerShell Universal"
+- name: webmethods
+  vendor: softwareag
+  matchers-condition: or
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-234335289"
+    - part: header
+      type: word
+      words:
+        - "Integration Server"
+    - part: body
+      type: word
+      words:
+        - "com.wm.app.b2b.server"
+- name: next_terminal
+  vendor: dushixiang
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Next Terminal"
+- name: holmes
+  vendor: wipro
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Holmes Orchestrator"
+- name: cal.com
+  vendor: cal
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Setup | Cal.com"
+        - "Minimum 15 characters long</li>"
+- name: control
+  vendor: connectwise
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "SetupWizardPage"
+        - "ContentPanel SetupWizard"
+- name: cubebackup
+  vendor: cubebackup
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "CubeBackup setup"
+- name: easy_installer
+  vendor: viserlab
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Easy Installer by ViserLab"
+- name: easy_wi
+  vendor: easy_wi
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Easy-WI Installer"
+        - "Welcome to the Easy-WI installer!"
+- name: forgejo
+  vendor: forgejo
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Installation - Forgejo:"
+- name: froxlor
+  vendor: froxlor
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Froxlor Server Management Panel"
+- name: growi
+  vendor: weseek
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Installer - GROWI"
+- name: invoice_ninja
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Invoice Ninja Setup"
+- name: jfa_go
+  vendor: hrfee
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "jfa-go"
+- name: onlyoffice
+  vendor: onlyoffice
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Portal Setup"
+        - "onlyoffice"
+- name: profittrailer
+  vendor: profittrailer
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ProfitTrailer Setup"
+- name: snipe_it
+  vendor: snipeitapp
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Snipe-IT Setup"
+- name: trilium_notes
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Trilium Notes"
+- name: ubersmith
+  vendor: ubersmith
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Ubersmith Setup"
+- name: wowonder
+  vendor: wowonder
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "WoWonder | Installation"
+- name: xbackbone
+  vendor: xbackbone
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "XBackBone Installer"
+- name: better_stack
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "uptime.betterstack.com"
+- name: stable_diffusion_webui
+  vendor: automatic1111
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Stable Diffusion"
+    - part: body
+      type: word
+      words:
+        - "Stable Diffusion WebUI"
+- name: livegbs
+  vendor: livegbs
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-206100324"
+- name: docassemble
+  vendor: jhpyle
+  matchers-condition: or
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-575790689"
+    - part: title
+      type: word
+      words:
+        - "docassemble"
+- name: bazarr
+  vendor: morpheus65535
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Bazarr"
+    - part: icon_hash
+      type: word
+      words:
+        - "-1983413099"
+- name: dialogic_xms_admin_console
+  vendor: dialogic
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Dialogic XMS Admin Console"
+    - part: body
+      type: word
+      words:
+        - "DialogicDojo"
+- name: wandb_weave_server
+  vendor: wandb
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/__weave/"
+- name: kodbox
+  vendor: kodcloud
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "kodbox"
+- name: cluster_control
+  vendor: severalnines
+  matchers-condition: or
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "160707013"
+    - part: icon_hash
+      type: word
+      words:
+        - "-1815707560"
+- name: ntfy
+  matchers-condition: or
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ntfy web"
+    - part: body
+      type: word
+      words:
+        - "ntfy.sh"
+- name: dokploy
+  vendor: dokploy
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Dokploy"
+    - part: body
+      type: word
+      words:
+        - "Setup the server"
+- name: listmonk
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "listmonk"
+- name: openclaw
+  vendor: openclaw
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ClawdBot"
+- name: codimd
+  vendor: hackmdio
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "CodiMD"
+- name: debug_kit
+  vendor: cakephp
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "debug_kit"
+        - "CakePHP"
+- name: s3cmd
+  vendor: s3tools
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "x-amz-meta-s3cmd-attrs"
+- name: ezservermonitor_web
+  vendor: shevabam
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "eZ Server Monitor"
+    - part: body
+      type: word
+      words:
+        - "web/css/frontend.css"
+    - part: body
+      type: word
+      words:
+        - "icon-gauge eSM"
+  matchers-condition: or
+- name: helix_core
+  vendor: perforce
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "P4D"
+    - part: port
+      type: word
+      words:
+        - 1666 
+- name: remote_spark_gateway
+  vendor: sparkview
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "SparkView"
+- name: gotenberg
+  vendor: gotenberg
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "gotenberg"
+- name: lmdeploy
+  vendor: internlm
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "lmdeploy"
 - name: SiYuan
   vendor: siyuan_note
   matchers:

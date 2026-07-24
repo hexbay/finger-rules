@@ -4,3 +4,20 @@
       type: word
       words:
         - "Server backup manager"
+- name: qwik
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "q:container"
+        - "q:version"
+      condition: or
+- name: laravel_ignition
+  vendor: spatie
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/_ignition/"
+        - "Ignition"
+      condition: and

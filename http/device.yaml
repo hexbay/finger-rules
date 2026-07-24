@@ -11,6 +11,13 @@
       - KM-MFP-finger
       - JC-HTTPD
       - NetworkScanner WebServer Ver
+- name: seh_utnserver
+  vendor: seh
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "utnserver Control Center"
 - name: Grandstream-GRP-Series
   vendor: grandstream
   matchers-condition: and

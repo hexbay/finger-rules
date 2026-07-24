@@ -23,3 +23,12 @@
       type: word
       words:
         - Google Cloud
+- name: google_a2a
+  vendor: Google
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - '"skills"'
+        - '"capabilities"'

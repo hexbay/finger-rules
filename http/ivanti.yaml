@@ -65,3 +65,16 @@
       type: word
       words:
         - Avalanche
+
+- name: ivanti_sentry
+  vendor: ivanti
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Ivanti"
+    - part: body
+      type: word
+      words:
+        - "Sentry"

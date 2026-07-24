@@ -76,6 +76,18 @@
       type: word
       words:
         - "Elastic Storage System"
+- name: ibm_cloud_object_storage
+  vendor: ibm
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "ibm-sse-kp-enabled"
+    - part: cert
+      type: word
+      words:
+        - "cloud-object-storage.appdomain.cloud"
+  matchers-condition: or
 - name: IBM-MobileFirst-Foundation
   vendor: ibm
   matchers:

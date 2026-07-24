@@ -4,6 +4,20 @@
       type: word
       words:
         - Metabase
+- name: bigant_database
+  vendor: bigantsoft
+  matchers-condition: or
+  matchers:
+    - part: title
+      type: word
+      words:
+        - BigAntSetup
+    - part: body
+      type: word
+      condition: and
+      words:
+        - BigAnt Database Upgrade Wizard
+        - //DB-MS
 
 - name: Dgraph
   vendor: dgraph
