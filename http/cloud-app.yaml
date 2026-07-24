@@ -4,6 +4,15 @@
       type: word
       words:
           - "ownCloud"
+- name: clever_cloud
+  vendor: clever_cloud
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "The application you're trying to access doesn't seem to exist"
+        - "support@clever-cloud.com"
 - name: gohire
   vendor: gohire
   matchers:
