@@ -114,3 +114,10 @@
       part: headers.server
       words:
         - "PostgREST"
+- name: starlette
+  vendor: kludex
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "starlette"
