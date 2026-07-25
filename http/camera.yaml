@@ -9,7 +9,8 @@
     - part: title
       type: word
       words:
-        - "Geowebserver"#- matchers:
+        - "Geowebserver"
+- matchers:
   - part: body
     type: word
     words:
@@ -20,7 +21,8 @@
     - part: title
       type: word
       words:
-        - "Geowebserver"摄- matchers:
+        - "Geowebserver"
+- matchers:
   - part: body
     type: word
     words:
@@ -31,7 +33,8 @@
     - part: title
       type: word
       words:
-        - "Geowebserver"像- matchers:
+        - "Geowebserver"
+- matchers:
   - part: body
     type: word
     words:
@@ -42,7 +45,8 @@
     - part: title
       type: word
       words:
-        - "Geowebserver"头- matchers:
+        - "Geowebserver"
+- matchers:
   - part: body
     type: word
     words:
@@ -53,7 +57,8 @@
     - part: title
       type: word
       words:
-        - "Geowebserver"相- matchers:
+        - "Geowebserver"
+- matchers:
   - part: body
     type: word
     words:
@@ -64,7 +69,8 @@
     - part: title
       type: word
       words:
-        - "Geowebserver"关- matchers:
+        - "Geowebserver"
+- matchers:
   - part: body
     type: word
     words:
