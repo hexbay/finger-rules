@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: powerpanel_enterprise
+  vendor: cyberpower
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "PDNU"
 - name: danswer
   vendor: danswer_ai
   matchers:
