@@ -5433,6 +5433,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: nagios_log_server
+  vendor: nagios
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Nagios Log Server"
+        - "Install</a>"
 - name: geowebserver
   matchers:
     - part: title
