@@ -93,6 +93,18 @@
       type: word
       words:
         - "Dkron"
+- name: microsoft_exchange_server
+  vendor: microsoft
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1768726119"
+    - part: title
+      type: word
+      words:
+        - "Outlook"
+  matchers-condition: and
 - name: SCCM-Distribution-Point
   matchers:
     - part: body
