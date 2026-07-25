@@ -200,6 +200,14 @@
       words:
         - "/webauthd?op=sslvpn_get_pagetxt&ip_and_port="
 
+- name: ssrpm
+  vendor: tools4ever
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-916902413"
+
 - name: mastersam_star_gate
   vendor: mastersam
   matchers:
