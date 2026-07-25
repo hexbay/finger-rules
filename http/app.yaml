@@ -5433,6 +5433,29 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: tileserver_gl
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "TileServer GL"
+    - part: body
+      type: word
+      words:
+        - "TileServer GL"
+- name: nagios_log_server
+  vendor: nagios
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Nagios Log Server"
+- name: geowebserver
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Geowebserver"
 - name: chirpstack
   vendor: chirpstack
   matchers:
