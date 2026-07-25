@@ -4,6 +4,18 @@
       type: word
       words:
         - "61401087"
+- name: processplus
+  vendor: perkinelmer
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Process Plus"
+    - part: icon_hash
+      type: word
+      words:
+        - "1772087922"
 - name: vtimesync
   vendor: lawo_ag
   matchers:
