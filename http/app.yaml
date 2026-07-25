@@ -5433,6 +5433,19 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: openapi_generator
+  vendor: openapitools
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "OpenAPI Generator"
+    - part: body
+      type: word
+      words:
+        - "openapi-generator"
+        - "OpenAPI Generator"
+      condition: or
 - name: fronsetia
   vendor: fronsetiav1.1
   matchers:
