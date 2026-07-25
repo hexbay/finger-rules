@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: simple_realtime_server
+  vendor: ossrs
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1386054408"
 - name: localai
   vendor: mudler
   matchers:
