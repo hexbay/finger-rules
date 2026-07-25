@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: rengine
+  vendor: yogeshojha
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "reNgine"
 - name: pve_http_server
   vendor: proxmox
   matchers:
