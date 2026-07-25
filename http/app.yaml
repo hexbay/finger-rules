@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: bonita_bpm_portal
+  vendor: bonitasoft
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1197926023"
 - name: fxserver
   vendor: cfx.re
   matchers:
