@@ -200,6 +200,14 @@
       words:
         - "/webauthd?op=sslvpn_get_pagetxt&ip_and_port="
 
+- name: mobile_security_framework
+  vendor: mobsf_project
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "MobSF"
+
 - name: invicti_enterprise
   vendor: invicti
   matchers:
