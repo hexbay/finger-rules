@@ -93,3 +93,15 @@
       type: word
       words:
         - "1402419986"
+- name: cdg
+  vendor: esafenet
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "电子文档安全管理系统"
+    - part: body
+      type: word
+      words:
+        - "CDGServer3/"
