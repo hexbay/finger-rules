@@ -114,6 +114,15 @@
       part: headers.server
       words:
         - "PostgREST"
+- name: gpt_academic
+  vendor: binary_husky
+  matchers:
+    - type: word
+      part: body
+      condition: or
+      words:
+        - "gpt_academic"
+        - "gptacademic"
 - name: starlette
   vendor: kludex
   matchers:
