@@ -5,3 +5,12 @@
       type: word
       words:
         - "TSCEV4.0"
+
+# 浪潮云 HCM Cloud
+- name: hcm_cloud
+  vendor: 浪潮云
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "HCM Cloud"
