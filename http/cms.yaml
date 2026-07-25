@@ -1682,6 +1682,15 @@
       type: word
       words:
         - 'EPweb'
+- name: elgg
+  vendor: elgg
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Powered by Elgg'
+        - 'elgg.js'
+      condition: or
 - name: podcast_generator
   matchers:
     - part: body
