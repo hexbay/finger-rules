@@ -4,6 +4,14 @@
       type: word
       words:
         - "61401087"
+
+- name: pingsheng_reservoir_supervision_platform
+  vendor: pingsheng_electronic
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "js/PSExtend.js"
 - name: processplus
   vendor: perkinelmer
   matchers-condition: and
