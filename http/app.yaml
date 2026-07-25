@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: pve_http_server
+  vendor: proxmox
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Proxmox = {"
 - name: nakivo_backup_replication
   vendor: nakivo
   matchers:
