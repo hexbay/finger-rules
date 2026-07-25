@@ -1682,6 +1682,13 @@
       type: word
       words:
         - 'EPweb'
+- name: elgg
+  vendor: elgg
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - '413602919'
 - name: bagisto
   vendor: webkul
   matchers:
