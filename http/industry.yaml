@@ -4,6 +4,13 @@
       type: word
       words:
         - "61401087"
+- name: dse855
+  vendor: deep_sea_electronics
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Copyright Deep Sea Electronics"
 
 - name: pingsheng_reservoir_supervision_platform
   vendor: pingsheng_electronic
