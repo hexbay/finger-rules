@@ -205,6 +205,13 @@
       type: word
       words:
         - "Apache StreamPark"
+- name: cloudstack
+  vendor: apache
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Apache CloudStack"
 - name: hertzbeat
   vendor: apache
   matchers:
