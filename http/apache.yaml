@@ -205,6 +205,13 @@
       type: word
       words:
         - "Apache StreamPark"
+- name: hertzbeat
+  vendor: apache
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "HertzBeat"
 - name: activemq_apollo
   vendor: apache
   matchers:
