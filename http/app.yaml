@@ -5433,6 +5433,12 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: filegator
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "FileGator"
 - name: bonita_bpm_portal
   vendor: bonitasoft
   matchers:
