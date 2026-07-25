@@ -1682,6 +1682,13 @@
       type: word
       words:
         - 'EPweb'
+- name: bagisto
+  vendor: webkul
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Bagisto'
 - name: podcast_generator
   matchers:
     - part: body
