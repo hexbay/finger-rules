@@ -4,6 +4,13 @@
       type: word
       words:
           - "ownCloud"
+- name: helpscout
+  vendor: helpscout
+  matchers:
+    - part: body
+      type: word
+      words:
+          - "No settings were found for this company:"
 - name: clever_cloud
   vendor: clever_cloud
   matchers:
