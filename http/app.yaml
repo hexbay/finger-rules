@@ -6896,3 +6896,11 @@
     words:
       - x-envoy-peer-metadata
   name: envoy
+
+- name: Proxmox-VE
+  vendor: proxmox
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Proxmox Virtual Environment"
