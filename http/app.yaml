@@ -5433,6 +5433,12 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: nsq
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "nsqadmin"
 - name: command_dispatch_platform
   vendor: fujian_kelixin
   matchers-condition: or
