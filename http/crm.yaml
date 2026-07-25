@@ -52,6 +52,13 @@
       type: word
       words:
           - "SuiteCRM"
+- name: crmeb
+  vendor: crmeb
+  matchers:
+    - part: title
+      type: word
+      words:
+          - "CRMEB"
 - name: espocrm
   vendor: espocrm
   matchers:
