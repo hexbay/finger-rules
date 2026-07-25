@@ -498,6 +498,13 @@
       type: word
       words:
         - "netis router"
+- name: gl_ar300m_firmware
+  vendor: gl-inet
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "GL.iNet Admin Panel"
 - name: gl_s20_firmware
   vendor: gl-inet
   matchers:
