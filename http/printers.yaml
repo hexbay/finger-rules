@@ -28,3 +28,10 @@
       type: word
       words:
         - 'Sato'
+- name: topaccess
+  vendor: toshiba
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'topaccess'
