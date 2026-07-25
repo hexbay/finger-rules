@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: harman_media_suite
+  vendor: harman
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Harman Media Suite"
 - name: simple_realtime_server
   vendor: ossrs
   matchers:
