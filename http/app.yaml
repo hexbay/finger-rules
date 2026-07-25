@@ -5433,6 +5433,32 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: fxserver
+  vendor: cfx.re
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "FXServer"
+- name: powerpanel_enterprise
+  vendor: cyberpower
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "PDNU"
+- name: danswer
+  vendor: danswer_ai
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Danswer"
+    - part: body
+      type: word
+      words:
+        - "/api/chat/send-message"
+        - "danswer"
 - name: tileserver_gl
   matchers:
     - part: title
