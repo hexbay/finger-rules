@@ -4,6 +4,13 @@
       type: word
       words:
         - Metabase
+- name: cratedb
+  vendor: cratedb
+  matchers:
+    - part: title
+      type: word
+      words:
+        - CrateDB
 - name: phpmemcachedadmin
   matchers:
     - type: word
