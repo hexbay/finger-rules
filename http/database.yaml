@@ -4,6 +4,14 @@
       type: word
       words:
         - Metabase
+- name: phpmemcachedadmin
+  matchers:
+    - type: word
+      part: body
+      condition: and
+      words:
+        - phpMemcachedAdmin
+        - "Execute Commands on Servers"
 - name: bigant_database
   vendor: bigantsoft
   matchers-condition: or
