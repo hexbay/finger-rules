@@ -11,6 +11,13 @@
       - KM-MFP-finger
       - JC-HTTPD
       - NetworkScanner WebServer Ver
+- name: jetport_5601
+  vendor: korenix
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Korenix JetPort"
 - name: seh_utnserver
   vendor: seh
   matchers:
