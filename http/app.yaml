@@ -5433,6 +5433,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: timetrax
+  vendor: efroTech
+  matchers-condition: or
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-661694518"
+    - part: body
+      type: word
+      words:
+        - "TimeTrax - Cloud HR Software"
 - name: eos
   matchers:
     - part: title
