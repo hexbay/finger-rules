@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: privategpt
+  vendor: pribai
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "private gpt"
 - name: timetrax
   vendor: efroTech
   matchers-condition: or
