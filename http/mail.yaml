@@ -21,6 +21,14 @@
       - "SmarterMail"
   name: SmarterMail
 
+- name: proxmox_mail_gateway
+  vendor: proxmox
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Proxmox = {"
+
 - name: raidenmaild
   vendor: raidenmaild
   matchers:
