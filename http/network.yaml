@@ -76,6 +76,22 @@
       type: word
       words:
         - "webconfig menu.cgi"
+- name: secnet_ac
+  vendor: secnet
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "secnet ac"
+    - part: body
+      type: word
+      words:
+        - "window.open('index.htm'"
+    - part: header
+      type: word
+      words:
+        - "ac_userid=,ac_passwd="
+  matchers-condition: and
 - name: ucm6200
   vendor: grandstream
   matchers-condition: and
