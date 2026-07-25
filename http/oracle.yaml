@@ -209,3 +209,11 @@
       type: word
       words:
         - "X-Oracle-Dms-Ecid"
+
+- name: retail_xstore_office
+  vendor: oracle
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "xstoremgwt"

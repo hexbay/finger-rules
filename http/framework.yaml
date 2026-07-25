@@ -4,6 +4,15 @@
       type: word
       words:
         - "Server backup manager"
+- name: dash
+  vendor: plotly
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "dash-core-components"
+        - "_dash-component-suites"
 - name: qwik
   matchers:
     - part: body

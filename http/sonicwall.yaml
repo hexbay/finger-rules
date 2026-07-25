@@ -36,3 +36,10 @@
       type: word
       words:
         - "SonicWALL Email Security"
+- name: sonicos
+  vendor: sonicwall
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "SonicOS"
