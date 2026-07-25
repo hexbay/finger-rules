@@ -7195,13 +7195,7 @@
     words:
     - <a href="finger://onzeminer.sourceforge.net">ONZE Miner</a> is free software distributed under the terms of the <a href="/miner/gpl.txt" target="license">GNU General Public License</a>
   name: onze_miner
-- matchers:
-  - part: body
-    type: word
-    words:
-    - <title>op5 Monitor login</title>
-    - <link type="text/css" rel="stylesheet" href="/monitor/application/views/themes/default/css/default/common.css" />
-  name: op5_monitor
+
 - matchers:
   - part: body
     type: word
