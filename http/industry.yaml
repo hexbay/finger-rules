@@ -4,6 +4,13 @@
       type: word
       words:
         - "61401087"
+- name: energy_communication_unit_firmware
+  vendor: apsystems
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "altenergy power control software"
 
 - name: osasi_plc
   vendor: osasi
