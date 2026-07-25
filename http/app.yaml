@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: fxserver
+  vendor: cfx.re
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "FXServer"
 - name: powerpanel_enterprise
   vendor: cyberpower
   matchers:
