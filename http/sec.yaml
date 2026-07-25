@@ -200,6 +200,14 @@
       words:
         - "/webauthd?op=sslvpn_get_pagetxt&ip_and_port="
 
+- name: mastersam_star_gate
+  vendor: mastersam
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "MasterSAM"
+
 - name: mobile_security_framework
   vendor: mobsf_project
   matchers:
