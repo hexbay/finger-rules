@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: chirpstack
+  vendor: chirpstack
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ChirpStack"
 - name: reposilite
   vendor: dzikoysk
   matchers:
