@@ -438,6 +438,19 @@
     - Web Viewer for Samsung DVR
   name: argus_surveillance_dvr
 
+- matchers:
+    - part: title
+      type: word
+      words:
+        - "NVR301-04-P4"
+    - part: header
+      type: word
+      words:
+        - "NVRDVR"
+  matchers-condition: or
+  name: nvr301_04s2_p4
+  vendor: uniview
+
 - name: dw_spectrum
   vendor: digital_watchdog
   matchers:
