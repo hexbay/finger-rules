@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: azon_dominator
+  vendor: azon_dominator
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Azon Dominator"
 - name: lean_value_management_system_business
   matchers:
     - part: body
