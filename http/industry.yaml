@@ -4,6 +4,13 @@
       type: word
       words:
         - "61401087"
+- name: lanwon_clinical_browsing_system
+  vendor: bluenet_technology
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "临床浏览"
 - name: dse855
   vendor: deep_sea_electronics
   matchers:
