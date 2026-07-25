@@ -5433,6 +5433,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: fastchat
+  vendor: lm_sys
+  matchers-condition: or
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Chatbot Arena"
+    - part: body
+      type: word
+      words:
+        - "lm-sys/FastChat/"
 - name: voyager
   vendor: devdojo
   matchers:
