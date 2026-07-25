@@ -82,7 +82,7 @@
     - part: title
       type: word
       words:
-        - "OP5 Monitor"
+        - "ITRS"
 - name: hipath_cordless_ip
   vendor: unify
   matchers:
