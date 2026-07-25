@@ -76,6 +76,13 @@
       type: word
       words:
         - "webconfig menu.cgi"
+- name: monitor
+  vendor: op5
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ITRS"
 - name: hipath_cordless_ip
   vendor: unify
   matchers:
