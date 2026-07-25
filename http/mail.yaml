@@ -21,6 +21,14 @@
       - "SmarterMail"
   name: SmarterMail
 
+- name: mailinspector
+  vendor: hsc
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Licensed to HSC TREINAMENTO"
+
 - name: proxmox_mail_gateway
   vendor: proxmox
   matchers:
