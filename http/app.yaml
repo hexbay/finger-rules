@@ -5433,6 +5433,18 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: command_dispatch_platform
+  vendor: fujian_kelixin
+  matchers-condition: or
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "指挥调度管理平台"
+    - part: body
+      type: word
+      words:
+        - "app/structure/departments.php"
 - name: argo_cd
   vendor: argoproj
   matchers:
