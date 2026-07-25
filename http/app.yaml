@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: fronsetia
+  vendor: fronsetiav1.1
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Fronsetia"
 - name: rengine
   vendor: yogeshojha
   matchers:
