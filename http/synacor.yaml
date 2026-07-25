@@ -12,21 +12,6 @@
       type: word
       words:
         - ZM_LOGIN_CSRF
-
-- name: Zimbra
-  matchers:
-    - part: title
-      type: word
-      words:
-        - zimbra 
-    - part: icon_hash
-      type: word
-      words:
-        - "475145467"
-    - part: headers.set-cookie
-      type: word
-      words:
-        - ZM_LOGIN_CSRF
 - name: collaboration
   vendor: Zimbra
   matchers:
