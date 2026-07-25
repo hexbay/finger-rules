@@ -4,6 +4,15 @@
       type: word
       words:
         - "61401087"
+- name: vtimesync
+  vendor: lawo_ag
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "vTimeSync"
+        - "Lawo"
 - name: energy_communication_unit_firmware
   vendor: apsystems
   matchers:
