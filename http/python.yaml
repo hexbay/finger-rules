@@ -114,6 +114,13 @@
       part: headers.server
       words:
         - "PostgREST"
+- name: solara
+  vendor: widgetti
+  matchers:
+    - type: word
+      part: icon_hash
+      words:
+        - "-223126228"
 - name: gpt_academic
   vendor: binary_husky
   matchers:

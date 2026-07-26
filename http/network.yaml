@@ -76,6 +76,18 @@
       type: word
       words:
         - "webconfig menu.cgi"
+- name: trilithic_viewpoint
+  vendor: trilithic
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "trilithic_win_auth"
+    - part: body
+      type: word
+      words:
+        - "ViewPoint"
 - name: monitor
   vendor: op5
   matchers:

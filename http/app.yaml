@@ -5433,6 +5433,153 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: ldap_account_manager
+  vendor: ldap_account_manager
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "LDAP Account Manager"
+- name: lmszai
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "LMSZAI - Learning Management System"
+- name: bumsys
+  vendor: bumsys_project
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "BUM</b>Sys</a>"
+- name: art_gallery_management_system
+  vendor: phpgurukul
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Art Gallery Management System"
+- name: data_science_studio
+  vendor: dataiku
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "dataiku"
+- name: helprace
+  vendor: helprace
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Alias not configured!"
+        - "Admin of this Helprace account needs to set up domain alias"
+- name: nsq
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "nsqadmin"
+- name: command_dispatch_platform
+  vendor: fujian_kelixin
+  matchers-condition: or
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "指挥调度管理平台"
+    - part: body
+      type: word
+      words:
+        - "app/structure/departments.php"
+- name: argo_cd
+  vendor: argoproj
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Argo CD"
+- name: azon_dominator
+  vendor: azon_dominator
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Azon Dominator"
+- name: lean_value_management_system_business
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/ajax/LVS.Core.Common.STSResult,LVS.Core.Common.ashx"
+- name: journyx_jtime
+  vendor: journyx
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-109972155"
+- name: privategpt
+  vendor: pribai
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "private gpt"
+- name: timetrax
+  vendor: efroTech
+  matchers-condition: or
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-661694518"
+    - part: body
+      type: word
+      words:
+        - "TimeTrax - Cloud HR Software"
+- name: eos
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "EOS HTTP Browser"
+- name: harman_media_suite
+  vendor: harman
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Harman Media Suite"
+- name: simple_realtime_server
+  vendor: ossrs
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1386054408"
+- name: localai
+  vendor: mudler
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-976853304"
+- name: filegator
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "FileGator"
+- name: bonita_bpm_portal
+  vendor: bonitasoft
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1197926023"
 - name: fxserver
   vendor: cfx.re
   matchers:

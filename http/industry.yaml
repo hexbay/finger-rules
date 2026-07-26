@@ -4,6 +4,40 @@
       type: word
       words:
         - "61401087"
+- name: lanwon_clinical_browsing_system
+  vendor: bluenet_technology
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "临床浏览"
+- name: dse855
+  vendor: deep_sea_electronics
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Copyright Deep Sea Electronics"
+
+- name: pingsheng_reservoir_supervision_platform
+  vendor: pingsheng_electronic
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "js/PSExtend.js"
+- name: processplus
+  vendor: perkinelmer
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Process Plus"
+    - part: icon_hash
+      type: word
+      words:
+        - "1772087922"
 - name: vtimesync
   vendor: lawo_ag
   matchers:

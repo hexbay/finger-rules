@@ -1682,6 +1682,29 @@
       type: word
       words:
         - 'EPweb'
+- name: playtube
+  vendor: playtube
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - 'razorpay_options'
+        - 'PlayTube'
+- name: elgg
+  vendor: elgg
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - '413602919'
+- name: bagisto
+  vendor: webkul
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Bagisto'
 - name: podcast_generator
   matchers:
     - part: body

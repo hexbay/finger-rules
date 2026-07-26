@@ -4,6 +4,21 @@
       type: word
       words:
         - Metabase
+- name: cratedb
+  vendor: cratedb
+  matchers:
+    - part: title
+      type: word
+      words:
+        - CrateDB
+- name: phpmemcachedadmin
+  matchers:
+    - type: word
+      part: body
+      condition: and
+      words:
+        - phpMemcachedAdmin
+        - "Execute Commands on Servers"
 - name: bigant_database
   vendor: bigantsoft
   matchers-condition: or

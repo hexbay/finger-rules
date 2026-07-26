@@ -26,6 +26,18 @@
       type: word
       words:
         - "Unisphere"
+- name: dell_emc_ecom
+  vendor: dell
+  matchers-condition: and
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "ECOMSecurity"
+    - part: body
+      type: word
+      words:
+        - "Welcome to ECOM"
 - name: Dell-Wyse-Management-Suite
   matchers:
     - part: body

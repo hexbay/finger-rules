@@ -16,3 +16,10 @@
       type: word
       words:
         - "圣乔ERP系统"
+- name: enjoyrmis
+  vendor: enjoyrmis
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "CheckSilverlightInstalled"
