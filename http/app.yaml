@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: locust
+  vendor: locust
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Locust"
 - name: teslamate
   vendor: teslamate_project
   matchers-condition: or
