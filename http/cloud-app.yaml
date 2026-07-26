@@ -4,6 +4,13 @@
       type: word
       words:
           - "ownCloud"
+- name: gemfury
+  vendor: gemfury
+  matchers:
+    - part: header
+      type: word
+      words:
+          - "https://gemfury.com/404"
 - name: helpscout
   vendor: helpscout
   matchers:
