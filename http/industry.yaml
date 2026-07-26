@@ -4,6 +4,13 @@
       type: word
       words:
         - "61401087"
+- name: openview
+  vendor: deos
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "OPENview"
 
 - name: spidercontrol_scada_web_server
   vendor: spidercontrol
