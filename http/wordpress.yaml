@@ -8,13 +8,8 @@
     - part: body
       type: word
       words:
-        - content="WordPress.com"
-        - Powered by WordPress
-        - /wp-content/plugins/
-    - part: title
-      type: word
-      words:
-        - "WordPress › Error"
+        - "WordPress.com"
+        - /wp-content/
     - name: version
       part: body
       regex:
