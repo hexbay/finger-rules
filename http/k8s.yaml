@@ -4,5 +4,17 @@
       type: regex
       name: version
       regex:
+          - etcdserver":"([\d\.]+)"
+- name: kubecost
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Kubecost"
+  matchers:
+    - part: body
+      type: regex
+      name: version
+      regex:
           - etcdserver\":\"([\\d\\.]+)\"
 
