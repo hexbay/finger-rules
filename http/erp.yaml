@@ -16,6 +16,13 @@
       type: word
       words:
         - "圣乔ERP系统"
+- name: fms
+  vendor: myfactory
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "myfactory"
 - name: enjoyrmis
   vendor: enjoyrmis
   matchers:
