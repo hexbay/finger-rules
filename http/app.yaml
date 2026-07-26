@@ -5433,6 +5433,24 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: teslamate
+  vendor: teslamate_project
+  matchers-condition: or
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "teslamate"
+    - part: icon_hash
+      type: word
+      words:
+        - "-1478287554"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Settings · TeslaMate"
+        - "URLs</h2>"
 - name: ldap_account_manager
   vendor: ldap_account_manager
   matchers:
