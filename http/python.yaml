@@ -114,6 +114,18 @@
       part: headers.server
       words:
         - "PostgREST"
+- name: pyramid_debugtoolbar
+  vendor: pylons
+  matchers-condition: and
+  matchers:
+    - type: word
+      part: title
+      words:
+        - "Pyramid Debug Toolbar"
+    - type: word
+      part: body
+      words:
+        - "Pyramid DebugToolbar</a>"
 - name: solara
   vendor: widgetti
   matchers:
