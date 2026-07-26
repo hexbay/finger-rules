@@ -4,6 +4,17 @@
       type: word
       words:
           - "ownCloud"
+- name: frontify
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "404 - Page Not Found"
+    - part: body
+      type: word
+      words:
+        - "Oops… looks like you got lost"
 - name: helpscout
   vendor: helpscout
   matchers:
