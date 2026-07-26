@@ -11,6 +11,12 @@
       - KM-MFP-finger
       - JC-HTTPD
       - NetworkScanner WebServer Ver
+- name: qvidium
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "QVidium Management"
 - name: sigma_wide
   vendor: idemia
   matchers:
