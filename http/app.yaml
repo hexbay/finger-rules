@@ -5433,6 +5433,13 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: art_gallery_management_system
+  vendor: phpgurukul
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Art Gallery Management System"
 - name: data_science_studio
   vendor: dataiku
   matchers:
