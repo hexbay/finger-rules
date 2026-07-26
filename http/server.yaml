@@ -699,6 +699,13 @@
       words:
         - uc-httpd
 
+- name: gopher_server
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Gopher Server
+
 - name: mamp
   vendor: mamp
   matchers:
