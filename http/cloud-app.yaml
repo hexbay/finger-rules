@@ -4,6 +4,13 @@
       type: word
       words:
           - "ownCloud"
+- name: announcekit
+  vendor: announcekit
+  matchers:
+    - part: body
+      type: word
+      words:
+          - "Error 404 - AnnounceKit"
 - name: frontify
   matchers-condition: and
   matchers:
