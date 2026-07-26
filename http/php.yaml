@@ -99,6 +99,19 @@
       words:
         - "PHPnow works"
 
+- name: php_spx
+  vendor: noisebynorthwest
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SPX Control Panel"
+    - part: body
+      type: word
+      words:
+        - "SPX_ENABLED"
+
 - name: user_registration_login_and_user_management_system
   vendor: phpgurukul
   matchers:
