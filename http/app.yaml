@@ -5433,6 +5433,12 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: lmszai
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "LMSZAI - Learning Management System"
 - name: bumsys
   vendor: bumsys_project
   matchers:
