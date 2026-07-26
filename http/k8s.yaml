@@ -6,3 +6,9 @@
       regex:
           - etcdserver\":\"([\\d\\.]+)\"
 
+- name: kubecost
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Kubecost"
