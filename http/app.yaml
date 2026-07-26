@@ -5433,6 +5433,15 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: helprace
+  vendor: helprace
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Alias not configured!"
+        - "Admin of this Helprace account needs to set up domain alias"
 - name: nsq
   matchers:
     - part: title
