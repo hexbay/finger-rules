@@ -139,3 +139,10 @@
       type: word
       words:
         - "Archer C20"
+- name: tp_link_r470t
+  vendor: tp_link
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "r470t"
