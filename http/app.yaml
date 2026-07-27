@@ -7225,3 +7225,11 @@
       type: word
       words:
         - "Proxmox Virtual Environment"
+
+- name: moticdsm
+  vendor: xiamen_motic
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "617142232"
