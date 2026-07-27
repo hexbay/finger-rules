@@ -1820,3 +1820,10 @@
       type: word
       words:
         - "WoodWing Studio Server"
+- name: phpwind
+  vendor: phpwind
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Powered by phpwind"
