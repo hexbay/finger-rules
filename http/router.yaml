@@ -540,3 +540,11 @@
       type: word
       words:
         - "def_wirelesspassword"
+
+- name: milesight_industrial_cellular_routers
+  vendor: milesight
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "rt_title"
