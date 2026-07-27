@@ -7245,3 +7245,11 @@
       type: word
       words:
         - "-1036943727"
+
+- name: fastbee
+  vendor: fastbee
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "fastbee"
