@@ -116,3 +116,10 @@
       type: word
       words:
         - "1092427843"
+- name: enviromux
+  vendor: network_technologies_inc
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ENVIROMUX"
