@@ -80,3 +80,9 @@
       type: word
       words:
         - "register"
+- name: appveyor
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "appveyor.yml"
