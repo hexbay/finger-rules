@@ -45,3 +45,10 @@
       type: word
       words:
         - "1805953451"
+- name: next_gen_application_firewall
+  vendor: sangfor
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SANGFOR | NGAF"
