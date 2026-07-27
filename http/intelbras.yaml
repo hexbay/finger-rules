@@ -21,3 +21,10 @@
       type: word
       words:
         - "intelbras.com"
+- name: sg_2404_mr
+  vendor: intelbras
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Intelbras"
