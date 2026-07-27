@@ -28,3 +28,10 @@
       type: word
       words:
         - "Intelbras"
+- name: sg_2404_mr_firmware
+  vendor: intelbras
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Intelbras"
