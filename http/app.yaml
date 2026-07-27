@@ -7303,3 +7303,10 @@
       type: word
       words:
         - "Webbdesign: SL-Studio."
+
+- name: erensoft
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Kodlama:Erensoft"
