@@ -7260,3 +7260,10 @@
       type: word
       words:
         - "Turbo Website Reviewer"
+
+- name: stackposts
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "700046539"
