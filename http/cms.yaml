@@ -1814,3 +1814,9 @@
       type: word
       words:
         - 'Vanguard Marketplace'
+- name: woodwing_studio_server
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "WoodWing Studio Server"
