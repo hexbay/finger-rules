@@ -532,3 +532,11 @@
       type: word
       words:
         - "9Router"
+
+- name: klr300n
+  vendor: keo
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "def_wirelesspassword"
