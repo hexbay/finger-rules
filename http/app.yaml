@@ -5670,10 +5670,6 @@
       type: word
       words:
         - "TileServer GL"
-    - part: body
-      type: word
-      words:
-        - "TileServer GL"
 - name: nagios_log_server
   vendor: nagios
   matchers:
