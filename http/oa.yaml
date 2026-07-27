@@ -142,3 +142,11 @@
       part: body
       words:
         - "/jquery.landray.dialog.js"
+
+- name: glodon_linkworks
+  vendor: glodon
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Services/Identification/login.ashx"
