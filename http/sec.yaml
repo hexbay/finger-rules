@@ -238,3 +238,10 @@
       type: word
       words:
         - "You've tried to access an account/page that does not exist"
+
+- name: eaa_application_access_system
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "EAA益和应用接入系统"
