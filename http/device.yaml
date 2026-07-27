@@ -114,3 +114,9 @@
         - "u_keepalive.htm"
         - "u_status.xml"
         - "contentFrame"
+- name: raspberry_shake
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Raspberry Shake Config"
