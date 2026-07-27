@@ -7267,3 +7267,10 @@
       type: word
       words:
         - "700046539"
+- name: fluig
+  vendor: totvs
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "fluig-style-guide-flat.min.css"
