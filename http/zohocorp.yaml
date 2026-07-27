@@ -51,3 +51,9 @@
       words:
         - "ManageEngine ServiceDesk"
         - "ManageEngine ServiceDesk Plus"
+- name: manageengine_admanager
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ManageEngine"
