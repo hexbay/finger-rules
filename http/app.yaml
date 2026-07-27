@@ -7237,3 +7237,11 @@
       type: word
       words:
         - "False Alarm Reduction Website"
+
+- name: fastadmin
+  vendor: fastadmin
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1036943727"
