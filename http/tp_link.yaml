@@ -143,6 +143,6 @@
   vendor: tp_link
   matchers:
     - type: word
-      part: body
+      part: header
       words:
         - "r470t"
