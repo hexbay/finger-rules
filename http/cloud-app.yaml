@@ -68,3 +68,15 @@
       words:
         - "text/html"
       negative: true
+- name: coolify_platform
+  vendor: coollabsio
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Coolify"
+    - part: body
+      type: word
+      words:
+        - "register"
