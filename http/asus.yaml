@@ -26,3 +26,10 @@
         - "ASUS"
         - "WL-520GU"
         - "return 'Connected"
+- name: wl_500g
+  vendor: asus
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "WL-500G"
