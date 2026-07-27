@@ -7281,3 +7281,10 @@
       type: word
       words:
         - "fluig-style-guide-flat.min.css"
+
+- name: ace_admin
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Dashboard - Ace Admin"
