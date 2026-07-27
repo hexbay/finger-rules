@@ -7288,3 +7288,11 @@
       type: word
       words:
         - "Dashboard - Ace Admin"
+
+- name: on_premises_installation
+  vendor: structurizr
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1199592666"
