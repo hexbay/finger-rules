@@ -7253,3 +7253,10 @@
       type: word
       words:
         - "fastbee"
+
+- name: turbo_website_reviewer
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Turbo Website Reviewer"
