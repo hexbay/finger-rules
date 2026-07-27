@@ -146,7 +146,7 @@
 - name: glodon_linkworks
   vendor: glodon
   matchers:
-    - part: body
+    - part: header
       type: word
       words:
         - "Services/Identification/login.ashx"
