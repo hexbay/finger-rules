@@ -5433,6 +5433,20 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
+- name: shoretel_converged_conferencing
+  vendor: mitel
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      condition: or
+      words:
+        - "Mitel Networks Corporation"
+        - "ShoreTel"
+    - part: icon_hash
+      type: word
+      words:
+        - "268280373"
 - name: lazy_file_manager
   vendor: lazy_file_manager
   matchers:
