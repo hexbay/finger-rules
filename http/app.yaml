@@ -7296,3 +7296,10 @@
       type: word
       words:
         - "1199592666"
+
+- name: sl_studio
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Webbdesign: SL-Studio."
