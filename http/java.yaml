@@ -17,3 +17,10 @@
       name: version
       regex:
         - JSP(?:\/([\d\.]+))
+
+- name: javamelody
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "javamelody"
