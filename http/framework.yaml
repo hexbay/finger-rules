@@ -31,3 +31,11 @@
         - "/_ignition/"
         - "Ignition"
       condition: and
+
+- name: SpringBoot
+  matchers:
+    - part: 'body'
+      type: word
+      words:
+        - '"message":"No message available",'
+        - 'Whitelabel Error Page'

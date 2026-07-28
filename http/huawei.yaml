@@ -99,3 +99,17 @@
       type: word
       words:
         - "UI_component/css/xtheme-black.css"
+
+- matchers:
+    - part: headers.server
+      words:
+        - HuaweiCloudWAF
+      type: word
+  name: Huawei-Cloud-WAF
+
+- matchers:
+    - part: headers.set-cookie
+      words:
+        - HWWAFSESID
+      type: word
+  name: Huawei-Cloud-WAF

@@ -5,3 +5,25 @@
       type: word
       words: 
         - 'Akamai CloudTest'
+
+- name: akamai
+  matchers:
+    - type: word
+      part: headers.pragma
+      words:
+        - "akamai-x-cache-on"
+        - "akamai-x-cache-remote"
+
+- matchers:
+    - part: headers.server
+      words:
+        - AkamaiGHost
+      type: word
+  name: Akamai-CDN
+
+- matchers:
+    - part: headers.server
+      words:
+        - AkamaiGHost
+      type: word
+  name: Akamai-Kona-Site-Defender

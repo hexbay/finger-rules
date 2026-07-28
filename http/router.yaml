@@ -88,14 +88,6 @@
       type: word
       words:
         - "Gigaset Router"
-- name: Synology-Router
-  matchers:
-    - part: title
-      type: word
-      condition: and
-      words:
-        - "Router"
-        - "Synology"
 - name: iStoreOS-Router
   matchers:
     - part: title
@@ -127,14 +119,6 @@
       condition: and
       words:
         - "TalkTalk"
-        - "Router"
-- name: TP-LINK-Router
-  matchers:
-    - part: title
-      type: word
-      condition: and
-      words:
-        - "TP-LINK"
         - "Router"
 - name: TP-LINK-WR1043N
   matchers:
@@ -203,24 +187,6 @@
       type: word
       words:
         - "pfSense-fsl-wifi"
-- name: PfSense
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "pfSense"
-- name: UAG2100
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "UAG2100"
-- name: UAG4100
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "UAG4100"
 - name: Inhand-Router
   matchers:
     - part: title
@@ -346,12 +312,6 @@
         - B-LINK
   name: B-Link-Router
 
-- name: LGATE-902
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "LGATE-902"
 - matchers:
     - part: title
       type: word
@@ -424,13 +384,6 @@
 
 
 
-- name: intercom_broadcast_system
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "-1830859634"
-
 - name: jasperreports_library
   matchers:
     - part: body
@@ -459,27 +412,6 @@
       type: word
       words:
         - "Lantronix"
-
-- name: wl_wn531g3_firmware
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "WN531G3"
-
-- name: wl_wn533a8_firmware
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "WN533A8"
-
-- name: wn530hg4_firmware
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "WN530HG4"
 
 - name: xc1000_firmware
   matchers:
@@ -526,14 +458,6 @@
       type: word
       words:
         - "httpd_four-faith"
-- name: 9Router
-  vendor: decolua
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "9Router"
-
 - name: klr300n
   vendor: keo
   matchers:

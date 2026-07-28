@@ -24,3 +24,10 @@
       type: word
       words:
         - "CheckSilverlightInstalled"
+
+- name: Dolibarr
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "DOLSESSID_"

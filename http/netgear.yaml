@@ -37,3 +37,11 @@
       type: word
       words:
         - "NETGEAR DGND3700v2"
+
+- name: NETGEAR-Gateway
+  matchers:
+    - part: title
+      type: regex
+      name: mode
+      regex:
+        - NETGEAR Gateway (.*)

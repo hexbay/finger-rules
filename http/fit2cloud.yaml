@@ -25,3 +25,10 @@
       type: word
       words:
         - "kubeoperator"
+
+- name: JumpServer
+  matchers:
+    - part: title
+      type: word
+      words:
+        - JumpServer

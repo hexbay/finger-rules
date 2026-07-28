@@ -40,3 +40,24 @@
       type: word
       words:
         - 'var Model="WN530H4";'
+
+- name: wl_wn531g3_firmware
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "WN531G3"
+
+- name: wl_wn533a8_firmware
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "WN533A8"
+
+- name: wn530hg4_firmware
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "WN530HG4"

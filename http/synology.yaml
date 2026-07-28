@@ -77,3 +77,12 @@
       type: word
       words:
         - "BeeStation"
+
+- name: Synology-Router
+  matchers:
+    - part: title
+      type: word
+      condition: and
+      words:
+        - "Router"
+        - "Synology"

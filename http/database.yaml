@@ -50,16 +50,6 @@
       words:
         - "eXist db"
 
-- name: impala
-  vendor: apache
-  matchers:
-    - part: body
-      type: word
-      condition: and
-      words:
-        - "Apache Impala"
-        - "Process Info"
-
 - name: influxdb
   matchers:
     - type: word

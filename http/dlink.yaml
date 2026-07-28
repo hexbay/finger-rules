@@ -220,3 +220,17 @@
       part: title
       words:
         - "DIR-803"
+
+- name: D_Link-DCS-IP-camera
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "DCS-"
+
+- name: DCS-5222LB1
+  matchers:
+    - part: headers.www-authenticate
+      type: word
+      words:
+        - 'DCS-5222LB1'

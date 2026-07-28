@@ -21,3 +21,11 @@
       type: word
       words:
         - "畅捷CRM"
+
+- name: ChanJet-CRM
+  vendor: chanjet
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "畅捷CRM"

@@ -96,3 +96,17 @@
       type: word
       words:
         - "MobileFirst Operations Console"
+
+- name: maximo_asset_management
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-399298961"
+
+- matchers:
+  - part: headers.server
+    words:
+      - Lotus-Domino
+    type: word
+  name: lotus_domino

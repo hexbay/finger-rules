@@ -48,13 +48,6 @@
       type: word
       words:
         - Internet Security by Zscaler
-- name: JumpServer
-  matchers:
-    - part: title
-      type: word
-      words:
-        - JumpServer
-
 - name: KingSoft-v8
   matchers:
     - part: title

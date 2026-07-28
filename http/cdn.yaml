@@ -30,9 +30,30 @@
       words:
         - "X-Via-JSL"
 
-- name: Alibaba-Web-WAF
-  matchers:
-    - part: title
-      type: word
+- matchers:
+    - part: headers.server
       words:
-        - 阿里云 Web应用防火墙
+        - cloudflare-nginx
+      type: word
+  name: CloudFlare
+
+- matchers:
+    - part: headers.server
+      words:
+        - cloudflare
+      type: word
+  name: CloudFlare
+
+- matchers:
+    - part: header
+      words:
+        - CF-RAY
+      type: word
+  name: CloudFlare
+
+- matchers:
+    - part: headers.set-cookie
+      words:
+        - jsluid=
+      type: word
+  name: 加速乐

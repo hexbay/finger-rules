@@ -46,3 +46,11 @@
       words:
         - "/ccm-web/"
         - "Wyse Management Suite"
+
+- name: dell_dpi_remote_power_management
+  vendor: dell
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "DELL DPI Remote Power Management"

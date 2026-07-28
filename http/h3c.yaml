@@ -126,13 +126,6 @@
       words:
         - "1798893256"
         - "-766529773"
-- name: nopCommerce
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "nopCommerce"
-
 - name: H3C IMC
   matchers:
     - part: body

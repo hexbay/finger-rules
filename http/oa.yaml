@@ -29,12 +29,6 @@
       words:
         - /OA/WebResource.axd
         - "全程云办公"
-- name: CmsEasy
-  matchers:
-    - type: word
-      part: body
-      words:
-        - "http://www.cmseasy.cn/service_1.html"
 - name: KingDee-OA
   matchers:
     - type: word

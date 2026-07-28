@@ -19,3 +19,17 @@
       type: word
       words:
         - "sentinel dashboard"
+
+- name: Nacos
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Nacos
+
+- name: Tengine
+  matchers:
+    - part: headers.server
+      words:
+        - Tengine
+      type: word

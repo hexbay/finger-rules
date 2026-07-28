@@ -15,13 +15,6 @@
       type: word
       words:
           - "灵当CRM"
-- name: Mkdocs
-  matchers:
-    - part: body
-      type: regex
-      name: version
-      regex:
-        - content="mkdocs-([\d\.]+)
 - matchers:
   - part: body
     type: word
@@ -75,18 +68,17 @@
       words:
           - "sfsites"
 
-- name: Krayin CRM
-  vendor: webkul
+- name: simplecrm
   matchers:
     - part: title
       type: word
       words:
-        - "Krayin"
+        - "SimpleCRM"
+        - "Simple CRM"
 
-- name: ChanJet-CRM
-  vendor: chanjet
+- name: opencats
   matchers:
     - part: title
       type: word
       words:
-        - "畅捷CRM"
+        - "opencats"

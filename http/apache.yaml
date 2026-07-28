@@ -150,12 +150,6 @@
       type: word
       words:
         - "Apache CloudStack"
-- name: Devika
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "-1429839495"
 - name: tapestry
   matchers:
     - part: body
@@ -273,13 +267,6 @@
       type: word
       words:
         - "Lodash"
-- name: AntD Admin
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "/@@/devScripts.js"
-        - "/umi.js"
 - name: RustDesk
   matchers:
     - part: title
@@ -392,3 +379,27 @@
       type: word
       words:
       - "24048806"
+
+- name: impala
+  vendor: apache
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Apache Impala"
+        - "Process Info"
+
+- name: rocketmq
+  matchers:
+    - part: headers.x-application-context
+      type: word
+      words:
+        - rocketmq-console
+
+- name: ActiveMQ
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Apache ActiveMQ

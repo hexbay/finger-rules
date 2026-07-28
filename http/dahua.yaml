@@ -39,3 +39,17 @@
       words:
         - /WPMS/asset/lib/gridster/
         - URL='/WPMS
+
+- name: DaHua-Camera
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "2019488876"
+
+- name: DaHua
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Dahua Technology Co., Ltd."

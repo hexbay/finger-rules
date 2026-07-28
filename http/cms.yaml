@@ -5,13 +5,6 @@
       type: word
       words:
         - "/seller.php?s=/Public/login"
-- name: simplecrm
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "SimpleCRM"
-        - "Simple CRM"
 - name: sitecore
   matchers:
     - part: title
@@ -1408,13 +1401,6 @@
       words:
         - Ananyoo CMS
   name: Ananyoo-CMS
-- name: Dolibarr
-  matchers:
-    - part: header
-      type: word
-      words:
-        - "DOLSESSID_"
-
 - name: lin-cms-spring-boot
   matchers:
     - part: header
@@ -1703,13 +1689,6 @@
       type: word
       words:
         - '413602919'
-- name: bagisto
-  vendor: webkul
-  matchers:
-    - part: body
-      type: word
-      words:
-        - 'Bagisto'
 - name: podcast_generator
   matchers:
     - part: body
@@ -1848,3 +1827,17 @@
       - "PluXml - Page d'authentification"
       - "Retour au site"
   name: pluxml
+
+- name: CmsEasy
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "http://www.cmseasy.cn/service_1.html"
+
+- name: nopCommerce
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "nopCommerce"

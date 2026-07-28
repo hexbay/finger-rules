@@ -1,28 +1,4 @@
 # 产品类型：网络存储（NAS），包括存储设备、文件共享和管理平台。
-- name: NAS326
-  matchers:
-  - part: cert
-    type: word
-    words:
-    - CN=NAS326
-- name: NAS520
-  matchers:
-  - part: cert
-    type: word
-    words:
-    - CN=NAS520
-- name: NAS540
-  matchers:
-  - part: cert
-    type: word
-    words:
-    - CN=NAS540
-- name: NAS542
-  matchers:
-  - part: cert
-    type: word
-    words:
-    - CN=NAS542
 - name: Vaswani-NAS
   matchers:
   - part: title

@@ -13,3 +13,10 @@
       type: word
       words:
         - "Avaya J179 Phone"
+
+- name: aura
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - aurahttpd

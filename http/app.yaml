@@ -30,13 +30,6 @@
       type: word
       words:
         - "pyLoad"
-- name: SpringBoot
-  matchers:
-    - part: 'body'
-      type: word
-      words:
-        - '"message":"No message available",'
-        - 'Whitelabel Error Page'
 - name: RomPager
   matchers:
     - part: title
@@ -1821,13 +1814,6 @@
       part: body
       words:
         - "eShop Installer"
-- name: akamai
-  matchers:
-    - type: word
-      part: headers.pragma
-      words:
-        - "akamai-x-cache-on"
-        - "akamai-x-cache-remote"
 - name: Cobub-Razor
   matchers:
     - type: word
@@ -2727,12 +2713,6 @@
       type: word
       words:
         - "Tasmota"
-- name: pfblockerng
-  matchers:
-    - part: headers.server
-      type: word
-      words:
-        - "pfBlockerNG"
 - name: Admidio
   matchers:
     - part: body
@@ -3857,24 +3837,12 @@
       type: word
       words:
         - "bibliopac"
-- name: pypiserver
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "pypiserver"
 - name: aurall_rec_monitor
   matchers:
     - part: body
       type: word
       words:
         - "aurall"
-- name: maximo_asset_management
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "-399298961"
 - name: mojarra
   matchers:
     - part: body

@@ -12,3 +12,19 @@
       type: word
       words:
         - "QloApps"
+
+- name: bagisto
+  vendor: webkul
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Bagisto'
+
+- name: Krayin CRM
+  vendor: webkul
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Krayin"

@@ -150,3 +150,18 @@
       part: body
       words:
         - "starlette"
+
+- name: pypiserver
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "pypiserver"
+
+- name: Mkdocs
+  matchers:
+    - part: body
+      type: regex
+      name: version
+      regex:
+        - content="mkdocs-([\d\.]+)

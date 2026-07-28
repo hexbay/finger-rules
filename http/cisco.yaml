@@ -237,3 +237,10 @@
       type: word
       words:
         - 'Cisco WebEx'
+
+- matchers:
+    - part: headers.server
+      words:
+        - ACE\sXML\sGateway
+      type: regex
+  name: Cisco-ACE-XML-Gateway

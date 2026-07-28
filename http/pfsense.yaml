@@ -11,3 +11,10 @@
       type: word
       words:
         - "pfSense"
+
+- name: pfblockerng
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "pfBlockerNG"

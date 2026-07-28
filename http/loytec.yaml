@@ -23,3 +23,10 @@
       type: word
       words:
         - "<span class='navinfo_device'>LGATE-900</span>"
+
+- name: LGATE-902
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "LGATE-902"

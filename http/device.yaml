@@ -46,12 +46,6 @@
       type: word
       words:
         - "IoT vDME Simulator"
-- name: cyberpower_
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "PDNU"
 - name: jetport_5601
   vendor: korenix
   matchers:
@@ -152,14 +146,6 @@
       words:
         - "Cube-105 Setup Wizard"
         - "initial setup"
-
-- name: dell_dpi_remote_power_management
-  vendor: dell
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "DELL DPI Remote Power Management"
 
 - name: iotawatt
   matchers:

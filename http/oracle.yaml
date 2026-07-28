@@ -170,12 +170,6 @@
       type: word
       words:
         - "RV134W Wireless-AC VPN Firewall"
-- name: RV320
-  matchers:
-    - part: cert
-      type: word
-      words:
-        - "OU=RV320"
 - matchers:
     - group: 1
       name: version

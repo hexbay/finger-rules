@@ -147,3 +147,12 @@
       part: header
       words:
         - "r470t"
+
+- name: TP-LINK-Router
+  matchers:
+    - part: title
+      type: word
+      condition: and
+      words:
+        - "TP-LINK"
+        - "Router"

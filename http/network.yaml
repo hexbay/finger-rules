@@ -17,25 +17,12 @@
       type: word
       words:
         - "iXCache"
-- name: opencats
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "opencats"
 - name: ADSLR-SAC
   matchers:
     - part: title
       type: word
       words:
         - "飞鱼星企业级智能上网行为管理系统"
-- name: NETGEAR-Gateway
-  matchers:
-    - part: title
-      type: regex
-      name: mode
-      regex:
-        - NETGEAR Gateway (.*)
 - name: NETGEAR-Router
   matchers:
     - part: title

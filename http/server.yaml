@@ -55,24 +55,6 @@
       regex:
         - Apache-Coyote\/(.+)$
       type: regex
-- name: rocketmq
-  matchers:
-    - part: headers.x-application-context
-      type: word
-      words:
-        - rocketmq-console
-- name: ActiveMQ
-  matchers:
-    - part: title
-      type: word
-      words:
-        - Apache ActiveMQ
-- name: Nacos
-  matchers:
-    - part: title
-      type: word
-      words:
-        - Nacos
 - name: Mongo-Express
   matchers:
     - type: word
@@ -135,12 +117,6 @@
       type: word
       words:
         - "Ruckus Wireless"
-- name: aura
-  matchers:
-    - part: headers.server
-      type: word
-      words:
-        - aurahttpd
 - matchers:
     - name: version
       part: headers.server
@@ -219,12 +195,6 @@
         - Icecast
       type: word
   name: Icecast
-- name: Tengine
-  matchers:
-    - part: headers.server
-      words:
-        - Tengine
-      type: word
 - name: LiteSpeed
   matchers:
     - part: headers.server
@@ -564,14 +534,6 @@
 
 - matchers:
     - part: headers.server
-      words:
-        - AkamaiGHost
-      type: word
-  name: Akamai-CDN
-
-
-- matchers:
-    - part: headers.server
       type: regex
       name: version
       regex:
@@ -622,13 +584,6 @@
       type: word
       words:
         - "Embedthis-http"
-- name: Microsoft-Cassini
-  matchers:
-    - part: headers.server
-      type: regex
-      name: version
-      regex:
-        - "Cassini/([0-9.]*)"
 - name: CPE-Server
   matchers:
     - part: headers.server
@@ -655,13 +610,6 @@
     - ^CUPS\/([^\s]+)$
     type: regex
   name: cups
-
-- matchers:
-  - part: headers.server
-    words:
-      - Lotus-Domino
-    type: word
-  name: lotus_domino
 
 - matchers:
   - part: headers.server
@@ -747,3 +695,14 @@
         - "HFS_SID_"
       type: word
   name: Rejetto-HttpFileServer
+
+- name: GeoHttpServer
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "GeoHttpServer"
+    - part: headers.server
+      type: word
+      words:
+        - "GeoHttpServer"

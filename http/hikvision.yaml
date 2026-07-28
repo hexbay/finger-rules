@@ -31,3 +31,10 @@
       words:
         - "/doc/page/login.asp?_"
       type: word
+
+- name: intercom_broadcast_system
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1830859634"

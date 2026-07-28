@@ -127,3 +127,26 @@
         - '"extensionBundle"'
         - '"functionTimeout"'
         - '"concurrency"'
+
+- matchers:
+    - part: body
+      type: word
+      words:
+        - "220 Microsoft FTP Service"
+  service: ftp
+  name: Microsoft-FTP-Service
+
+- name: Microsoft-Cassini
+  matchers:
+    - part: headers.server
+      type: regex
+      name: version
+      regex:
+        - "Cassini/([0-9.]*)"
+
+- matchers:
+    - part: header
+      words:
+        - ISASERVER
+      type: word
+  name: Microsoft-ISA-Server
