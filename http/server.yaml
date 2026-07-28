@@ -622,7 +622,7 @@
       type: word
       words:
         - "Embedthis-http"
-- name: Cassini
+- name: Microsoft-Cassini
   matchers:
     - part: headers.server
       type: regex

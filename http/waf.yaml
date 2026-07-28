@@ -55,7 +55,7 @@
       words:
         - armor
       type: word
-  name: Armor
+  name: Armor-Defense
 - matchers:
     - part: headers.server
       words:
@@ -218,7 +218,7 @@
       words:
         - Incapsula
       type: word
-  name: Incapsula-CDN
+  name: Incapsula
 - matchers:
     - part: headers.set-cookie
       words:
@@ -343,7 +343,7 @@
       words:
         - Secure Entry Server
       type: word
-  name: Usp-Sec
+  name: USP-Secure-Entry-Server
 - matchers:
     - part: header
       words:
@@ -391,7 +391,7 @@
       words:
         - NCI__SessionId=
       type: word
-  name: NetContinuum-WAF
+  name: NetContinuum-Firewall
 - matchers:
     - part: header
       words:
@@ -415,7 +415,7 @@
       words:
         - ISASERVER
       type: word
-  name: ISAServer
+  name: Microsoft-ISA-Server
 - matchers:
     - part: header
       words:
@@ -457,7 +457,7 @@
       words:
         - X-DIS-Request-ID
       type: word
-  name: DoSArrest-Internet-Security
+  name: DOSarrest-Firewall
 - matchers:
     - part: header
       words:
@@ -493,7 +493,7 @@
       words:
         - rbzid=\w+
       type: regex
-  name: Reblaze-Firewall
+  name: Reblaze-Secure-Web-Gateway
 - matchers:
     - part: header
       words:

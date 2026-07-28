@@ -180,13 +180,13 @@
         - "Check Point SSL Network Extender"
       type: word
 
-- name: 启明星辰-防火墙
+- name: Venustech-Tianqing-Hanma-USG
   matchers:
     - part: body
       type: word
       words:
         - "/php/common/checknum_creat.php?module=config_authnum"
-- name: 启明星辰-天清汉马USG
+- name: Venustech-Tianqing-Hanma-USG
   matchers:
     - part: body
       type: word

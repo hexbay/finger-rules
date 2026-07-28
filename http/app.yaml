@@ -243,7 +243,7 @@
       part: headers.set-cookie
       words:
         - "PrestaShop"
-- name: EU Cookie Law GDPR (lgcookieslaw)
+- name: EU-Cookie-Law
   vendor: lineagrafica
   matchers-condition: and
   matchers:
@@ -1486,7 +1486,7 @@
       words:
         - Ivanti Connect Secure
       type: word
-  name: iVanTi-VPN
+  name: Ivanti-Connect-Secure
 - matchers:
     - part: title
       words:
@@ -2690,7 +2690,7 @@
       type: word
       words:
         - "1903390397"
-- name: 云安宝-云匣子
+- name: 云安宝
   matchers:
     - part: cert
       type: word
@@ -3008,7 +3008,7 @@
       type: word
       words:
         - "WhatsUp Gold"
-- name: Fortra
+- name: FileCatalyst
   matchers:
     - part: body
       type: word
@@ -3495,7 +3495,7 @@
     type: word
     words:
       - www.tsoft.com.tr
-  name: tsoft
+  name: T-Soft
 
 - matchers:
   - part: body
@@ -4507,7 +4507,7 @@
       type: word
       words:
       - "702863115"
-- name: zencart
+- name: Zen-Cart
   matchers:
     - part: body
       type: word
@@ -5400,7 +5400,7 @@
       type: word
       words:
         - "I Doc View"
-- name: chef
+- name: Chef-Automate
   matchers:
     - part: body
       type: word

@@ -103,7 +103,7 @@
       type: word
       words:
         - Apache Miracle Linux Web Server
-- name: Apache-Hadoop-YARN
+- name: YARN-ResourceManager
   matchers:
     - part: title
       type: word

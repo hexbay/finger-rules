@@ -1,4 +1,4 @@
-- name: ETCD-plugin
+- name: ETCD
   matchers:
     - part: body
       type: word

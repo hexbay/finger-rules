@@ -44,7 +44,7 @@
       type: word
       words:
         - MetaFrame Presentation Server Log In
-  name: Citrix-=MetaFrame
+  name: Citrix-MetaFrame
 - matchers:
     - part: headers.set-cookie
       words:
