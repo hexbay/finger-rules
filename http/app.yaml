@@ -81,6 +81,7 @@
       words:
         - 'logstash'
 - name: OpenShift
+  vendor: redhat
   matchers:
     - part: title
       type: word
@@ -812,6 +813,7 @@
       words:
         - Salia PLCC
 - name: Ray
+  vendor: ray_project
   matchers:
     - part: icon_hash
       type: word
@@ -2115,6 +2117,7 @@
       words:
         - "DomainMOD"
 - name: PMB
+  vendor: sigb
   matchers:
     - part: icon_hash
       type: word
