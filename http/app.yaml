@@ -7310,3 +7310,26 @@
       type: word
       words:
         - "Kodlama:Erensoft"
+
+- name: sftpgo
+  vendor: sftpgo_project
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SFTPGo"
+
+- name: octoprint
+  vendor: octoprint
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "OctoPrint"
+
+- name: digital_rebar
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "X-Drp-"
