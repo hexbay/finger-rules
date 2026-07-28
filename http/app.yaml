@@ -68,12 +68,6 @@
       type: word
       words:
         - 'Okta'
-- name: logstash
-  matchers:
-    - part: body
-      type: word
-      words:
-        - 'logstash'
 - name: Papercut
   matchers:
     - part: title
@@ -98,18 +92,6 @@
       type: word
       words:
         - 'Cisco BroadWorks'
-- name: Cisco-WebEx
-  matchers:
-    - part: title
-      type: word
-      words:
-        - 'Cisco WebEx'
-- name: xenapp
-  matchers:
-    - part: body
-      type: word
-      words:
-        - '/citrix/xenapp'
 - name: Jitsi-Meet
   matchers:
     - part: title
@@ -217,12 +199,6 @@
         - "DownLoad.XGI"
         - "realor.cn"
         - "dvLogin"
-- name: PrestaShop
-  matchers:
-    - type: word
-      part: headers.set-cookie
-      words:
-        - "PrestaShop"
 - name: EU-Cookie-Law
   vendor: lineagrafica
   matchers-condition: and
@@ -351,12 +327,6 @@
       words:
         - GLPI
 
-- name: FortiProxy
-  matchers:
-    - part: title
-      type: word
-      words:
-        - FortiProxy
 - name: FortiLogger
   matchers:
     - part: title
@@ -579,15 +549,6 @@
       type: word
       words:
         - Graylog
-- name: H3C IMC
-  matchers:
-    - part: body
-      type: word
-      words:
-        - imc来宾接入自助管理系统
-        - login_logo_h3c.png.jsf
-        - com_h3c_imc_usr_usermgr_alluser_overlaydiv
-        - h3c 智能管理中心"
 - name: natshell
   matchers:
     - part: body
@@ -601,12 +562,6 @@
       words:
         - MinIO Console
         - MinIO Browser
-- matchers:
-    - part: body
-      type: word
-      words:
-        - 'Joomla! - Copyright'
-  name: joomla
 - matchers:
     - name: version
       part: headers.server
@@ -772,12 +727,6 @@
       type: word
       words:
         - "0x222222"
-- name: WebMin
-  matchers:
-    - part: title
-      type: word
-      words:
-        - Webmin
 - name: Wazuh
   matchers:
     - part: title
@@ -832,12 +781,6 @@
         - recaptcha_ajax.js
       type: word
   name: recaptcha
-- name: yealink
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Yealink"
 - name: XploitSPY
   matchers:
     - part: title
@@ -862,18 +805,6 @@
       type: word
       words:
         - WSO2 Management Console
-- name: VERSA
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "-1053531639"
-- name: FlexVNF
-  matchers:
-    - part: title
-      type: word
-      words:
-        - Flex VNF Web-UI
 - name: umami
   matchers:
     - part: icon_hash
@@ -1035,13 +966,6 @@
       type: word
       words:
         - Supershell
-- name: ClusterEngine
-  matchers:
-    - part: body
-      type: word
-      words:
-        - ClusterEngine HPC云服务平台使用说明
-        - ClusterEngine V4.0
 - name: 中新金盾信息安全管理系统
   matchers:
     - part: title
@@ -1131,12 +1055,6 @@
         - Jenkins
       type: word
   name: Jenkins
-- name: Hybris
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Hybris"
 - name: Hortonworks-SmartSense
   matchers:
     - part: title
@@ -1381,12 +1299,6 @@
       type: word
       words:
         - "Emby"
-- name: Bamboo
-  matchers:
-    - part: title
-      type: word
-      words:
-        - Build dashboard - Atlassian Bamboo
 - matchers:
     - part: title
       type: word
@@ -1398,12 +1310,6 @@
         - "Juniper Networks, Inc."
   name: Juniper-Web-Manager
 
-- name: Usermin
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Login to Usermin"
 - name: YunoHost-Admin
   matchers:
     - part: title
@@ -2078,14 +1984,6 @@
       words:
         - CLIPSHARE
   name: ClipShare
-
-- matchers:
-    - part: title
-      type: word
-      words:
-        - "ConnectWise"
-        - "ScreenConnect"
-  name: ConnectWise
 
 - matchers:
     - part: title
@@ -4028,24 +3926,12 @@
       type: word
       words:
         - "thruk"
-- name: smartertrack
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "1410071322"
 - name: bigant_server
   matchers:
     - part: body
       type: word
       words:
         - "bigant"
-- name: verint
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "verint sign-in"
 - name: cobranca
   matchers:
     - part: icon_hash
@@ -4089,12 +3975,6 @@
       words:
         - "javax.faces.ViewState"
         - "javax.faces.resource"
-- name: sinema_remote_connect_server
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "logon - sinema remote connect"
 - name: intouch_access_anywhere
   matchers:
     - part: body
@@ -4111,13 +3991,6 @@
       type: word
       words:
         - "-476299640"
-- name: analytics
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "-1381126564"
-
 - matchers:
   - part: body
     type: word
@@ -4237,12 +4110,6 @@
       type: word
       words:
       - "bower_components/yui2/"
-- name: workforce_optimization
-  matchers:
-    - part: body
-      type: word
-      words:
-      - "Verint Sign-in"
 - name: kubernetes-enterprise-manager
   matchers:
     - part: title
@@ -4500,12 +4367,6 @@
       type: word
       words:
        - "Yacht"
-- name: YeaLink
-  matchers:
-    - part: title
-      type: word
-      words:
-       - "YeaLink"
 - name: Zmanda 
   matchers:
     - part: header
@@ -4526,13 +4387,6 @@
       words:
        - "Zebra"
 
-- name: YonBIP
-  matchers:
-    - part: title
-      type: word
-      words:
-      - "YonBIP"
-      - "数字化工作台"
 - name: Codis
   matchers:
     - part: title
@@ -4738,12 +4592,6 @@
       type: word
       words:
         - "Login to Frappe"
-- name: kace_systems_management_appliance
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "-463230636"
 - name: Triofox
   matchers:
     - part: icon_hash
@@ -4820,12 +4668,6 @@
       words:
         - "Create Account"
         - "Sign Up"
-- name: poststaticfooter
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "posstaticfooter"
 - name: asustor_data_master
   matchers:
     - part: body
@@ -4904,16 +4746,6 @@
       type: word
       words:
         - "1749354953"
-- name: bonita
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Bonita"
-    - part: header
-      type: word
-      words:
-        - "Bonita"
 - name: viaware
   matchers:
     - part: icon_hash
@@ -4926,12 +4758,6 @@
       type: word
       words:
         - "SonLogger"
-- name: aura_device_services
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "Avaya Aura&reg;&nbsp;Utility Services"
 - name: mindsdb
   matchers:
     - part: title
@@ -4957,12 +4783,6 @@
       type: word
       words:
         - "SimpleHelp"
-- name: kace_system_management_appliance
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "-463230636"
 - name: Optergy
   matchers:
     - part: title
@@ -4982,12 +4802,6 @@
       type: word
       words:
         - "Stash"
-- name: CyberPower
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "PDNU"
 - name: Veeam
   matchers:
     - part: title
@@ -5233,13 +5047,6 @@
       type: word
       words:
         - "app/structure/departments.php"
-- name: argo_cd
-  vendor: argoproj
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "Argo CD"
 - name: azon_dominator
   vendor: azon_dominator
   matchers:
@@ -5312,13 +5119,6 @@
       type: word
       words:
         - "FileGator"
-- name: bonita_bpm_portal
-  vendor: bonitasoft
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "-1197926023"
 - name: fxserver
   vendor: cfx.re
   matchers:
@@ -5326,13 +5126,6 @@
       type: word
       words:
         - "FXServer"
-- name: powerpanel_enterprise
-  vendor: cyberpower
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "PDNU"
 - name: danswer
   vendor: danswer_ai
   matchers:
@@ -5491,15 +5284,6 @@
       words:
         - "parse-server"
   matchers-condition: or
-- name: Microsoft-SCCM
-  vendor: microsoft
-  matchers:
-    - part: body
-      type: word
-      condition: and
-      words:
-        - "SMS_DP_SMSPKG$"
-        - "Datalib"
 - name: jake
   vendor: jakejs
   matchers-condition: and
@@ -5644,15 +5428,6 @@
       words:
         - "Setup | Cal.com"
         - "Minimum 15 characters long</li>"
-- name: control
-  vendor: connectwise
-  matchers:
-    - part: body
-      type: word
-      condition: and
-      words:
-        - "SetupWizardPage"
-        - "ContentPanel SetupWizard"
 - name: cubebackup
   vendor: cubebackup
   matchers:
@@ -5825,13 +5600,6 @@
       type: word
       words:
         - "/__weave/"
-- name: kodbox
-  vendor: kodcloud
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "kodbox"
 - name: cluster_control
   vendor: severalnines
   matchers-condition: or
@@ -6264,12 +6032,6 @@
       type: word
       words:
         - "imgproxy"
-- name: kodexplorer
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "kodexplorer"
 - name: FUXA
   matchers:
     - part: title
@@ -6490,13 +6252,6 @@
       type: word
       words:
         - "Chainlit/chainlit"
-- name: Argo Workflows
-  vendor: argoproj
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Argo Workflows"
 - name: GraphiQL
   vendor: graphql
   matchers:
@@ -6636,13 +6391,6 @@
       type: word
       words:
         - "Owncast"
-- name: avaya_ip_phone
-  vendor: avaya
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "Avaya J179 Phone"
 - name: Redis Exporter
   vendor: oliver006
   matchers:
@@ -7007,14 +6755,6 @@
       type: word
       words:
         - "X-Drp-"
-
-- name: smarterstats
-  vendor: smartertools
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "SmarterStats"
 
 - name: puppet_node_manager
   matchers:

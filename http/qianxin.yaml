@@ -1,0 +1,23 @@
+# 奇安信：主营网络与终端安全，代表产品包括天擎、SecGate 安全网关和 VPN。
+- name: "secgate_3600"
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "网神SecGate"
+        - "3600防火墙"
+        - "css/lsec/login.css"
+
+- name: "奇安信VPN"
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "奇安信VPN"
+
+- name: 奇安信天擎
+  matchers:
+    - part: title
+      type: word
+      words:
+          - "奇安信天擎"

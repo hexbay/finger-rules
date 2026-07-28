@@ -1,0 +1,16 @@
+# Argo Project：主营 Kubernetes 原生交付与工作流，代表产品包括 Argo CD 和 Argo Workflows。
+- name: argo_cd
+  vendor: argoproj
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Argo CD"
+
+- name: Argo Workflows
+  vendor: argoproj
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Argo Workflows"

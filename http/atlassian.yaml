@@ -1,3 +1,4 @@
+# Atlassian：主营研发协作与项目管理软件，代表产品包括 Jira、Confluence 和 Bamboo。
 - name: Atlassian
   matchers:
     - part: headers.set-cookie
@@ -48,6 +49,10 @@
       type: word
       words:
         - com.atlassian.bamboo
+    - part: title
+      type: word
+      words:
+        - Build dashboard - Atlassian Bamboo
   name: Bamboo
 - name: bitbucket
   matchers:

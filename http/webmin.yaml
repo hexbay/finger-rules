@@ -1,0 +1,14 @@
+# Webmin：主营 Web 化 Unix/Linux 系统管理，代表产品包括 Webmin 和 Usermin。
+- name: WebMin
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Webmin
+
+- name: Usermin
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Login to Usermin"

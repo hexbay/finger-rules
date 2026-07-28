@@ -1,0 +1,15 @@
+# SmarterTools：主营邮件、客服与流量分析软件，代表产品包括 SmarterTrack 和 SmarterStats。
+- name: smartertrack
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1410071322"
+
+- name: smarterstats
+  vendor: smartertools
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SmarterStats"

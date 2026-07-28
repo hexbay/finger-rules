@@ -1,0 +1,14 @@
+# Verint：主营客户体验与联络中心自动化，代表产品包括 Workforce Optimization。
+- name: verint
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "verint sign-in"
+
+- name: workforce_optimization
+  matchers:
+    - part: body
+      type: word
+      words:
+      - "Verint Sign-in"

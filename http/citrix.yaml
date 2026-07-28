@@ -1,3 +1,4 @@
+# Citrix：主营应用交付与桌面虚拟化，代表产品包括 NetScaler、XenApp 和 ShareFile。
 - name: netscaler Application Delivery Controller
   matchers:
     - part: title
@@ -90,3 +91,10 @@
       type: word
       words:
         - "20733819"
+
+- name: xenapp
+  matchers:
+    - part: body
+      type: word
+      words:
+        - '/citrix/xenapp'

@@ -1,3 +1,4 @@
+# 西门子（Siemens）：主营工业自动化与数字化，代表产品包括 SIMATIC 和 SINEMA。
 - matchers:
   - part: body
     type: word
@@ -5,3 +6,10 @@
       - "SIMATIC"
       - "Miniweb Start Page"
   name: SIMATIC
+
+- name: sinema_remote_connect_server
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "logon - sinema remote connect"

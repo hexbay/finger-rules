@@ -1,3 +1,4 @@
+# 用友：主营企业管理与云服务，代表产品包括 NC、U8 和 YonBIP。
 - name: Yonyou-NC
   matchers:
     - part: body
@@ -72,3 +73,11 @@
       type: word
       words:
         - "U9-登录"
+
+- name: YonBIP
+  matchers:
+    - part: title
+      type: word
+      words:
+      - "YonBIP"
+      - "数字化工作台"

@@ -1,0 +1,14 @@
+# 亿联网络：主营统一通信与协作终端，代表产品包括 SIP IP 电话和视频会议设备。
+- name: yealink
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Yealink"
+
+- name: YeaLink
+  matchers:
+    - part: title
+      type: word
+      words:
+       - "YeaLink"

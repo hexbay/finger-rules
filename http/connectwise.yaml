@@ -1,0 +1,18 @@
+# ConnectWise：主营 MSP 管理与远程运维软件，代表产品包括 ConnectWise Control。
+- matchers:
+    - part: title
+      type: word
+      words:
+        - "ConnectWise"
+        - "ScreenConnect"
+  name: ConnectWise
+
+- name: control
+  vendor: connectwise
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "SetupWizardPage"
+        - "ContentPanel SetupWizard"

@@ -1,0 +1,14 @@
+# PrestaShop：主营开源电子商务平台，代表产品包括 PrestaShop 及其扩展模块。
+- name: PrestaShop
+  matchers:
+    - type: word
+      part: headers.set-cookie
+      words:
+        - "PrestaShop"
+
+- name: poststaticfooter
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "posstaticfooter"

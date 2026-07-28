@@ -1,4 +1,4 @@
-﻿# 浪潮 集群管理平台
+# 浪潮：主营服务器、云计算与数据中心平台，代表产品包括 ClusterEngine。
 - name: clusterengine
   matchers:
     - part: title
@@ -14,3 +14,11 @@
       type: word
       words:
         - "HCM Cloud"
+
+- name: ClusterEngine
+  matchers:
+    - part: body
+      type: word
+      words:
+        - ClusterEngine HPC云服务平台使用说明
+        - ClusterEngine V4.0

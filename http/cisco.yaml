@@ -1,3 +1,4 @@
+# 思科（Cisco）：主营网络、通信与安全，代表产品包括 IOS、Webex 和企业网络设备。
 - name: Cisco
   matchers:
     - part: title
@@ -229,3 +230,10 @@
       type: word
       words:
         - "Unified Communications Self Care Portal"
+
+- name: Cisco-WebEx
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'Cisco WebEx'

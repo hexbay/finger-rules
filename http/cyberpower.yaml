@@ -1,0 +1,15 @@
+# CyberPower：主营 UPS 与电源保护，代表产品包括 PowerPanel 电源管理平台。
+- name: CyberPower
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "PDNU"
+
+- name: powerpanel_enterprise
+  vendor: cyberpower
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "PDNU"

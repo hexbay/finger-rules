@@ -1,3 +1,4 @@
+# Fortinet：主营网络安全，代表产品包括 FortiGate、FortiProxy 和 FortiManager。
 - name: FortiNet
   matchers:
     - part: cert

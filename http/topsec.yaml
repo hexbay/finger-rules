@@ -1,0 +1,25 @@
+# 天融信：主营网络安全，代表产品包括防火墙、VPN、上网行为管理和 TopApp 应用交付。
+- name: "天融信上网行为管理系统"
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - ActiveXObject
+        - dkey_login
+        - repeat-x
+
+- name: "天融信topapp_lb负载均衡系统"
+  matchers:
+    - part: title
+      type: word
+      words:
+        - TopApp-LB 负载均衡系统
+
+- name: topsec_reporter
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1595726841"
+# 奇安信

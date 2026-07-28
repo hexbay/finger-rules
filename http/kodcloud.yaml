@@ -1,0 +1,15 @@
+# 可道云：主营私有云存储与在线文档协作，代表产品包括 KodBox 和 KodExplorer。
+- name: kodbox
+  vendor: kodcloud
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "kodbox"
+
+- name: kodexplorer
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "kodexplorer"

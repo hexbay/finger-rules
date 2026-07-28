@@ -1,0 +1,15 @@
+# Avaya：主营企业通信与联络中心，代表产品包括 Aura 和企业 IP 电话。
+- name: aura_device_services
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Avaya Aura&reg;&nbsp;Utility Services"
+
+- name: avaya_ip_phone
+  vendor: avaya
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Avaya J179 Phone"

@@ -1,3 +1,4 @@
+# Elastic：主营搜索、日志分析与可观测性，代表产品包括 Elasticsearch、Kibana 和 Logstash。
 - name: Elasticsearch
   matchers:
     - part: body
@@ -27,3 +28,10 @@
       regex:
         - ^([\d.]+)$
       type: regex
+
+- name: logstash
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'logstash'

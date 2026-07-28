@@ -1,0 +1,19 @@
+# Bonitasoft：主营业务流程管理与低代码自动化，代表产品为 Bonita BPM。
+- name: bonita
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Bonita"
+    - part: header
+      type: word
+      words:
+        - "Bonita"
+
+- name: bonita_bpm_portal
+  vendor: bonitasoft
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1197926023"

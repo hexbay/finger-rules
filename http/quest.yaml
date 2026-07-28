@@ -1,0 +1,14 @@
+# Quest：主营 IT 运维与数据管理软件，代表产品包括 KACE 系统及资产管理平台。
+- name: kace_systems_management_appliance
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-463230636"
+
+- name: kace_system_management_appliance
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-463230636"

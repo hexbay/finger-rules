@@ -1,3 +1,4 @@
+# 新华三（H3C）：主营企业网络、计算与安全，代表产品包括 SecPath、IMC 和 SSL VPN。
 - name: H3C-SecPath-Firewall
   matchers:
     - part: title
@@ -131,3 +132,20 @@
       type: word
       words:
         - "nopCommerce"
+
+- name: H3C IMC
+  matchers:
+    - part: body
+      type: word
+      words:
+        - imc来宾接入自助管理系统
+        - login_logo_h3c.png.jsf
+        - com_h3c_imc_usr_usermgr_alluser_overlaydiv
+        - h3c 智能管理中心"
+
+- name: SSL-VPN
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/webui/images/default/default/alert_close.jpg"

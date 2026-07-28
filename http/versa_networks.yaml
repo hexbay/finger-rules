@@ -1,0 +1,14 @@
+# Versa Networks：主营 SASE、SD-WAN 与网络安全，代表产品包括 Versa FlexVNF。
+- name: VERSA
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1053531639"
+
+- name: FlexVNF
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Flex VNF Web-UI

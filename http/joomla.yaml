@@ -1,3 +1,4 @@
+# Joomla：主营开源内容管理系统，代表产品为 Joomla CMS 及其扩展。
 - name: forms
   vendor: balbooa
   matchers:
@@ -5,3 +6,10 @@
       type: word
       words:
         - "com_baforms"
+
+- matchers:
+    - part: body
+      type: word
+      words:
+        - 'Joomla! - Copyright'
+  name: joomla

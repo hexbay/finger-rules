@@ -1,3 +1,4 @@
+# SAP：主营企业管理软件，代表产品包括 S/4HANA、NetWeaver 和 Commerce（Hybris）。
 - name: knowledge_warehouse
   matchers:
     - part: icon_hash
@@ -40,3 +41,10 @@
       type: word
       words:
         - "SAP NetWeaver Application Server Java"
+
+- name: Hybris
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Hybris"
