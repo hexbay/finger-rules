@@ -389,7 +389,7 @@
       type: word
       words:
         - "Active WebCam Page"
-- name: Flir-Dvtel-Camera
+- name: Flir-DvtelCamera
   matchers:
     - part: body
       type: word

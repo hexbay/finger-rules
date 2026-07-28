@@ -24,7 +24,7 @@
       type: word
       words:
         - "Synology RackStation"
-- name: Synology-Web-Station
+- name: Synology-WebStation
   matchers:
     - part: title
       type: word

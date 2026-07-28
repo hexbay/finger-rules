@@ -70,7 +70,7 @@
       words:
         - cookiesession1
       type: word
-  name: FortiWeb-Firewall
+  name: FortiWeb
 - matchers:
     - part: headers.server
       words:

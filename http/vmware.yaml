@@ -90,7 +90,7 @@
       type: word
       words:
         - "VMWware Carbon Black EDR"
-- name: VMWware-Horizon-DaaS
+- name: Horizon-DaaS
   matchers:
     - part: title
       type: word

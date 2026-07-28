@@ -67,7 +67,7 @@
     type: word
     words:
     - 飞牛
-- name: QNAP-Turbo-NAS
+- name: QNAP-NAS
   vendor: qnap
   matchers:
   - part: title

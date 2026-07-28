@@ -185,7 +185,7 @@
       part: body
       words:
         - "鲶鱼CMS"
-- name: TikiWiki CMS
+- name: Tiki
   matchers:
     - type: word
       part: body
@@ -766,7 +766,7 @@
       type: word
       words:
         - CustomCMS Gaming
-  name: CustomCMS
+  name: Custom-CMS
 - matchers:
     - part: body
       type: word
@@ -1140,7 +1140,7 @@
       words:
         - Wolf CMS
       type: word
-  name: WolfCMS
+  name: Wolf-CMS
 - matchers:
     - part: body
       words:

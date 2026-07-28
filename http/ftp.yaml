@@ -47,7 +47,7 @@
         - "<filezilla>"
         - "<User>"
   service: ftp
-- name: filezilla_client_config
+- name: FileZilla-Client
   vendor: filezilla-project
   matchers:
     - part: body

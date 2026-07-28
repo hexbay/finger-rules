@@ -49,7 +49,7 @@
       words:
         - "X-Powered-By-Anquanbao: MISS"
       type: word
-  name: Anquanbao
+  name: Baidu-Anquanbao
 - matchers:
     - part: headers.server
       words:
@@ -67,19 +67,19 @@
       words:
         - "x-binarysec-cache: miss"
       type: word
-  name: BinarySEC
+  name: BinarySec-Firewall
 - matchers:
     - part: header
       words:
         - "x-binarysec-via: binarysec.com"
       type: word
-  name: BinarySEC
+  name: BinarySec-Firewall
 - matchers:
     - part: headers.server
       words:
         - BinarySec
       type: word
-  name: BinarySEC
+  name: BinarySec-Firewall
 - matchers:
     - part: headers.server
       words:
@@ -91,37 +91,37 @@
       words:
         - cloudflare-nginx
       type: word
-  name: CloudFlare-CDN
+  name: CloudFlare
 - matchers:
     - part: headers.server
       words:
         - cloudflare
       type: word
-  name: CloudFlare-CDN
+  name: CloudFlare
 - matchers:
     - part: header
       words:
         - CF-RAY
       type: word
-  name: CloudFlare-CDN
+  name: CloudFlare
 - matchers:
     - part: headers.server
       words:
         - cloudfront
       type: word
-  name: Cloudfront-CDN
+  name: CloudFront
 - matchers:
     - part: header
       words:
         - cloudfront
       type: word
-  name: Cloudfront-CDN
+  name: CloudFront
 - matchers:
     - part: header
       words:
         - Error\sfrom\scloudfront
       type: regex
-  name: Cloudfront-CDN
+  name: CloudFront
 - matchers:
     - part: headers.server
       words:
@@ -133,7 +133,7 @@
       words:
         - Barracuda
       type: word
-  name: Barracuda-NG
+  name: Barracuda-NG-Firewall
 - matchers:
     - part: headers.server
       words:
@@ -158,13 +158,13 @@
       words:
         - Protected by COMODO
       type: word
-  name: Comodo
+  name: Comodo-Firewall
 - matchers:
     - part: headers.server
       words:
         - Airee
       type: word
-  name: Airee-CDN
+  name: Airee
 - matchers:
     - part: headers.server
       words:
@@ -182,19 +182,19 @@
       words:
         - limelight
       type: word
-  name: limelight-CDN
+  name: Limelight
 - matchers:
     - part: header
       words:
         - "BestCDN: CacheFly"
       type: word
-  name: CacheFly-CDN
+  name: CacheFly
 - matchers:
     - part: header
       words:
         - "X-CDN: maxcdn"
       type: word
-  name: maxcdn-CDN
+  name: MaxCDN
 - matchers:
     - part: headers.set-cookie
       words:
@@ -259,7 +259,7 @@
         - newdefend
         - citrix_ns_id
       type: word
-  name: NetContinuum
+  name: NetContinuum-Firewall
 - matchers:
     - part: headers.server
       words:
@@ -271,13 +271,13 @@
       words:
         - Safe3WAF
       type: word
-  name: Safe3
+  name: Safe3WAF
 - matchers:
     - part: headers.server
       words:
         - Safe3 Web Firewall
       type: word
-  name: Safe3
+  name: Safe3-Firewall
 - matchers:
     - part: header
       words:
@@ -325,7 +325,7 @@
       words:
         - \AX-Mapping-
       type: regex
-  name: Stingray
+  name: Stingray-Firewall
 - matchers:
     - part: headers.set-cookie
       words:
@@ -361,7 +361,7 @@
       words:
         - nginx-wallarm
       type: word
-  name: Wallarm
+  name: Wallarm-WAF
 - matchers:
     - part: headers.server
       words:
@@ -409,7 +409,7 @@
       words:
         - imunify360
       type: word
-  name: Immunify360
+  name: Imunify360
 - matchers:
     - part: header
       words:
@@ -427,7 +427,7 @@
       words:
         - azion
       type: word
-  name: azion-CDN
+  name: Azion
 - matchers:
     - part: headers.set-cookie
       words:
@@ -463,13 +463,13 @@
       words:
         - "Powered-By-ChinaCache"
       type: word
-  name: ChinaCache-CDN
+  name: ChinaCache
 - matchers:
     - part: headers.server
       words:
         - ChinaCache
       type: word
-  name: ChinaCache-CDN
+  name: ChinaCache
 - matchers:
     - part: headers.server
       words:
@@ -548,7 +548,7 @@
       words:
         - profense
       type: word
-  name: Profense
+  name: Profense-Firewall
 - matchers:
     - part: header
       words:
@@ -608,7 +608,7 @@
       words:
         - https://www.perimeterx.com/whywasiblocked
       type: word
-  name: PerimeterX-Firewall
+  name: PerimeterX
 - matchers:
     - part: body
       words:
@@ -626,9 +626,9 @@
       words:
         - Powered by UTM Web Protection
       type: word
-  name: Sophos-UTM-Firewall
+  name: Sophos-UTM
 
-- name: 绿盟下一代防火墙
+- name: NSFOCUS-NF
   matchers:
     - part: title
       type: word

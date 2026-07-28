@@ -1,4 +1,4 @@
-- name: RubyGems Credentials
+- name: RubyGems
   vendor: rubygems
   matchers:
     - part: body

@@ -99,7 +99,7 @@
         - "ER8300G2系统管理"
         - "ER8300G2-X系统管理"
 
-- name: H3C-Router
+- name: H3C-Series-Router
   matchers:
     - part: title
       type: regex

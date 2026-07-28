@@ -22,7 +22,7 @@
       type: word
       words:
         - "SAP HANA Cloud Tools"
-- name: SAP-BusinessObjects-Business-Intelligence-Platform
+- name: BusinessObjects-Business-Intelligence-Platform
   vendor: sap
   matchers:
     - part: title

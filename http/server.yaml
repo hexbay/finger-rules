@@ -415,7 +415,7 @@
         - RainLoop
       type: word
   name: RainLoop
-- name: beegoServer
+- name: Beego-Server
   matchers:
     - part: headers.server
       type: regex

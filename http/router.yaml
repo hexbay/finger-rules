@@ -300,7 +300,7 @@
       type: word
       words:
         - "SMS Gateway"
-- name: TEW-827DRU
+- name: TEW-827DRU-Firmware
   matchers:
     - part: body
       type: word
@@ -319,7 +319,7 @@
       words:
         - "gocloud.sysauth.duser"
 
-- name: Cerio-DT-300N
+- name: Cerio-DT300N
   matchers:
     - part: title
       type: word

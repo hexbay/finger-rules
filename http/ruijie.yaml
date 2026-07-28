@@ -5,7 +5,7 @@
       words:
         - "锐捷网络有限公司 eg易网关"
         - "请输入您的RG-EG易网关的用户名和密码"
-- name: SmartWeb
+- name: Ruijie-SmartWeb
   matchers:
     - type: word
       part: title

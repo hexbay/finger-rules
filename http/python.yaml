@@ -24,7 +24,7 @@
       part: title
       words:
         - "ADK"
-- name: TornadoServer
+- name: Tornado
   matchers:
   - part: headers.server
     type: regex

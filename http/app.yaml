@@ -265,7 +265,7 @@
       words:
         - "src=\"/public/vendor.26422846c5ea381c.js\""
         - "src=\"/public/app.807e10d98cfac19e.js\""
-- name: Academy LMS
+- name: Academy-Learning-Management-System
   matchers:
     - type: word
       part: body
@@ -2166,7 +2166,7 @@
       type: word
       words:
         - 'Harbor'
-- name: Grav
+- name: Grav-CMS
   matchers:
     - part: title
       type: word
@@ -4996,7 +4996,7 @@
       type: word
       words:
         - "ANTEEO"
-- name: avaya_aura_utility_services
+- name: Avaya-Aura-Utility-Server
   matchers:
     - part: body
       type: word
@@ -6751,7 +6751,7 @@
       type: word
       words:
         - "heimdall-logo-small.svg"
-- name: Erigon
+- name: Erigon-(Ledgerwatch/Erigon)
   matchers:
     - part: headers.server
       type: word

@@ -10,7 +10,7 @@
       type: word
       words:
         - <title>Index of /
-  name: IndexOf
+  name: Index-Of
 - name: Login
   matchers:
     - part: title
