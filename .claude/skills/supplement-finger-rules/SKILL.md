@@ -12,6 +12,19 @@ description: >-
 为「有插件支持(`poc_support=1`)但未人工验证(`checked=false`)」的漏洞补齐**关联组件**与**产品指纹**。
 指纹以 YAML 形式写入**当前工作目录**的 `http/*.yaml`(不走 MCP 建 PR 工具),后续随仓库常规 PR 合并。
 
+## 应用场景(为什么这么做)
+
+补齐"漏洞↔组件"关联,是为了在**网络空间测绘**拿到资产后,能**通过组件把资产关联到安全监测与漏洞索引**
+(资产命中某组件指纹 → 自动关联该组件的已知漏洞 → 进入监测/预警)。因此:
+
+- **补齐的组件与指纹,必须是测绘能识别到的**——即**首页扫描(访问根 URL)即可命中**。这正是
+  "只匹配根响应、禁止路径型指纹"的根本原因:测绘不会去逐个爬子路径,只在子路径出现的标识对测绘无意义。
+- **通用漏洞不关联具体组件**:如 API-Key/AK-SK 泄露、JWT/JDBC 泄露、open redirect、XSS fuzz、
+  dockerfile/config listing、SSRF 等,不属于某个具体产品,补了也无法通过测绘落到组件上 —— 保持不动。
+- **型号无指纹时关联上级系列**:某个具体型号产品(如"XX路由器 XX型号")若无法单独做出可测绘的指纹,
+  可把漏洞**关联到它的上级系列/产品**(如"XX路由器"),只要该上级有可根扫描识别的指纹即可,
+  从而仍能通过测绘覆盖到。
+
 ## 核心原则(必须遵守)
 
 1. **只匹配根响应**:指纹只能基于访问根 URL(`/`)拿到的响应做匹配 —— `part` 仅限
@@ -71,9 +84,15 @@ description: >-
 - **落地前**:`grep -ril "<name>\|<关键标识>" http/*.yaml` 查重;**落地后**:用 `python -c "import yaml; yaml.safe_load(open(f))"` 校验解析。
 - 已知 `http/plugins.yaml` 是路径型指纹专用文件 —— 本流程**禁止**往里加。
 
-### 4. (可选)补齐关联组件
+### 4. 补齐关联组件
 对"无组件但能对上真实产品"的漏洞:先 `search_product`/`query_product` 确认产品存在(不存在可 `create_product`),
-再 `link_vulnerability_products(vulnerability_id, [product_id])` 增量关联。通用模板不处理。
+再 `link_vulnerability_products(vulnerability_id, [product_id])` 增量关联。规则:
+- **通用漏洞不关联**:API-Key/AK-SK 泄露、JWT/JDBC 泄露、open redirect、XSS fuzz、SSRF、
+  dockerfile/config listing 等无具体产品的,保持不动。
+- **优先关联到"可根扫描识别"的组件**:关联的组件本身要有(或能补出)首页可命中的指纹,否则测绘无法覆盖。
+- **具体型号无指纹 → 关联上级系列**:若漏洞对应的具体型号(如 `xx_router_model_a`)做不出可测绘指纹,
+  就关联到其**上级系列产品**(如 `xx_router`),只要上级有可根扫描的指纹即可。用 `search_product`
+  按厂商/系列关键词找上级产品。
 
 ### 5. 汇报
 输出:本批建了哪些指纹(name/文件/匹配依据)、跳过了哪些及原因、关联了哪些漏洞↔组件。
@@ -89,9 +108,10 @@ description: >-
 | 仅漏洞利用 payload 响应,无产品页标识 | ⏭️ 跳过 |
 | 网络/TCP 模板(非 HTTP) | ⏭️ 跳过 |
 | SaaS 子域名接管服务 | ⏭️ 跳过 |
-| 通用检测(open redirect/xss fuzz/JWT 泄露等) | ⏭️ 跳过,不关联 |
+| 通用漏洞(API-Key/AK-SK 泄露、JWT/JDBC、open redirect、xss fuzz、SSRF 等) | ⏭️ 跳过,不建不关联 |
 | title 过泛(如厂商名)或已有通用指纹 | ⏭️ 跳过 |
 | 产品在 http/*.yaml 已有指纹 | ⏭️ 跳过 |
+| 具体型号做不出可测绘指纹 | 🔗 关联到有根扫描指纹的**上级系列产品** |
 
 ## 示例(已落地)
 

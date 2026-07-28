@@ -7333,3 +7333,18 @@
       type: word
       words:
         - "X-Drp-"
+
+- name: smarterstats
+  vendor: smartertools
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SmarterStats"
+
+- name: puppet_node_manager
+  matchers:
+    - part: body
+      type: word
+      words:
+        - '<a href="/nodes">Nodes</a>'
