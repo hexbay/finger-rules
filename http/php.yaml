@@ -146,3 +146,10 @@
       type: word
       words:
         - "php_cs.cache"
+
+- name: phalcon
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Phalcon Framework"

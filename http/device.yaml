@@ -152,3 +152,20 @@
       words:
         - "Cube-105 Setup Wizard"
         - "initial setup"
+
+- name: dell_dpi_remote_power_management
+  vendor: dell
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "DELL DPI Remote Power Management"
+
+- name: iotawatt
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Configure IoTaWatt Device"
+        - "IoTaWatt Configuration app"

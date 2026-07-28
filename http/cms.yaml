@@ -1789,7 +1789,7 @@
     words:
     - CMS Made Simple
   
-- name: spa_cart_ecommerce_cms
+- name: spa_cart
   vendor: spa_cart
   matchers:
     - part: body

@@ -7479,3 +7479,11 @@
       type: word
       words:
         - "KnowledgeTree Installer"
+
+- name: orangescrum
+  vendor: orangescrum
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Orangescrum Setup Wizard"
