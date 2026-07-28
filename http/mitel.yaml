@@ -1,0 +1,34 @@
+- name: cmg_suite
+  matchers:
+    - part: body
+      type: word
+      words:
+      - "Mitel Networks"
+
+- name: micollab
+  matchers:
+    - part: body
+      type: word
+      words:
+      - "micollab"
+
+- name: mitel_6000
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1940372141"
+        - "-447557905"
+
+- name: shoretel
+  vendor: mitel
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "ShoreTel"
+    - part: icon_hash
+      type: word
+      words:
+        - "268280373"

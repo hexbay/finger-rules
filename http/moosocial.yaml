@@ -1,0 +1,24 @@
+- name: mooDating
+  matchers:
+    - part: body
+      type: word
+      words:
+        - content="mooDating
+
+- name: moostore
+  matchers:
+    - part: body
+      type: word
+      words:
+      - "moostore"  
+    - part: icon_hash
+      type: word
+      words:
+      - "702863115"
+
+- name: moosocial
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+      - "702863115"

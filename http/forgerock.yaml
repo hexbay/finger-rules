@@ -1,0 +1,20 @@
+- name: ForgeRock
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "OpenAM"
+
+- name: openam
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "openam"
+
+- matchers:
+  - part: body
+    type: word
+    words:
+    - OpenAM
+  name: OpenAM

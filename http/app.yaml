@@ -49,12 +49,6 @@
       type: word
       words:
         - 'AVM-FRITZ!Box'
-- name: dahua-NVR
-  matchers:
-    - part: title
-      type: word
-      words:
-        - 'WEB SERVICE'
 - name: Flexnet
   matchers:
     - part: title
@@ -80,13 +74,6 @@
       type: word
       words:
         - 'logstash'
-- name: OpenShift
-  vendor: redhat
-  matchers:
-    - part: title
-      type: word
-      words:
-        - 'OpenShift'
 - name: Papercut
   matchers:
     - part: title
@@ -99,13 +86,6 @@
       type: word
       words:
         - 'Pega'
-- name: Solr
-  matchers:
-    - part: body
-      type: word
-      words:
-        - 'Apache Solr'
-        - 'solrAdminApp'
 - name: Rundeck
   matchers:
     - part: title
@@ -278,12 +258,6 @@
       part: title
       words:
         - "AIC智能校园系统"
-- name: AnyProxy
-  matchers:
-    - type: word
-      part: body
-      words:
-        - "anyproxy"
 - name: Alumni Management System
   matchers:
     - type: word
@@ -364,13 +338,6 @@
       part: title
       words:
         - "Parallels H-Sphere"
-- name: 大华智慧园区综合管理平台
-  matchers:
-    - part: body
-      type: word
-      words:
-        - /WPMS/asset/lib/gridster/
-        - URL='/WPMS
 - name: elfinder
   matchers:
     - part: body
@@ -409,12 +376,6 @@
       words:
         - MLflow
 
-- name: Avalanche
-  matchers:
-    - part: title
-      type: word
-      words:
-        - Avalanche
 - name: Gibbon
   matchers:
     - part: title
@@ -489,12 +450,6 @@
       type: word
       words:
         - "1189292869"
-- name: KubePi
-  matchers:
-    - type: word
-      part: title
-      words:
-        - KubePi
 - name: horde
   matchers:
     - type: word
@@ -518,14 +473,6 @@
       part: title
       words:
         - "zeroshell"
-- name: Struts2
-  matchers:
-    - type: word
-      part: header
-      name: "Apache-Struts2"
-      words:
-        - "jsessionid"
-      condition: and
 - name: EYou
   matchers:
     - type: word
@@ -753,12 +700,6 @@
       type: word
       words:
         - SolarWinds
-- name: web_help_desk
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "1895809524"
 - name: Certbot
   matchers:
     - part: title
@@ -1305,36 +1246,12 @@
       type: word
       words:
         - "Kafka Center"
-- name: Kafka
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Kafka Manager"
-- name: Kafka-UI
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "UI for Apache Kafka"
-- name: DolphinScheduler
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "DolphinScheduler"
 - name: AlphaWeb
   matchers:
     - part: title
       type: word
       words:
         - "AlphaWeb"
-- name: Canal-Admin
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Canal Admin"
 - name: CS141
   matchers:
     - part: body
@@ -1481,19 +1398,6 @@
         - "Juniper Networks, Inc."
   name: Juniper-Web-Manager
 
-- matchers:
-    - part: title
-      words:
-        - Ivanti Connect Secure
-      type: word
-  name: Ivanti-Connect-Secure
-- matchers:
-    - part: title
-      words:
-        - Ivanti
-      type: word
-  name: iVanTi
-
 - name: Usermin
   matchers:
     - part: title
@@ -1600,12 +1504,6 @@
         - Ad Hoc Transfer
       type: word
   name: WS-FTP
-- matchers:
-    - part: title
-      words:
-        - WS_FTP Server Web Transfer
-      type: word
-  name: WS-FTP-Server
 - name: Catalog
   matchers:
     - part: body
@@ -1787,19 +1685,6 @@
       type: word
       words:
         - "SevOne NMS - Network Manager"
-- matchers:
-    - part: icon_hash
-      words:
-        - "816588900"
-      type: word
-  name: ShardingSphere
-- name: ShareFile
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "ShareFile Login"
-        - "ShareFile Storage Server"
 - name: SpeedTest-Tracker
   matchers:
     - part: title
@@ -1931,13 +1816,6 @@
       type: word
       words:
         - "780351152"
-- name: Spark
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Spark Master at"
-
 - name: Eureka
   matchers:
     - part: title
@@ -2031,12 +1909,6 @@
       type: word
       words:
         - "yeswiki-base.css"
-- name: uvdesk
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "UVDesk Helpdesk Community Edition - Installation Wizard"
 - name: oscommerce
   matchers:
     - part: headers.ser-cookie
@@ -2123,12 +1995,6 @@
       type: word
       words:
         - "1469328760"
-- name: mooDating
-  matchers:
-    - part: body
-      type: word
-      words:
-        - content="mooDating
 - name: HiBoss
   matchers:
     - part: title
@@ -2278,12 +2144,6 @@
       type: word
       words:
         - "H2 Console"
-- name: ForgeRock
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "OpenAM"
 - name: go-fastdfs
   matchers:
     - part: title
@@ -2352,18 +2212,6 @@
       type: word
       words:
         - "OpenMetadata"
-- name: 1Panel
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "1300107149"
-    - part: body
-      type: word
-      condition: and
-      words:
-        - "first-loading-wrap"
-        - "loading..."
 - name: OpenSpeedTest
   matchers:
     - part: title
@@ -2597,12 +2445,6 @@
       type: word
       words:
         - "Alertmanager"
-- name: Zeppelin
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Zeppelin"
 - name: OpenBMCS
   matchers:
     - part: icon_hash
@@ -2656,12 +2498,6 @@
       type: word
       words:
         - "Sidekiq"
-- name: QloApps
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "QloApps"
 - name: Mirth-Connect
   matchers:
     - part: title
@@ -2990,24 +2826,12 @@
       type: word
       words:
         - "163538942"
-- name: Telerik-Report-Server
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Telerik Report Server"
 - name: SecurEnvoy
   matchers:
     - part: title
       type: word
       words:
         - "SecurEnvoy"
-- name: WhatsUp-Gold
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "WhatsUp Gold"
 - name: FileCatalyst
   matchers:
     - part: body
@@ -3209,12 +3033,6 @@
         - TeamCity
       type: word
 
-- name: moveit_cloud
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "989289239"
 - name: CodoForum
   matchers:
     - part: body
@@ -3749,21 +3567,6 @@
 
 
 - matchers:
-  - part: body
-    type: word
-    words:
-      - "Apache Archiva"
-  name: apache_archiva
-
-
-- matchers:
-  - part: header
-    type: word
-    words:
-    - "x-cocoon-version"
-  name: cocoon
-
-- matchers:
   - part: header
     type: word
     words:
@@ -4006,16 +3809,6 @@
       type: word
       words:
         - "Ollama is running"
-- name: keycloak
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "keycloak"
-    - part: icon_hash
-      type: word
-      words:
-        - "-1105083093"
 - name: consul
   matchers:
     - part: title
@@ -4058,12 +3851,6 @@
       type: word
       words:
         - "698624197"
-- name: sentinel
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "sentinel dashboard"
 - name: thinfinity_virtualui
   matchers:
     - part: title
@@ -4106,14 +3893,6 @@
       type: word
       words:
         - "laravel filemanager"
-- name: Laravel Nova
-  vendor: laravel
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "Nova.booting"
-        - "nova-resources"
 - name: laravel_terminal
   vendor: recca0120
   matchers:
@@ -4123,25 +3902,12 @@
       words:
         - "Laravel Terminal"
         - "terminal.endpoint"
-- name: Laravel Sanctum
-  vendor: laravel
-  matchers:
-    - type: word
-      part: body
-      words:
-        - "sanctum.csrf-cookie"
 - name: reqlogic
   matchers:
     - part: body
       type: word
       words:
         - "reqlogic"
-- name: moveit_transfer
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "989289239"
 - name: icewarp
   matchers:
     - part: title
@@ -4194,12 +3960,6 @@
       type: word
       words:
         - "-1606065523"
-- name: kubeoperator
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "kubeoperator"
 - name: kubeview
   matchers:
     - part: title
@@ -4268,24 +4028,12 @@
       type: word
       words:
         - "thruk"
-- name: openam
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "openam"
 - name: smartertrack
   matchers:
     - part: icon_hash
       type: word
       words:
         - "1410071322"
-- name: shardingsphere_elasticjob_ui
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "816588900"
 - name: bigant_server
   matchers:
     - part: body
@@ -4374,14 +4122,6 @@
   - part: body
     type: word
     words:
-    - OpenAM
-  name: OpenAM
-
-
-- matchers:
-  - part: body
-    type: word
-    words:
     - WebTitan
   name: webtitan
 - matchers:
@@ -4410,13 +4150,6 @@
     - 163538942
   name: cdata
 
-- name: doris
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-      - "24048806"
-
 - name: DocsGPT
   matchers:
     - part: body
@@ -4424,12 +4157,6 @@
       words:
       - "Welcome to DocsGPT"
 
-- name: cmg_suite
-  matchers:
-    - part: body
-      type: word
-      words:
-      - "Mitel Networks"
 - name: appliance_base_software
   matchers:
     - part: headers.set-cookie
@@ -4497,16 +4224,6 @@
       words:
       - "ilias"
 
-- name: moostore
-  matchers:
-    - part: body
-      type: word
-      words:
-      - "moostore"  
-    - part: icon_hash
-      type: word
-      words:
-      - "702863115"
 - name: Zen-Cart
   matchers:
     - part: body
@@ -4569,13 +4286,6 @@
       type: word
       words:
       - "Ellucian Company"
-- name: moosocial
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-      - "702863115"
-
 - name: WebPanel
   vendor: "control-webpanel"
   matchers:
@@ -4629,13 +4339,6 @@
       type: word
       words:
       - "logo_dragonfly.png"
-
-- name: micollab
-  matchers:
-    - part: body
-      type: word
-      words:
-      - "micollab"
 
 - name: ligeo_basics
   matchers:
@@ -5176,13 +4879,6 @@
       type: word
       words:
         - "vben"
-- name: mitel_6000
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "-1940372141"
-        - "-447557905"
 - name: Letta
   matchers:
     - part: title
@@ -5388,12 +5084,6 @@
     words:
     - ISPConfig
   name: ispconfig
-- name: security_event_manager
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "SolarWinds Security Event Manager"
 - name: idoc文档管理系统
   matchers:
     - part: title
@@ -5436,18 +5126,6 @@
       type: word
       words:
         - "MaNGOS Web Enhanced V4 Installer"
-- name: shoretel
-  vendor: mitel
-  matchers-condition: and
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "ShoreTel"
-    - part: icon_hash
-      type: word
-      words:
-        - "268280373"
 - name: shoretel_converged_conferencing
   vendor: mitel
   matchers-condition: and
@@ -6773,13 +6451,6 @@
       part: header
       words:
         - "data-weave"
-- name: laravel_pulse
-  vendor: laravel
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "Laravel Pulse"
 - name: OpenText Filr
   vendor: opentext
   matchers:

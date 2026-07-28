@@ -1,0 +1,13 @@
+- name: uvdesk
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "UVDesk Helpdesk Community Edition - Installation Wizard"
+
+- name: QloApps
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "QloApps"

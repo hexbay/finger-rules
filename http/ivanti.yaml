@@ -78,3 +78,10 @@
       type: word
       words:
         - "Sentry"
+
+- matchers:
+    - part: title
+      words:
+        - Ivanti Connect Secure
+      type: word
+  name: Ivanti-Connect-Secure

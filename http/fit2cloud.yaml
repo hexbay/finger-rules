@@ -1,0 +1,26 @@
+- name: KubePi
+  matchers:
+    - type: word
+      part: title
+      words:
+        - KubePi
+
+- name: 1Panel
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1300107149"
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "first-loading-wrap"
+        - "loading..."
+
+- name: kubeoperator
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "kubeoperator"

@@ -1,0 +1,13 @@
+- name: web_help_desk
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "1895809524"
+
+- name: security_event_manager
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SolarWinds Security Event Manager"

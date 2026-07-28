@@ -1,0 +1,42 @@
+- matchers:
+    - part: title
+      words:
+        - WS_FTP Server Web Transfer
+      type: word
+  name: WS-FTP-Server
+
+- name: ShareFile
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ShareFile Login"
+        - "ShareFile Storage Server"
+
+- name: Telerik-Report-Server
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Telerik Report Server"
+
+- name: WhatsUp-Gold
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "WhatsUp Gold"
+
+- name: moveit_cloud
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "989289239"
+
+- name: moveit_transfer
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "989289239"

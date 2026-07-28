@@ -1,0 +1,24 @@
+- name: Laravel Nova
+  vendor: laravel
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Nova.booting"
+        - "nova-resources"
+
+- name: Laravel Sanctum
+  vendor: laravel
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "sanctum.csrf-cookie"
+
+- name: laravel_pulse
+  vendor: laravel
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Laravel Pulse"

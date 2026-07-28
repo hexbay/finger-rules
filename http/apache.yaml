@@ -304,3 +304,90 @@
       type: word
       words:
         - 'mcp-gateway'
+
+- name: Solr
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'Apache Solr'
+        - 'solrAdminApp'
+
+- name: Struts2
+  matchers:
+    - type: word
+      part: header
+      name: "Apache-Struts2"
+      words:
+        - "jsessionid"
+      condition: and
+
+- name: Kafka
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Kafka Manager"
+
+- name: Kafka-UI
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "UI for Apache Kafka"
+
+- name: DolphinScheduler
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "DolphinScheduler"
+
+- matchers:
+    - part: icon_hash
+      words:
+        - "816588900"
+      type: word
+  name: ShardingSphere
+
+- name: Spark
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Spark Master at"
+
+- name: Zeppelin
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Zeppelin"
+
+- matchers:
+  - part: body
+    type: word
+    words:
+      - "Apache Archiva"
+  name: apache_archiva
+
+- matchers:
+  - part: header
+    type: word
+    words:
+    - "x-cocoon-version"
+  name: cocoon
+
+- name: shardingsphere_elasticjob_ui
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "816588900"
+
+- name: doris
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+      - "24048806"

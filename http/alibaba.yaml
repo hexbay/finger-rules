@@ -1,0 +1,20 @@
+- name: AnyProxy
+  matchers:
+    - type: word
+      part: body
+      words:
+        - "anyproxy"
+
+- name: Canal-Admin
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Canal Admin"
+
+- name: sentinel
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "sentinel dashboard"

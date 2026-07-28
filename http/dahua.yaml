@@ -23,3 +23,18 @@
       type: word
       words:
         - "2058933700"
+
+- name: dahua-NVR
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'WEB SERVICE'
+
+- name: 大华智慧园区综合管理平台
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /WPMS/asset/lib/gridster/
+        - URL='/WPMS

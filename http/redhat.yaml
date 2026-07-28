@@ -1,0 +1,18 @@
+- name: OpenShift
+  vendor: redhat
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'OpenShift'
+
+- name: keycloak
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "keycloak"
+    - part: icon_hash
+      type: word
+      words:
+        - "-1105083093"
