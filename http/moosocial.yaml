@@ -1,3 +1,4 @@
+# mooSocial：主营社交社区软件，相关产品包括 mooSocial、mooDating 和 mooStore。
 - name: mooDating
   matchers:
     - part: body

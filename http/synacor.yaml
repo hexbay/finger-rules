@@ -1,3 +1,4 @@
+# Synacor：主营云通信与数字媒体服务，相关规则包括 Zimbra 与协作平台。
 - name: Zimbra
   matchers:
     - part: title

@@ -1,3 +1,4 @@
+# WAVLINK：主营无线网络与连接设备，相关产品包括 WN 系列路由器和 Wi-Fi 管理应用。
 - name: Wavlink
   matchers:
     - part: body

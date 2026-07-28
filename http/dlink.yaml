@@ -1,3 +1,4 @@
+# 友讯（D-Link）：主营网络通信设备，代表产品包括路由器、无线接入点、交换机和网络摄像机。
 - name: DLink-AC
   matchers:
     - part: title

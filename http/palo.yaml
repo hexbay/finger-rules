@@ -1,3 +1,4 @@
+# Palo Alto Networks：主营网络安全，相关产品包括 PAN-OS 和 Expedition。
 - name: Expedition
   matchers:
     - type: word

@@ -1,3 +1,4 @@
+# Zoho：主营企业 SaaS 与 IT 管理，相关产品包括 ManageEngine ServiceDesk、OpManager 和 Desktop Central。
 - name: ManageEngine-ADSelfService-Plus
   matchers:
     - part: title
@@ -30,7 +31,6 @@
       type: word
       words:
         - "ADAudit Plus"
-        - "ManageEngine - ADManager Plus"
 - name: manageengine_desktop_central
   matchers:
     - part: title
@@ -51,9 +51,10 @@
       words:
         - "ManageEngine ServiceDesk"
         - "ManageEngine ServiceDesk Plus"
-- name: manageengine_admanager
+- name: manageengine_admanager_plus
   matchers:
     - part: title
       type: word
       words:
-        - "ManageEngine"
+        - "ManageEngine ADManager Plus"
+        - "ManageEngine - ADManager Plus"

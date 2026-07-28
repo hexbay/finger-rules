@@ -1,3 +1,4 @@
+# SolarWinds：主营 IT 基础设施监控与运维，代表产品包括 Web Help Desk 和 Security Event Manager。
 - name: web_help_desk
   matchers:
     - part: icon_hash

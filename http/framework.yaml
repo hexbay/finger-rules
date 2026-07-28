@@ -1,3 +1,4 @@
+# 产品类型：Web 与应用开发框架，包括后端框架、前端框架及其调试组件。
 - name: ZK-framework
   matchers:
     - part: title

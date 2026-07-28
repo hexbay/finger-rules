@@ -1,3 +1,4 @@
+# FIT2CLOUD：主营云原生与基础设施管理，代表产品包括 1Panel、KubePi 和 KubeOperator。
 - name: KubePi
   matchers:
     - type: word

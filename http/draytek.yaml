@@ -1,3 +1,4 @@
+# 居易科技（DrayTek）：主营企业网络设备，代表产品包括 Vigor 路由器和 VigorConnect。
 - name: DrayTek-Vigor-Router
   matchers:
     - part: cert

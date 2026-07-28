@@ -1,3 +1,4 @@
+# Telesquare：主营蜂窝通信与工业网络设备，相关产品包括 TLR 系列路由器。
 - name: Telesquare-Router
   matchers:
     - part: body

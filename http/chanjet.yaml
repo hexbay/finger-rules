@@ -1,3 +1,4 @@
+# 畅捷通：主营小微企业管理与云服务，代表产品包括 T+、CRM 和远程管理平台。
 - name: ChanJet-Remote
   matchers:
     - part: body

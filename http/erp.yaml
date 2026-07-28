@@ -1,3 +1,4 @@
+# 产品类型：企业资源计划（ERP），包括财务、供应链、项目和经营管理平台。
 - name: SXSKZY-ERP
   matchers:
     - part: icon_hash

@@ -1,3 +1,4 @@
+# Mitel：主营企业统一通信与联络中心，代表产品包括 MiCollab、Mitel 6000 和 ShoreTel。
 - name: cmg_suite
   matchers:
     - part: body

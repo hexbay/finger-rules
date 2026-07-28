@@ -1,4 +1,4 @@
-#各种前端组件
+# 技术类型：JavaScript 与前端组件，包括框架、UI 库、构建工具和浏览器端依赖。
 - matchers:
     - group: 0
       name: version

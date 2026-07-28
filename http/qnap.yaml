@@ -1,3 +1,4 @@
+# 威联通（QNAP）：主营网络存储与私有云，代表产品包括 QNAP NAS 和 Photo Station。
 - name: QNAP-NAS
   matchers:
     - part: title

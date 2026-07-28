@@ -1,3 +1,4 @@
+# 产品类型：内容分发网络（CDN）与云加速，包括边缘缓存、流量加速和机器人防护服务。
 - name: CloudFlare
   matchers:
     - type: word

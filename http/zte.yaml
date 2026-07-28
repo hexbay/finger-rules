@@ -1,3 +1,4 @@
+# 中兴通讯（ZTE）：主营通信与网络设备，代表产品包括路由器、家庭网关和 ZXV 系列设备。
 - name: ZTE-Router
   matchers:
     - part: body

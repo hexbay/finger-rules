@@ -1,3 +1,4 @@
+# TP-Link：主营网络通信设备，代表产品包括无线路由器、网关、交换机和电力线适配器。
 - name: TP-Link
   matchers:
     - part: headers.server

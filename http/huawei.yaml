@@ -1,3 +1,4 @@
+# 华为：主营通信、网络与云计算，相关产品包括路由器、VPN、网关和企业网络平台。
 - name: Huawei-Auth-Http
   matchers:
     - part: headers.server

@@ -1,3 +1,4 @@
+# Ubiquiti：主营企业与运营商网络设备，代表产品包括 UniFi Network、Protect、Gateway 和 airOS。
 - name: UniFi-Network
   matchers:
     - type: word

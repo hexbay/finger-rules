@@ -1,3 +1,4 @@
+# 合勤科技（Zyxel）：主营企业与家庭网络设备，代表产品包括 USG FLEX、防火墙和无线路由器。
 - name: ZyXEL
   matchers:
     - part: title

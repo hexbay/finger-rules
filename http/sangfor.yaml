@@ -1,4 +1,4 @@
-﻿#sangfor
+# 深信服：主营网络安全与云计算，代表产品包括防火墙、EDR、应用交付和日志平台。
 - name: SangFor firewall products
   matchers:
     - part: title

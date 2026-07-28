@@ -1,3 +1,4 @@
+# 技术类型：Java 与 JSP，用于识别 Java 运行环境和服务器端页面技术。
 - name: Java
   matchers:
     - part: headers.server

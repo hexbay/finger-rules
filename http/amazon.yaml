@@ -1,3 +1,4 @@
+# Amazon Web Services（AWS）：主营云计算，代表产品包括 EC2、ECS、S3、CloudFront 和负载均衡服务。
 - name: AWS-EC2
   matchers:
     - part: headers.server

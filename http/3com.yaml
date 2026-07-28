@@ -1,3 +1,4 @@
+# 3Com：网络通信设备厂商，代表产品包括企业交换机、路由器和无线接入设备。
 - name: 3COM
   matchers:
     - part: title

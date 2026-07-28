@@ -1,3 +1,4 @@
+# VMware：主营虚拟化与云基础设施，代表产品包括 vSphere、NSX、vCenter 和 Cloud Foundation。
 - name: VMware
   matchers:
     - part: title

@@ -1,3 +1,4 @@
+# 产品集合：国内行业应用与企业平台，收录暂未归入明确厂商或产品类型的中文产品规则。
 - name: HJT-Cloud
   matchers:
     - part: body

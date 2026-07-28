@@ -1,3 +1,4 @@
+# 戴尔科技：主营服务器、存储与终端基础设施，代表产品包括 iDRAC、Unisphere 和 Wyse。
 - name: iDRAC
   matchers:
     - part: title

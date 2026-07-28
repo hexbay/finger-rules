@@ -1,4 +1,4 @@
-#一些组件或者信息泄露匹配
+# 检测类型：通用组件、目录列表、登录页及可能的信息泄露特征。
 - name: Directory Listing
   matchers:
     - part: body

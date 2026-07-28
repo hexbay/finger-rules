@@ -1,3 +1,4 @@
+# 产品类型：FTP 文件传输服务，包括 FTP 服务器、客户端和 Web 管理界面。
 - matchers:
     - part: body
       type: word

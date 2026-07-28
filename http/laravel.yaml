@@ -1,3 +1,4 @@
+# Laravel：PHP Web 应用生态，相关产品包括 Nova、Sanctum 和 Pulse。
 - name: Laravel Nova
   vendor: laravel
   matchers:

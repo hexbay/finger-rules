@@ -1,3 +1,4 @@
+# 三星（Samsung）：主营电子与智能设备，相关产品包括接入点、打印机、摄像机和录像设备。
 - name: SAMSUNG-AP
   matchers:
     - type: word

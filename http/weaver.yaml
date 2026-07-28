@@ -1,4 +1,4 @@
-﻿#  ecology泛微-协同商务系统
+# 泛微：主营协同办公与企业数字化，代表产品包括 e-cology、e-office、e-mobile 和 E-Weaver。
 - name: e-cology
   matchers:
     - part: body

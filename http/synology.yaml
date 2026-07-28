@@ -1,3 +1,4 @@
+# 群晖（Synology）：主营网络存储与私有云，代表产品包括 DiskStation、RackStation、NVR 和 DSM。
 - name: Synology-DiskStation
   matchers:
     - part: title

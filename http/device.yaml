@@ -1,4 +1,4 @@
-# 各类设备 打印机。。
+# 产品类型：通用硬件与嵌入式设备，包括打印机、显示设备、控制器和物联网管理界面。
 - name: Kyocera-Printer
   matchers:
     - part: icon_hash

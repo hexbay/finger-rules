@@ -1,3 +1,4 @@
+# 海康威视：主营视频监控与智能物联，代表产品包括网络摄像机、iVMS 和 iSecure Center。
 - name: Hikvision-iSecure-Center
   matchers:
     - part: headers.set-cookie

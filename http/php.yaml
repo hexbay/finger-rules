@@ -1,3 +1,4 @@
+# 技术类型：PHP 语言及应用生态，包括 PHP 运行环境、框架、开发套件和 CMS。
 - name: PHP
   matchers:
     - part: title

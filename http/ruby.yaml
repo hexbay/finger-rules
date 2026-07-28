@@ -1,3 +1,4 @@
+# 技术类型：Ruby 语言及其软件包生态，包括 Ruby 运行环境和 RubyGems。
 - name: RubyGems
   vendor: rubygems
   matchers:

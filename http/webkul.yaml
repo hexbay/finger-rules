@@ -1,3 +1,4 @@
+# Webkul：主营电商扩展与企业 Web 应用，相关产品包括 UVdesk 和 QloApps。
 - name: uvdesk
   matchers:
     - part: title

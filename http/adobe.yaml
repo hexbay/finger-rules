@@ -1,3 +1,4 @@
+# Adobe：主营数字内容、创意与体验管理软件，代表产品包括 ColdFusion、Adobe Connect 和 Experience Manager。
 - matchers:
     - part: headers.set-cookie
       type: word

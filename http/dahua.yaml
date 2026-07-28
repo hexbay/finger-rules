@@ -1,3 +1,4 @@
+# 大华股份：主营视频监控与智慧物联，代表产品包括摄像机、NVR 和综合管理平台。
 - name: DaHua-DDS
   matchers:
     - type: word

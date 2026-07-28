@@ -1,3 +1,4 @@
+# LOYTEC：主营楼宇自动化与控制网络，代表产品包括 L-GATE 系列网关。
 - name: LGate-902
   matchers:
     - part: body

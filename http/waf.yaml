@@ -1,3 +1,4 @@
+# 产品类型：Web 应用防火墙（WAF），包括云 WAF、应用防护网关和网站安全加速服务。
 - matchers:
     - part: header
       words:

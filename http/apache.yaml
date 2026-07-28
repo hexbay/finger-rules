@@ -1,3 +1,4 @@
+# Apache 软件基金会：覆盖 Web、数据与云原生开源项目，代表产品包括 HTTP Server、Tomcat、Airflow、Kafka 和 Spark。
 - matchers:
     - name: version
       part: headers.server

@@ -1,3 +1,4 @@
+# 红帽（Red Hat）：主营企业开源与云原生平台，代表产品包括 OpenShift 和 Keycloak。
 - name: OpenShift
   vendor: redhat
   matchers:

@@ -1,3 +1,4 @@
+# 产品类型：蜜罐与欺骗防御，用于识别伪装服务和安全诱捕系统。
 - name: honeypot
   matchers:
     - part: body

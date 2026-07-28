@@ -1,4 +1,5 @@
-﻿- name: CloudTest
+# Akamai：主营 CDN、云计算与网络安全，相关产品包括 CloudTest 和云端应用交付服务。
+- name: CloudTest
   matchers:
     - part: body
       type: word

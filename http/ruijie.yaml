@@ -1,3 +1,4 @@
+# 锐捷网络：主营企业网络与安全设备，代表产品包括 EG、NBR、交换机和无线管理平台。
 - name: RuiJie-EG
   matchers:
     - type: word

@@ -1,4 +1,5 @@
-﻿- name: 金蝶云星空
+# 金蝶：主营企业管理与云服务，代表产品包括金蝶云星空和 EAS。
+- name: 金蝶云星空
   matchers:
     - part: title
       type: word
