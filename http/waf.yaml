@@ -24,14 +24,14 @@
         - "wangzhan.360.cn"
         - "X-Powered-By: 360"
       type: word
-  name: 360
+  name: 360-WAF
 
 - matchers:
     - part: headers.server
       words:
         - 360wzws
       type: word
-  name: 360wzws
+  name: 360-WZWS
 - matchers:
     - part: body
       words:
@@ -61,7 +61,7 @@
       words:
         - yunjiasu-nginx
       type: word
-  name: BaiduYunjiasu
+  name: Baidu-Yunjiasu
 - matchers:
     - part: header
       words:
@@ -200,13 +200,13 @@
       words:
         - Asessioncookie=
       type: word
-  name: DenyAll
+  name: DenyAll-WAF
 - matchers:
     - part: headers.set-cookie
       words:
         - Navajo
       type: word
-  name: AdNovum
+  name: AdNovum-WAF
 - matchers:
     - part: header
       words:
@@ -230,7 +230,7 @@
       words:
         - AkamaiGHost
       type: word
-  name: KONA
+  name: Akamai-Kona-Site-Defender
 - matchers:
     - part: headers.server
       words:
@@ -475,13 +475,13 @@
       words:
         - HuaweiCloudWAF
       type: word
-  name: HuaweiCloudWAF
+  name: Huawei-Cloud-WAF
 - matchers:
     - part: headers.set-cookie
       words:
         - HWWAFSESID
       type: word
-  name: HuaweiCloudWAF
+  name: Huawei-Cloud-WAF
 - matchers:
     - part: headers.server
       words:

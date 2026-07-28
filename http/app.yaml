@@ -5813,7 +5813,7 @@
       words:
         - "parse-server"
   matchers-condition: or
-- name: microsoft_system_center_configuration_manager_(sccm)
+- name: Microsoft-SCCM
   vendor: microsoft
   matchers:
     - part: body
@@ -5822,7 +5822,7 @@
       words:
         - "SMS_DP_SMSPKG$"
         - "Datalib"
-- name: jake___javascript_build_tool_for_node.js
+- name: jake
   vendor: jakejs
   matchers-condition: and
   matchers:

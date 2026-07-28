@@ -4,7 +4,7 @@
       words:
         - "220 Microsoft FTP Service"
   service: ftp
-  name: Micosoft-FTP-Service
+  name: Microsoft-FTP-Service
 
 - matchers:
     - part: body

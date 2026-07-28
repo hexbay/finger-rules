@@ -12,25 +12,25 @@
       words:
         - BigIP
       type: word
-  name: F5-BIG-IP-APM
+  name: F5-BIGIP-APM
 - matchers:
     - part: headers.server
       words:
         - BIG-IP
       type: word
-  name: F5-BIG-IP-APM
+  name: F5-BIGIP-APM
 - matchers:
     - part: header
       words:
         - X-WA-Info
       type: word
-  name: F5-BIG-IP-ASM
+  name: F5-BIGIP-ASM
 - matchers:
     - part: header
       words:
         - X-Cnection
       type: word
-  name: F5-BIG-IP-ASM
+  name: F5-BIGIP-ASM
 - matchers:
     - part: headers.server
       words:

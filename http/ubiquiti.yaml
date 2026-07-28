@@ -52,7 +52,7 @@
       part: title
       words:
         - "Ubiquiti Networks"
-- name: Unifi-AirOs
+- name: Ubiquiti-AirOS
   matchers:
     - type: word
       part: body
