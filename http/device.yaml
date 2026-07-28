@@ -127,3 +127,28 @@
       type: word
       words:
         - "-121681558"
+
+- name: indegy
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1851491385"
+
+- name: imprivata
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Appliance Setup Wizard"
+        - "Imprivata"
+
+- name: cube_105
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "Cube-105 Setup Wizard"
+        - "initial setup"

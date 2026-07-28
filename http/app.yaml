@@ -7348,3 +7348,134 @@
       type: word
       words:
         - '<a href="/nodes">Nodes</a>'
+
+- name: travis_ci
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "travis.yml"
+
+- name: collibra
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "collibra.url"
+        - "collibra.port"
+
+- name: akeeba
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Akeeba Backup Installer"
+
+- name: alma
+  vendor: almapay
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Alma Installation"
+
+- name: binom
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Install Binom"
+
+- name: contentify
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Contentify - Step 1"
+
+- name: dolphin
+  vendor: boonex
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Dolphin Installation"
+
+- name: easyscripts
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Installer - Easyscripts"
+
+- name: facturascripts
+  vendor: facturascripts
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "FacturaScripts installer"
+        - "connect to the database"
+
+- name: geniusocean
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "GeniusOcean Installer"
+
+- name: lychee
+  vendor: lycheeorg
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Lychee Installer"
+
+- name: openmage
+  vendor: openmage
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "OpenMage Installation Wizard"
+
+- name: permissions
+  vendor: suse
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Permissions | Installer"
+
+- name: pmm
+  vendor: percona
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "PMM Installation Wizard"
+
+- name: sumowebtools
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "SumoWebTools Installer"
+
+- name: webasyst
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Webasyst Installer"
+
+- name: knowledgetree
+  vendor: knowledgetree
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "KnowledgeTree Installer"

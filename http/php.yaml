@@ -131,3 +131,18 @@
       type: word
       words:
         - "/event-booking-calendar/"
+
+- name: cakephp
+  vendor: cakephp
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "CAKEPHP"
+
+- name: php_cs_fixer
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "php_cs.cache"
