@@ -1,3 +1,4 @@
+# 产品类型：路由器与网络网关，包括企业路由、无线网关和设备管理平台。
 - name: NETGEAR
   matchers:
     - part: headers.Www-Authenticate
@@ -548,3 +549,31 @@
       type: word
       words:
         - "rt_title"
+
+- name: 电信网关
+  matchers:
+    - part: body
+      type: word
+      condition: and
+      words:
+        - "img/login_bg3.png"
+        - "系统登录"
+
+- name: CradlePoint-Router
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - CradlepointHTTPService
+    - part: title
+      type: regex
+      name: mode
+      regex:
+        - "Login :: ([A-Z0-9]+)"
+
+- name: engeniustech
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/web/cgi-bin/usbinfo.cgi"

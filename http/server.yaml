@@ -1,4 +1,4 @@
-#各种web 服务器
+# 产品类型：服务器与 Web 服务，包括 HTTP 服务、代理和应用服务器。
 - matchers:
     - part: headers.server
       words:
@@ -729,3 +729,21 @@
       type: word
       words:
         - "Shoko WEB UI"
+
+- name: HTTP-Proxy
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Proxy Authentication Required"
+
+- matchers:
+    - part: headers.server
+      words:
+        - HFS
+      type: word
+    - part: headers.set-cookie
+      words:
+        - "HFS_SID_"
+      type: word
+  name: Rejetto-HttpFileServer

@@ -1,3 +1,4 @@
+# 产品类型：工业与楼宇控制系统，包括暖通、能源、自动化和行业管理平台。
 - name: Janitza
   matchers:
     - part: icon_hash
@@ -123,3 +124,10 @@
       type: word
       words:
         - "ENVIROMUX"
+
+- name: AC-Smart-II
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Doc/WebLogin.asp"

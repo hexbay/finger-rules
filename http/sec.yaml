@@ -1,3 +1,4 @@
+# 产品类型：安全产品，包括 VPN、安全网关、终端防护与综合安全平台。
 - name: 360新天擎
   matchers:
     - part: title
@@ -194,3 +195,10 @@
       type: word
       words:
         - "EAA益和应用接入系统"
+
+- name: OpenVPN
+  matchers:
+    - part: headers.server
+      type: word
+      words:
+        - "OpenVPN-AS"

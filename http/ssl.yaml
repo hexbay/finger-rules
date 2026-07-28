@@ -1,4 +1,4 @@
-#OpenSSL
+# 产品类型：SSL/TLS 与数字证书，包括加密组件、证书服务和相关管理界面。
 
 - matchers:
     - part: headers.server
@@ -12,3 +12,10 @@
         - ([^\r^\n]*OpenSSL\/([^\s^\r^\n]+))
       type: regex
   name: OpenSSL
+
+- name: DigiCert-Cert
+  matchers:
+    - part: cert
+      type: word
+      words:
+        - "DigiCert"

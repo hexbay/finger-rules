@@ -1,4 +1,5 @@
-﻿- name: Mail-Server
+# 产品类型：邮件与 WebMail 系统，包括邮件服务器、客户端和协作平台。
+- name: Mail-Server
   matchers:
     - part: title
       type: word
@@ -59,3 +60,18 @@
       type: word
       words:
         - "smtp4dev"
+
+- name: WebMail
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Roundcube Webmail"
+    - part: icon_hash
+      type: word
+      words:
+        - "-1203843035"
+    - part: headers.set-cookie
+      type: word
+      words:
+        - roundcube_cookies

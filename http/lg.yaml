@@ -1,6 +1,0 @@
-- name: AC-Smart-II
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "Doc/WebLogin.asp"

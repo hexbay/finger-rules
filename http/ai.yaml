@@ -1,0 +1,41 @@
+# 产品类型：人工智能应用平台，包括大模型编排、推理服务和生成式 AI 工具。
+- name: Flowise
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-2051052918"
+
+- name: dify
+  vendor: langgenius
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+       - "97378986"
+    - part: body
+      type: word
+      words:
+       - "dify.ai"
+
+- name: ComfyUI
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ComfyUI"
+
+- name: PraisonAI
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "PraisonAI"
+
+- name: triton_inference_server
+  vendor: nvidia
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Triton"

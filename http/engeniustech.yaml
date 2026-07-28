@@ -1,6 +1,0 @@
-﻿- name: engeniustech
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "/web/cgi-bin/usbinfo.cgi"

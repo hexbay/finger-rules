@@ -1,3 +1,26 @@
+# 致远互联（Seeyon）：主营协同办公与企业数字化，代表产品包括 A6、A8、M1 和致远 OA。
+- name: SeeYon-OA
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/seeyon"
+        - "seeyonDownLoadPic"
+
+- name: Seeyon OA A8
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "致远A8+协同管理软件"
+
+- name: Seeyon OA A6
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "致远协创A6"
+
 - name: 致远互联-M1
   matchers:
     - part: title

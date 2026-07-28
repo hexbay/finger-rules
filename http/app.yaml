@@ -467,12 +467,6 @@
       part: title
       words:
         - "openfire"
-- name: influxdb
-  matchers:
-    - type: word
-      part: title
-      words:
-        - "influxdb"
 - name: Nexus
   matchers:
     - type: word
@@ -1182,12 +1176,6 @@
       type: word
       words:
         - "E-Soonlink"
-- name: HTTP-Proxy
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Proxy Authentication Required"
 - name: SOCKS-Proxy
   matchers:
     - part: title
@@ -1941,12 +1929,6 @@
       type: word
       words:
         - 'Harbor'
-- name: Grav-CMS
-  matchers:
-    - part: title
-      type: word
-      words:
-        - 'Grav Register Admin User'
 - name: FUDforum
   matchers:
     - part: body
@@ -2036,12 +2018,6 @@
       type: word
       words:
         - "EAS系统登录"
-- name: H2 Console
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "H2 Console"
 - name: go-fastdfs
   matchers:
     - part: title
@@ -2145,13 +2121,6 @@
       type: word
       words:
         - "assets/apple-touch-icon-180x180.png"
-- matchers:
-    - part: headers.server
-      type: regex
-      name: version
-      regex:
-        - pve-api-daemon/([\d\.]+)
-  name: PVE
 - name: 哪吒监控
   matchers:
     - part: body
@@ -2199,12 +2168,6 @@
       type: word
       words:
         - "资产灯塔系统"
-- name: OpenVPN
-  matchers:
-    - part: headers.server
-      type: word
-      words:
-        - "OpenVPN-AS"
 - name: Nextcloud
   matchers:
     - part: title
@@ -2224,36 +2187,12 @@
       type: word
       words:
         - "Vaultwarden"
-- name: Cloudreve
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Cloudreve"
 - name: One-API
   matchers:
     - part: body
       type: word
       words:
         - "OpenAI 接口聚合管理，支持多种渠道包括"
-- name: AList
-  matchers:
-    - part: body
-      type: word
-      words:
-        - content="AList"
-
-- matchers:
-    - part: headers.server
-      words:
-        - HFS
-      type: word
-    - part: headers.set-cookie
-      words:
-        - "HFS_SID_"
-      type: word
-  name: Rejetto-HttpFileServer
-
 - name: Plastic-SCM
   matchers:
     - part: title
@@ -2630,28 +2569,12 @@
       type: word
       words:
         - "Argo CD"
-- name: Flowise
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-        - "-2051052918"
 - name: Docker-UI
   matchers:
     - part: body
       type: word
       words:
         - static/common/js/ui.js
-- name: Docker-API
-  matchers:
-    - part: header
-      type: word
-      words:
-        - "content-length: 29"
-    - part: body
-      type: word
-      words:
-        - '{"message":"page not found"}'
 - name: SpiderFlow
   matchers:
     - part: title
@@ -3236,13 +3159,6 @@
   name: awstats
 
 - matchers:
-  - part: headers.x-powered-by
-    type: word
-    words:
-    - "modx"
-  name: modx
-
-- matchers:
   - part: body
     type: word
     words:
@@ -3292,15 +3208,6 @@
     words:
     - /assets/frontoffice/
   name: thelia
-
-- matchers:
-  - part: body
-    type: word
-    words:
-      - "pluxml.org"
-      - "PluXml - Page d'authentification"
-      - "Retour au site"
-  name: pluxml
 
 - matchers:
   - part: body
@@ -4220,18 +4127,6 @@
       type: word
       words:
        - "Jackett"
-- name: dify
-  vendor: langgenius
-  matchers:
-    - part: icon_hash
-      type: word
-      words:
-       - "97378986"
-    - part: body
-      type: word
-      words:
-       - "dify.ai"
-
 - name: ntpsec
   matchers:
     - part: body
@@ -6549,12 +6444,6 @@
       type: word
       words:
         - "Openbullet2WebClient"
-- name: ComfyUI
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "ComfyUI"
 - name: mesop
   vendor: mesop_dev
   matchers:
@@ -6574,13 +6463,6 @@
       type: word
       words:
         - "esm.sh"
-- name: PraisonAI
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "PraisonAI"
-
 - name: Cockpit
   vendor: cockpit-project
   matchers:

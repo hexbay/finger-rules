@@ -1,4 +1,5 @@
-﻿- name: Sharp-Printer
+# 产品类型：打印机与打印管理设备，包括办公打印机及其 Web 管理界面。
+- name: Sharp-Printer
   matchers:
     - part: header
       type: word
@@ -35,3 +36,17 @@
       type: word
       words:
         - 'topaccess'
+
+- name: HL-L8260CDN
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'Brother HL-L8260CDN'
+
+- name: Web Image Monitor
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Web Image Monitor"

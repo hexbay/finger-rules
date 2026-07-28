@@ -1,28 +1,4 @@
-
-
-
-# 致远OA
-- name: SeeYon-OA
-  matchers:
-    - part: body
-      type: word
-      words:
-        - "/seeyon"
-        - "seeyonDownLoadPic"
-
-- name: Seeyon OA A8
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "致远A8+协同管理软件"
-
-- name: Seeyon OA A6
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "致远协创A6"
+# 产品类型：办公自动化（OA），包括协同办公、流程审批和企业门户。
 - name: Tongda OA
   matchers:
     - part: body

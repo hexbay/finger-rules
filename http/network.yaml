@@ -1,3 +1,4 @@
+# 产品类型：网络与通信设备，包括交换、语音网关和统一通信系统。
 - matchers:
     - part: headers.server
       words:
@@ -152,3 +153,24 @@
       condition: and
       words:
         - "网络键盘控制台"
+
+- name: OmniPCX
+  matchers:
+    - part: title
+      type: word
+      words:
+          - "OmniPCX for Enterprise"
+
+- name: Synway-SMG
+  vendor: Synway
+  match-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "网关管理软件"
+        - "Gateway Management"
+    - part: body
+      type: word
+      words:
+        - "text ml10 mr20"

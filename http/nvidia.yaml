@@ -1,7 +1,0 @@
-- name: triton_inference_server
-  vendor: nvidia
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Triton"

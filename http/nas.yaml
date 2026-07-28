@@ -1,3 +1,4 @@
+# 产品类型：网络存储（NAS），包括存储设备、文件共享和管理平台。
 - name: NAS326
   matchers:
   - part: cert
@@ -95,3 +96,10 @@
       type: word
       words:
         - 'ChromaDB'
+
+- name: Terramaster-TOS
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "TOS Loading"

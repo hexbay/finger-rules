@@ -1,4 +1,4 @@
-#摄像头相关
+# 产品类型：视频监控与网络摄像机，包括摄像头、录像机和监控管理平台。
 
 
 #- matchers:
@@ -510,3 +510,10 @@
       type: word
       words:
         - "Brickcom"
+
+- name: reolink
+  matchers:
+    - type: word
+      part: title
+      words:
+        - "reolink"

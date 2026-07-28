@@ -1,0 +1,19 @@
+# 产品类型：虚拟化与容器平台，包括虚拟机管理和容器服务接口。
+- matchers:
+    - part: headers.server
+      type: regex
+      name: version
+      regex:
+        - pve-api-daemon/([\d\.]+)
+  name: PVE
+
+- name: Docker-API
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "content-length: 29"
+    - part: body
+      type: word
+      words:
+        - '{"message":"page not found"}'

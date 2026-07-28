@@ -1,3 +1,4 @@
+# 产品类型：Kubernetes 及云原生基础设施，包括集群组件、ETCD 和成本管理。
 - name: ETCD
   matchers:
     - part: body
@@ -5,6 +6,12 @@
       name: version
       regex:
           - etcdserver\":\"([\\d\\.]+)\"
+    - part: body
+      type: word
+      words:
+        - "404 page not found"
+  plugins:
+    - path: /version
 
 - name: kubecost
   matchers:

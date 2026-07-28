@@ -1,3 +1,4 @@
+# 产品类型：云应用与云存储，包括私有云盘、文件管理和协作服务。
 - name: ownCloud
   matchers:
     - part: title
@@ -86,3 +87,17 @@
       type: word
       words:
         - "appveyor.yml"
+
+- name: Cloudreve
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Cloudreve"
+
+- name: AList
+  matchers:
+    - part: body
+      type: word
+      words:
+        - content="AList"

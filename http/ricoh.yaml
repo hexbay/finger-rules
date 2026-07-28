@@ -1,6 +1,0 @@
-﻿- name: Web Image Monitor
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "Web Image Monitor"

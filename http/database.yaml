@@ -1,3 +1,4 @@
+# 产品类型：数据库及其管理工具，包括数据库服务、控制台和运维平台。
 - name: Metabase
   matchers:
     - part: title
@@ -58,3 +59,17 @@
       words:
         - "Apache Impala"
         - "Process Info"
+
+- name: influxdb
+  matchers:
+    - type: word
+      part: title
+      words:
+        - "influxdb"
+
+- name: H2 Console
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "H2 Console"

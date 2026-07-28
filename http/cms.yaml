@@ -1,3 +1,4 @@
+# 产品类型：内容管理系统（CMS），用于网站内容发布、模板和扩展管理。
 - name: "狮子鱼cms"
   matchers:
     - part: body
@@ -577,6 +578,10 @@
       type: word
       words:
         - 'Grav CMS'
+    - part: title
+      type: word
+      words:
+        - Grav Register Admin User
 - name: High-CMS
   matchers:
     - part: title
@@ -1827,3 +1832,19 @@
       type: word
       words:
         - "Powered by phpwind"
+
+- matchers:
+  - part: headers.x-powered-by
+    type: word
+    words:
+    - "modx"
+  name: modx
+
+- matchers:
+  - part: body
+    type: word
+    words:
+      - "pluxml.org"
+      - "PluXml - Page d'authentification"
+      - "Retour au site"
+  name: pluxml

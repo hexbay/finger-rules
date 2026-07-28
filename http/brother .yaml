@@ -1,6 +1,0 @@
-﻿- name: HL-L8260CDN
-  matchers:
-    - part: title
-      type: word
-      words:
-        - 'Brother HL-L8260CDN'
