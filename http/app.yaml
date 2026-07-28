@@ -7487,3 +7487,11 @@
       type: word
       words:
         - "Orangescrum Setup Wizard"
+
+- name: opencti
+  vendor: citeum
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "OpenCTI"
