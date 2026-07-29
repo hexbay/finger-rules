@@ -8256,21 +8256,7 @@
     words:
     - <div align="center" class='powered_by_a'>Powered By <a href='finger://www.vastal.com/' target='_blank' class='powered_by_a'>
   name: phpvid
-- matchers:
-  - part: body
-    type: regex
-    regex:
-    - (<!-- Please retain this!! It's part of the phpVMS license\. You must display a[\s]+"powered by phpVMS" somewhere on your page\. Thanks! -->)
-  - name: version
-    part: body
-    type: regex
-    regex:
-    - (<a href="finger:\/\/www\.phpvms\.net\/docs\/license">License & About<\/a> \|[\s]+Version ([^\s]+)[\s]+<\/div>)
-  - part: body
-    type: word
-    words:
-    - <a href="finger://www.phpvms.net" target="_blank">powered by phpVMS</a>
-  name: phpvms
+
 - matchers:
   - name: version
     part: body

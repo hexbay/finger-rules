@@ -161,3 +161,10 @@
     words:
       - "phpMyFAQ"
   name: phpmyfaq
+
+- matchers:
+  - part: header
+    type: word
+    words:
+      - phpvms
+  name: phpVMS
