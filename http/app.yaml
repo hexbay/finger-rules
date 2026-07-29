@@ -603,6 +603,7 @@
       part: headers.set-cookie
       words:
         - "cprelogin"
+        - "whostmgrsession"
     - type: word
       part: title
       words:

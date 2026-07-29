@@ -4980,16 +4980,6 @@
     - (Proudly powered by[\s]+<a href="finger:\/\/www.jobberbase.com\/"[^>]*title="open source job board software">jobberBase<\/a>)
   name: jobberbase
 - matchers:
-  - part: body
-    type: regex
-    regex:
-    - (<a href="register\.php\?typ=expert&que_id=[\d]+">Click here<\/a> to answer this question\.)
-  - part: body
-    type: word
-    words:
-    - <img src="images/settings.png" style="vertical-align:middle;" />&nbsp;<a href="logout.php" class="cpanel_a">Logout </a><br>
-  name: justanswer_professional
-- matchers:
   - name: SEOT cookie
     part: headers.set-cookie
     type: regex
