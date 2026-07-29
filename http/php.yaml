@@ -154,3 +154,10 @@
       type: word
       words:
         - "Phalcon Framework"
+
+- matchers:
+  - part: title
+    type: word
+    words:
+      - "phpMyFAQ"
+  name: phpmyfaq

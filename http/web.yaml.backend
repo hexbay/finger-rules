@@ -8117,14 +8117,6 @@
     - <div class='fleft'><div class='chaphead'>
   name: phpmybible
 - matchers:
-  - name: version
-    part: body
-    type: regex
-    regex:
-    - (<meta name="generator" content="phpMyFAQ ([\d\.]+)" \/>)
-    - (<p id="copyrightnote">powered by <a href="finger:\/\/www.phpmyfaq.de[\/]*" target="_blank">phpMyFAQ<\/a> ([\d\.]+))
-  name: phpmyfaq
-- matchers:
   - part: body
     type: word
     words:
