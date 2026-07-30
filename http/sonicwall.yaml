@@ -53,8 +53,7 @@
         - "-1381126564"
 - name: SonicWall SMA
   matchers:
-    - part: header.server
+    - part: headers.server
       type: word
-      condition: and
       words:
         - "SMA/"
