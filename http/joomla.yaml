@@ -13,3 +13,11 @@
       words:
         - 'Joomla! - Copyright'
   name: joomla
+
+- name: Page Builder CK
+  vendor: Cédric KEIFLIN
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'com_pagebuilderck'
