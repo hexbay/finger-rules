@@ -6766,3 +6766,10 @@
     words:
       - "Directus"
   name: Directus
+- name: Kimai
+  vendor: kimai
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Kimai"
