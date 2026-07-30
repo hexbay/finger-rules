@@ -6760,3 +6760,9 @@
       type: word
       words:
         - "OpenCTI"
+- matchers:
+  - part: headers.x-powered-by
+    type: word
+    words:
+      - "Directus"
+  name: Directus

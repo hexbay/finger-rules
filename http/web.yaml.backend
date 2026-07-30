@@ -181,12 +181,6 @@
     - /j_acegi_security_check
   name: subsonic
 - matchers:
-  - part: headers.x-powered-by
-    type: regex
-    regex:
-    - ^directus$
-  name: directus
-- matchers:
   - part: headers.Set-Cookie
     type: word
     words:
