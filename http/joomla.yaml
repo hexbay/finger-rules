@@ -12,6 +12,8 @@
       type: word
       words:
         - 'Joomla! - Copyright'
+        - "/media/system/js/core.js"
+        - "/media/system/js/mootools-core.js"
   name: joomla
 
 - name: Page Builder CK
