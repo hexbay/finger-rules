@@ -6773,3 +6773,10 @@
       type: word
       words:
         - "Kimai"
+- name: Arelle
+  vendor: arelle
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Arelle Web Services"
