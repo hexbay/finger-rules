@@ -6807,10 +6807,17 @@
       type: word
       words:
         - "Net Vision UPS"
-        
+
 - name: 3x-ui
   matchers:
     - part: title
       type: word
       words:
         - "3x-ui"
+
+- name: frick_quantum_hd
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "PrimeUnity"
