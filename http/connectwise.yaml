@@ -16,3 +16,10 @@
       words:
         - "SetupWizardPage"
         - "ContentPanel SetupWizard"
+        
+- name: ScreenConnect
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-82958153"
