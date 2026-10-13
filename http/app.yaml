@@ -6807,3 +6807,10 @@
       type: word
       words:
         - "Net Vision UPS"
+        
+- name: 3x-ui
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "3x-ui"
