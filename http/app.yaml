@@ -6786,3 +6786,10 @@
       type: word
       words:
         - "CaseAware"
+- name: Signal K Server
+  vendor: signalk
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Signal K Server"
