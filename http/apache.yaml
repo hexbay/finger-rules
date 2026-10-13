@@ -410,3 +410,15 @@
       type: word
       words:
         - Apache Tika
+
+- name: react_native_community_cli
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "React Native"
+    - part: port
+      type: word
+      words:
+        - "8081"
