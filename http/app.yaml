@@ -6800,3 +6800,10 @@
       type: word
       words:
         - "Docmost"
+- name: net-vision
+  vendor: socomec
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Net Vision UPS"
