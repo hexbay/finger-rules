@@ -6821,3 +6821,11 @@
       type: word
       words:
         - "PrimeUnity"
+
+- name: mjobtime
+  vendor: mjobtime
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "mJobtime"
