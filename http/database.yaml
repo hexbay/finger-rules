@@ -63,3 +63,11 @@
       type: word
       words:
         - "H2 Console"
+
+- name: arangodb
+  vendor: arangodb
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ArangoDB Web Interface"
