@@ -31,3 +31,13 @@
       type: word
       words:
         - "DOLSESSID_"
+
+- name: temenos_transact
+  vendor: temenos
+  matchers:
+    - part: title
+      type: word
+      condition: or
+      words:
+        - "transact sign in"
+        - "t24 sign in"
