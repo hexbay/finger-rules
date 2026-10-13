@@ -6793,3 +6793,10 @@
       type: word
       words:
         - "Signal K Server"
+- name: Docmost
+  vendor: docmost
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Docmost"

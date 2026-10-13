@@ -403,3 +403,10 @@
       type: word
       words:
         - Apache ActiveMQ
+
+- name: Tika
+  matchers:
+    - part: title
+      type: word
+      words:
+        - Apache Tika
