@@ -6780,3 +6780,9 @@
       type: word
       words:
         - "Arelle Web Services"
+- name: CaseAware
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "CaseAware"
