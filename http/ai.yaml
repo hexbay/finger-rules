@@ -54,3 +54,11 @@
       type: word
       words:
         - "-1429839495"
+
+- name: feast
+  vendor: feast_dev
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "493797515"
