@@ -132,3 +132,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: wordpress:seraphinite_accelerator
+  vendor: seraphinite
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "seraphinite-accelerator"
