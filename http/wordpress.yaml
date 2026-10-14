@@ -132,3 +132,10 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: planyo_online_reservation_system
+  vendor: xtreeme
+  matchers:
+    - part: body
+      type: word
+      words:
+        - /plugins/planyo-online-reservation-system/
