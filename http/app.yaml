@@ -6873,3 +6873,11 @@
       type: word
       words:
         - "Password Pusher"
+
+- name: etherpad
+  vendor: etherpad
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Etherpad"
