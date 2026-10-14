@@ -6861,3 +6861,15 @@
       type: word
       words:
         - "crawl4ai"
+
+- name: password_pusher
+  matchers-condition: or
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Password Pusher"
+    - part: title
+      type: word
+      words:
+        - "Password Pusher"
