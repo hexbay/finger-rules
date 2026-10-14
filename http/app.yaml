@@ -6845,3 +6845,11 @@
       type: word
       words:
         - "switchvox"
+
+- name: filerise
+  vendor: filerise
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "FileRise"
