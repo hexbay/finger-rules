@@ -6888,6 +6888,17 @@
       type: word
       words:
         - "Yamcs"
+- name: vmagent
+  matchers-condition: and
+  matchers:
+    - part: header
+      type: word
+      words:
+        - "X-Server-Hostname"
+    - part: body
+      type: word
+      words:
+        - "activeTargets"
 - name: base_driver
   matchers:
     - part: icon_hash
