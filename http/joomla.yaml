@@ -36,3 +36,15 @@
       type: word
       words:
         - 'mjobtime'
+- name: Homarr
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'Homarr'
+- name: InvoicePlane
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'InvoicePlane'
