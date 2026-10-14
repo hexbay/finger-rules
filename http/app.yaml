@@ -6905,3 +6905,9 @@
       type: word
       words:
         - "-144749386"
+- name: CVE-Search
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "CVE-Search"
