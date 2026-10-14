@@ -6911,3 +6911,10 @@
       type: word
       words:
         - "CVE-Search"
+- name: kopia
+  vendor: kopia
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "952466528"
