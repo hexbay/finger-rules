@@ -39,3 +39,10 @@
       words:
         - '"message":"No message available",'
         - 'Whitelabel Error Page'
+
+- name: mcp_streamable_http
+  matchers:
+    - part: header
+      type: word
+      words:
+        - 'mcp-session-id'
