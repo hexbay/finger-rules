@@ -6881,3 +6881,10 @@
       type: word
       words:
         - "Etherpad"
+- name: yamcs
+  vendor: yamcs
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Yamcs"
