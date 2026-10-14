@@ -6821,3 +6821,11 @@
       type: word
       words:
         - "PrimeUnity"
+
+- name: kestra
+  vendor: kestra
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Kestra"
