@@ -6853,3 +6853,11 @@
       type: word
       words:
         - "FileRise"
+
+- name: crawl4ai
+  vendor: unclecode
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "crawl4ai"
