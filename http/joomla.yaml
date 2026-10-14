@@ -23,10 +23,16 @@
       type: word
       words:
         - 'com_pagebuilderck'
-        
+
 - name: EasyStore
   matchers:
     - part: body
       type: word
       words:
         - 'Easy Store'
+- name: mjobtime
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'mjobtime'
