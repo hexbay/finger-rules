@@ -6829,3 +6829,11 @@
       type: word
       words:
         - "Kestra"
+
+- name: nezha
+  vendor: nezhahq
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Nezha"
