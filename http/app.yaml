@@ -6837,3 +6837,11 @@
       type: word
       words:
         - "Nezha"
+
+- name: switchvox
+  vendor: sangoma
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "switchvox"
