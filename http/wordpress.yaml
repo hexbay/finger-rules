@@ -132,3 +132,15 @@
       type: word
       words:
         - /wp-content/plugins/coming-soon/
+- name: formcraft3
+  vendor: subtlewebinc
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "formcraft3"
+    - part: body
+      type: word
+      words:
+        - "wp-"
