@@ -85,3 +85,11 @@
       type: word
       words:
         - "LightRAG"
+
+- name: db_gpt
+  vendor: eosphoros
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "100632689"
