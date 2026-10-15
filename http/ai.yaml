@@ -69,3 +69,11 @@
       type: word
       words:
         - "POS Codekop"
+
+- name: omniroute
+  vendor: omniroute
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "OmniRoute"
