@@ -6925,3 +6925,10 @@
       type: word
       words:
         - "/srv/eng/"
+- name: openchamber
+  vendor: openchamber
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "OpenChamber"
