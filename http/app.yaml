@@ -6953,3 +6953,15 @@
       type: word
       words:
         - "tpadmin"
+- name: paperclip
+  vendor: paperclipai
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Paperclip"
+    - part: port
+      type: word
+      words:
+        - "3100"
