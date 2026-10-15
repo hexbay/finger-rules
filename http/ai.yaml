@@ -62,3 +62,10 @@
       type: word
       words:
         - "493797515"
+
+- name: codekop
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "POS Codekop"
