@@ -155,3 +155,11 @@
       words:
         - "Configure IoTaWatt Device"
         - "IoTaWatt Configuration app"
+
+- name: device_builder
+  vendor: esphome
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "ESPHome Device Builder"
