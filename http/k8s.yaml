@@ -19,3 +19,11 @@
       type: word
       words:
         - "Kubecost"
+
+- name: meshery
+  vendor: layer5
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Meshery"
