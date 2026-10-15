@@ -55,3 +55,10 @@
       type: word
       words:
         - 'shaper_helix3'
+- name: rsfiles
+  vendor: rsjoomla
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'com_rsfiles'
