@@ -168,3 +168,11 @@
     words:
       - phpvms
   name: phpVMS
+
+- name: mineadmin
+  vendor: mineadmin
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "MineAdmin"
