@@ -6977,3 +6977,10 @@
       type: word
       words:
         - "_next"
+- name: flagr
+  vendor: openflagr
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "Flagr"
