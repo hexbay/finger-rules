@@ -161,3 +161,11 @@
       type: word
       words:
         - "text ml10 mr20"
+
+- name: wgdashboard
+  vendor: wgdashboard
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "WGDashboard"
