@@ -6918,3 +6918,10 @@
       type: word
       words:
         - "952466528"
+- name: core-geonetwork
+  vendor: geonetwork
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/srv/eng/"
