@@ -6946,3 +6946,10 @@
       type: word
       words:
         - "Ech0"
+- name: tpadmin
+  vendor: yuan1994
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "tpadmin"
