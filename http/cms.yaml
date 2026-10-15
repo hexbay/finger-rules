@@ -1841,3 +1841,11 @@
       type: word
       words:
         - "nopCommerce"
+
+- name: localgov_workflows
+  vendor: drupal
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "/modules/contrib/localgov"
