@@ -77,3 +77,11 @@
       type: word
       words:
         - "OmniRoute"
+
+- name: lightrag
+  vendor: hkuds
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "LightRAG"
