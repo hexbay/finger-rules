@@ -6965,3 +6965,15 @@
       type: word
       words:
         - "3100"
+- name: kan
+  vendor: kanbn
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Kan"
+    - part: body
+      type: word
+      words:
+        - "_next"
