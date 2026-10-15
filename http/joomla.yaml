@@ -48,3 +48,10 @@
       type: word
       words:
         - 'InvoicePlane'
+- name: helix3
+  vendor: joomshaper
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'shaper_helix3'
