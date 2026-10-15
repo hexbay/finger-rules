@@ -62,3 +62,10 @@
       type: word
       words:
         - 'com_rsfiles'
+- name: icagenda
+  vendor: joomlic
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'com_icagenda'
