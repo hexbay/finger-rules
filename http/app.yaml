@@ -6939,3 +6939,10 @@
       type: word
       words:
         - "pheditor_password"
+- name: ech0
+  vendor: lin_snow
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Ech0"
