@@ -501,3 +501,17 @@
       type: word
       words:
         - "/web/cgi-bin/usbinfo.cgi"
+
+- name: bl_wr9000_firmware
+  vendor: lb_link
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "LB-LINK"
+        - "goform"
+      condition: and
+    - part: headers.server
+      type: word
+      words:
+        - "GoAhead-Webs"
