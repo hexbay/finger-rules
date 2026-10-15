@@ -6932,3 +6932,10 @@
       type: word
       words:
         - "OpenChamber"
+- name: pheditor
+  vendor: pheditor
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "pheditor_password"
