@@ -57,3 +57,15 @@
       type: word
       words:
         - "SMA/"
+- name: sma1000
+  vendor: sonicwall
+  matchers-condition: and
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "WorkPlace"
+    - part: body
+      type: word
+      words:
+        - "sonicwall"
