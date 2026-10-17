@@ -6996,3 +6996,14 @@
       type: word
       words:
         - "829712541"
+- name: hermes
+  matchers-condition: and
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Hermes"
+    - part: body
+      type: word
+      words:
+        - "__HERMES_WEBUI_BUNDLE_VERSION__"
