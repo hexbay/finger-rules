@@ -7009,3 +7009,9 @@
       type: word
       words:
         - "Conductor UI"
+- name: audiobookshelf
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "audiobookshelf"
