@@ -6996,6 +6996,13 @@
       type: word
       words:
         - "829712541"
+- name: juggle
+  vendor: somta
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Juggle"
 - name: hermes
   matchers-condition: and
   matchers:
