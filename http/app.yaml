@@ -6990,6 +6990,10 @@
       type: word
       words:
         - "-1398762159"
+    - part: header
+      type: word
+      words:
+        - "X-New-Api-Version"
 - name: plausible_analytics
   matchers:
     - part: icon_hash
