@@ -7032,3 +7032,9 @@
       type: word
       words:
         - 'service":"mcp-bridge"'
+- name: gitlab_mcp
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "gitlab_mcp_active_sessions"
