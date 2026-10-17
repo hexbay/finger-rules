@@ -27,3 +27,11 @@
       type: word
       words:
         - "Meshery"
+
+- name: neuvector_manager
+  vendor: suse
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "NeuVector"
