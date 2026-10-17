@@ -7003,6 +7003,12 @@
       type: word
       words:
         - "Juggle"
+- name: conductor
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Conductor UI"
 - name: audiobookshelf
   matchers:
     - part: title
