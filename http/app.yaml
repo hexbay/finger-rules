@@ -6990,3 +6990,9 @@
       type: word
       words:
         - "-1398762159"
+- name: plausible_analytics
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "829712541"
