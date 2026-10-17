@@ -6984,3 +6984,9 @@
       type: word
       words:
         - "Flagr"
+- name: new_api
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "-1398762159"
