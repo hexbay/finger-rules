@@ -7026,3 +7026,9 @@
       type: word
       words:
         - "__HERMES_WEBUI_BUNDLE_VERSION__"
+- name: gitlab_mcp
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "gitlab_mcp_active_sessions"
