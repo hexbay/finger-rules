@@ -6996,3 +6996,9 @@
       type: word
       words:
         - "829712541"
+- name: audiobookshelf
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "audiobookshelf"
