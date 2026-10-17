@@ -7026,6 +7026,12 @@
       type: word
       words:
         - "__HERMES_WEBUI_BUNDLE_VERSION__"
+- name: ruflo
+  matchers:
+    - part: body
+      type: word
+      words:
+        - 'service":"mcp-bridge"'
 - name: gitlab_mcp
   matchers:
     - part: body
