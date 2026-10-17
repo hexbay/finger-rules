@@ -1849,3 +1849,10 @@
       type: word
       words:
         - "/modules/contrib/localgov"
+
+- name: kirby
+  matchers:
+    - part: icon_hash
+      type: word
+      words:
+        - "987600836"
