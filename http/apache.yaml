@@ -430,3 +430,11 @@
       type: word
       words:
         - "Livy - Sessions"
+
+- name: gravitino
+  vendor: apache
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Gravitino"
