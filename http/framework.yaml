@@ -46,3 +46,10 @@
       type: word
       words:
         - 'mcp-session-id'
+
+- name: ten_framework
+  matchers:
+    - part: title
+      type: word
+      words:
+        - 'TEN Manager'
