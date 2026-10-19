@@ -6961,10 +6961,6 @@
       type: word
       words:
         - "Paperclip"
-    - part: port
-      type: word
-      words:
-        - "3100"
 - name: kan
   vendor: kanbn
   matchers-condition: and
