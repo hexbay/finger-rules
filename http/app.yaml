@@ -7016,7 +7016,6 @@
       words:
         - "audiobookshelf"
 - name: hermes
-  matchers-condition: and
   matchers:
     - part: title
       type: word
