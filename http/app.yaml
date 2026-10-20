@@ -7038,10 +7038,10 @@
       words:
         - "Cannot GET /"
     - part: title
-      type: wrod
+      type: word
       words:
         - "Error"
-        
+
 - name: gitlab_mcp
   matchers:
     - part: body
