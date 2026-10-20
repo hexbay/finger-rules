@@ -7027,11 +7027,20 @@
       words:
         - "__HERMES_WEBUI_BUNDLE_VERSION__"
 - name: ruflo
+  matchers-condition: and
   matchers:
-    - part: header
+    - part: port
       type: word
       words:
-        - 'mcp-bridge'
+        - '3001'
+    - part: body
+      type: word
+      words:
+        - "Cannot GET /"
+    - part: title
+      type: wrod
+      words:
+        - "Error"
 - name: gitlab_mcp
   matchers:
     - part: body
