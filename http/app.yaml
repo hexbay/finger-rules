@@ -7041,6 +7041,7 @@
       type: wrod
       words:
         - "Error"
+        
 - name: gitlab_mcp
   matchers:
     - part: body
