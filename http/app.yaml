@@ -7031,7 +7031,7 @@
     - part: header
       type: word
       words:
-        - 'service":"mcp-bridge"'
+        - 'mcp-bridge'
 - name: gitlab_mcp
   matchers:
     - part: body
