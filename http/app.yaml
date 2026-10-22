@@ -6961,10 +6961,6 @@
       type: word
       words:
         - "Paperclip"
-    - part: port
-      type: word
-      words:
-        - "3100"
 - name: kan
   vendor: kanbn
   matchers-condition: and
@@ -7024,7 +7020,6 @@
       words:
         - "audiobookshelf"
 - name: hermes
-  matchers-condition: and
   matchers:
     - part: title
       type: word
@@ -7035,11 +7030,21 @@
       words:
         - "__HERMES_WEBUI_BUNDLE_VERSION__"
 - name: ruflo
+  matchers-condition: and
   matchers:
+    - part: port
+      type: word
+      words:
+        - '3001'
     - part: body
       type: word
       words:
-        - 'service":"mcp-bridge"'
+        - "Cannot GET /"
+    - part: title
+      type: word
+      words:
+        - "Error"
+
 - name: gitlab_mcp
   matchers:
     - part: body
