@@ -93,3 +93,9 @@
       type: word
       words:
         - "100632689"
+- name: Bifrost
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "bifrost-shell"

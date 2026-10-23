@@ -515,3 +515,10 @@
       type: word
       words:
         - "GoAhead-Webs"
+- name: Neterbit-NW-431F
+  vendor: neterbit
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Neterbit NW-431F"

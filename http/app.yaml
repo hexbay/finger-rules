@@ -7047,3 +7047,24 @@
       type: word
       words:
         - "gitlab_mcp_active_sessions"
+- name: eclipse_theia
+  vendor: eclipse
+  matchers:
+    - part: body
+      type: word
+      words:
+        - "eclipse-theia"
+    - part: title
+      type: word
+      words:
+        - "Eclipse Theia"
+- name: REDCap
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "REDCap"
+    - part: body
+      type: word
+      words:
+        - "redcap_version"
