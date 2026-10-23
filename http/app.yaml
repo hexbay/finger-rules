@@ -6982,6 +6982,10 @@
         - "Flagr"
 - name: New API
   matchers:
+    - part: title
+      type: word
+      words:
+        - "New API"
     - part: icon_hash
       type: word
       words:
@@ -7047,6 +7051,12 @@
       type: word
       words:
         - "gitlab_mcp_active_sessions"
+- name: Free Proxies
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "Free Proxies"
 - name: eclipse_theia
   vendor: eclipse
   matchers:
