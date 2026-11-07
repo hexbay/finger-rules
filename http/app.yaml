@@ -1233,12 +1233,7 @@
       type: word
       words:
         - "Keenetic Web"
-- name: SoftEther-VPN
-  matchers:
-    - part: title
-      type: word
-      words:
-        - "SoftEther VPN Server"
+
 - name: Jellyfin
   matchers:
     - part: title

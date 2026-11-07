@@ -169,3 +169,11 @@
       type: word
       words:
         - "WGDashboard"
+
+- name: VPN
+  vendor: SoftEther
+  matchers:
+    - part: title
+      type: word
+      words:
+        - "SoftEther VPN Server"
