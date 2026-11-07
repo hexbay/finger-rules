@@ -16213,12 +16213,6 @@
     - <link[^>]*tictail\.com
   name: tictail
 - matchers:
-  - part: body
-    type: regex
-    regex:
-    - <link[^>]* href=[^>]+tilda(?:cdn|\.ws|-blocks)
-  name: tilda
-- matchers:
   - part: headers.x-powered-by
     type: regex
     regex:
