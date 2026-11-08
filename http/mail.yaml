@@ -75,3 +75,10 @@
       type: word
       words:
         - roundcube_cookies
+- matchers:
+    - part: headers.server
+      words:
+        - RainLoop
+      type: word
+  vendor: RainLoop
+  name: RainLoop
